@@ -1,0 +1,15 @@
+package.xml|840|<packageDescription id="s0utudr8" name="MapIcon">
+  <resources>
+    <image id="pcjf1" name="40010" size="550,235" exported="true"/>
+    <image id="pcjf5" name="40006" size="550,235" exported="true"/>
+    <image id="pcjfa" name="40001" size="550,235" exported="true"/>
+    <image id="pcjf7" name="40004" size="550,235" exported="true"/>
+    <image id="pcjf9" name="40002" size="550,235" exported="true"/>
+    <atlas id="atlas0" size="2048,1024" file="atlas0.png"/>
+    <image id="pcjf6" name="40005" size="550,235" exported="true"/>
+    <image id="pcjf4" name="40007" size="550,235" exported="true"/>
+    <image id="pcjf3" name="40008" size="550,235" exported="true"/>
+    <image id="pcjf2" name="40009" size="550,235" exported="true"/>
+    <image id="pcjf8" name="40003" size="550,235" exported="true"/>
+  </resources>
+</packageDescription>

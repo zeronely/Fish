@@ -1,0 +1,14 @@
+package.xml|810|<packageDescription id="nl77japm" name="Sound">
+  <resources>
+    <sound id="ke1k9" name="鱼线拉扯-3" file="ke1k9.mp3" exported="true"/>
+    <sound id="ke1k7" name="鱼漂入水水花" file="ke1k7.mp3" exported="true"/>
+    <sound id="ke1k4" name="金币 钻石" file="ke1k4.mp3" exported="true"/>
+    <sound id="ke1k3" name="成就达成" file="ke1k3.mp3" exported="true"/>
+    <sound id="ke1k8" name="鱼线飞出" file="ke1k8.mp3" exported="true"/>
+    <sound id="ke1k5" name="进入商城" file="ke1k5.mp3" exported="true"/>
+    <sound id="ke1k1" name="比赛结算 数字计算 -3" file="ke1k1.mp3" exported="true"/>
+    <sound id="ke1k6" name="上大鱼时 背景群众欢呼鼓掌" file="ke1k6.mp3" exported="true"/>
+    <sound id="ke1k2" name="比赛名次上升" file="ke1k2.mp3" exported="true"/>
+    <sound id="ke1k0" name="按钮" file="ke1k0.mp3" exported="true"/>
+  </resources>
+</packageDescription>

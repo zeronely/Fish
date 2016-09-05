@@ -1,0 +1,139 @@
+package.xml|1316|<packageDescription id="a8xo590k" name="Rank">
+  <resources>
+    <image id="lsqn5" name="目录按钮选中" size="245,77"/>
+    <image id="lsqnc" name="NO.3" size="91,50"/>
+    <image id="lsqng" name="2" size="69,37"/>
+    <image id="lsqnh" name="1" size="58,39"/>
+    <image id="lsqn7" name="返回" size="62,82"/>
+    <component id="lsqnl" name="typeBtn" size="245,77"/>
+    <component id="lsqnj" name="rankBar" size="740,105"/>
+    <image id="lsqna" name="第二名底板" size="740,105"/>
+    <atlas id="atlas0" size="1024,2048" file="atlas0.png"/>
+    <component id="lsqnk" name="backBtn" size="100,100"/>
+    <image id="lsqn3" name="evenBg" size="111,107" scale="9grid" scale9grid="28,27,56,54"/>
+    <image id="lsqnf" name="3" size="64,41"/>
+    <image id="lsqnd" name="NO.2" size="91,50"/>
+    <image id="lsqn8" name="第一名底板" size="740,105"/>
+    <component id="lsqni" name="RankUI" exported="true" size="750,1334"/>
+    <image id="lsqnb" name="背景图" size="750,1334"/>
+    <image id="lsqn2" name="选中" size="102,113" scale="9grid" scale9grid="26,29,52,58"/>
+    <image id="lsqn9" name="第三名底板" size="740,105"/>
+    <image id="lsqne" name="NO.1" size="91,50"/>
+    <image id="lsqn6" name="目录按钮" size="245,77"/>
+    <image id="lsqn4" name="oddBg" size="111,105" scale="9grid" scale9grid="28,27,56,54"/>
+  </resources>
+</packageDescription>lsqnk.xml|371|<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="lsqn7" xy="19,9" color="#a0a0a0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>lsqnj.xml|2372|<component size="740,105" extention="Button">
+  <controller name="rankNumControl" pages="4,rank1,5,rank2,6,rank3,7,even,8,odd" selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n11" name="n11" src="lsqn8" xy="0,0" group="n16"/>
+    <image id="n9" name="n9" src="lsqnh" xy="142,33" group="n16"/>
+    <image id="n10" name="n10" src="lsqne" xy="25,27" group="n16"/>
+    <group id="n16" name="num1" xy="0,0" size="740,105" advanced="true">
+      <gearDisplay controller="rankNumControl" pages="4"/>
+    </group>
+    <image id="n17" name="n17" src="lsqna" xy="0,0" group="n20"/>
+    <image id="n18" name="n18" src="lsqng" xy="142,33" group="n20"/>
+    <image id="n19" name="n19" src="lsqnd" xy="25,27" group="n20"/>
+    <group id="n20" name="num2" xy="0,0" size="740,105" advanced="true">
+      <gearDisplay controller="rankNumControl" pages="5"/>
+    </group>
+    <image id="n21" name="n21" src="lsqn9" xy="0,0" group="n24"/>
+    <image id="n22" name="n22" src="lsqnf" xy="142,33" group="n24"/>
+    <image id="n23" name="n23" src="lsqnc" xy="25,27" group="n24"/>
+    <group id="n24" name="num3" xy="0,0" size="740,105" advanced="true">
+      <gearDisplay controller="rankNumControl" pages="6"/>
+    </group>
+    <image id="n38" name="n38" src="lsqn3" xy="0,0" size="740,105" group="n41">
+      <gearDisplay controller="rankNumControl" pages="7"/>
+    </image>
+    <image id="n39" name="n39" src="lsqn4" xy="0,0" size="740,105" group="n41">
+      <gearDisplay controller="rankNumControl" pages="8"/>
+    </image>
+    <text id="n30" name="rank" xy="91,32" size="107,40" group="n41" font="微软雅黑" fontSize="30" color="#ffffff" align="center" autoSize="height" text="9999">
+      <gearDisplay controller="rankNumControl" pages="7,8"/>
+    </text>
+    <group id="n41" name="numOther" xy="0,0" size="740,105" advanced="true"/>
+    <text id="n15" name="score" xy="537,32" size="169,40" font="微软雅黑" fontSize="30" color="#ffffff" align="center" autoSize="height" text="9999999"/>
+    <image id="n37" name="n37" src="lsqn2" xy="0,0" size="740,105">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </image>
+    <text id="n13" name="name" xy="270,31" size="239,40" font="微软雅黑" fontSize="30" color="#ffffff" align="center" autoSize="height" text="名字预留七个字"/>
+  </displayList>
+  <Button/>
+</component>lsqni.xml|3747|<component size="750,1334">
+  <controller name="t1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="lsqnb" xy="0,0"/>
+    <text id="n1" name="n1" xy="104,224" size="88,37" font="微软雅黑" fontSize="28" color="#dbe4ab" align="center" autoSize="height" text="排名"/>
+    <text id="n2" name="n2" xy="314,224" size="88,37" font="微软雅黑" fontSize="28" color="#dbe4ab" align="center" autoSize="height" text="昵称"/>
+    <text id="n3" name="typeName" xy="566,224" size="88,37" font="微软雅黑" fontSize="28" color="#dbe4ab" align="center" autoSize="height" text="积分">
+      <gearDisplay controller="t1" pages="2"/>
+    </text>
+    <component id="n9" name="scoreRankBtn" src="lsqnl" xy="5,117">
+      <Button title="积分排行" controller="t1" page="2"/>
+    </component>
+    <component id="n12" name="weightRankBtn" src="lsqnl" xy="253,117">
+      <Button checked="true" title="重量排行" controller="t1" page="0"/>
+    </component>
+    <component id="n13" name="numRankBtn" src="lsqnl" xy="501,117">
+      <Button title="尾数排行" controller="t1" page="1"/>
+    </component>
+    <text id="n15" name="typeName" xy="566,224" size="88,37" font="微软雅黑" fontSize="28" color="#dbe4ab" align="center" autoSize="height" text="重量">
+      <gearDisplay controller="t1" pages="0"/>
+    </text>
+    <text id="n16" name="typeName" xy="566,224" size="88,37" font="微软雅黑" fontSize="28" color="#dbe4ab" align="center" autoSize="height" text="尾数">
+      <gearDisplay controller="t1" pages="1"/>
+    </text>
+    <component id="n17" name="backBtn" src="lsqnk" xy="0,0"/>
+    <text id="n4" name="myRankScore" xy="97,305" size="115,38" group="n20" font="微软雅黑" fontSize="30" color="#fff100" align="center" autoSize="height" text="">
+      <gearDisplay controller="t1" pages="2"/>
+    </text>
+    <text id="n7" name="myName" xy="269,305" size="239,38" group="n20" font="微软雅黑" fontSize="30" color="#fff100" align="center" autoSize="height" text=""/>
+    <text id="n8" name="myScore" xy="535,305" size="169,38" group="n20" font="微软雅黑" fontSize="30" color="#fff100" align="center" autoSize="height" text="">
+      <gearDisplay controller="t1" pages="2"/>
+    </text>
+    <text id="n18" name="myNum" xy="535,305" size="169,38" group="n20" font="微软雅黑" fontSize="30" color="#fff100" align="center" autoSize="height" text="">
+      <gearDisplay controller="t1" pages="1"/>
+    </text>
+    <text id="n19" name="myWeight" xy="535,305" size="169,38" group="n20" font="微软雅黑" fontSize="30" color="#fff100" align="center" autoSize="height" text="">
+      <gearDisplay controller="t1" pages="0"/>
+    </text>
+    <text id="n21" name="myRankWeight" xy="97,305" size="115,38" group="n20" font="微软雅黑" fontSize="30" color="#fff100" align="center" autoSize="height" text="">
+      <gearDisplay controller="t1" pages="0"/>
+    </text>
+    <text id="n22" name="myRankNum" xy="97,305" size="115,38" group="n20" font="微软雅黑" fontSize="30" color="#fff100" align="center" autoSize="height" text="">
+      <gearDisplay controller="t1" pages="1"/>
+    </text>
+    <group id="n20" name="myInfo" xy="97,305" size="607,38" advanced="true"/>
+    <list id="n14" name="scoreList" xy="0,399" size="750,935" visible="false" overflow="scroll" scrollBar="auto" margin="0,0,0,0" defaultItem="ui://a8xo590klsqnj">
+      <gearDisplay controller="t1" pages="2"/>
+    </list>
+    <list id="n23" name="weightList" xy="0,399" size="750,935" overflow="scroll" scrollBar="auto" margin="0,0,0,0" defaultItem="ui://a8xo590klsqnj">
+      <gearDisplay controller="t1" pages="0"/>
+    </list>
+    <list id="n24" name="numList" xy="0,399" size="750,935" overflow="scroll" scrollBar="auto" margin="0,0,0,0" defaultItem="ui://a8xo590klsqnj">
+      <gearDisplay controller="t1" pages="1"/>
+    </list>
+  </displayList>
+</component>lsqnl.xml|587|<component size="245,77" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="lsqn6" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n1" name="n1" src="lsqn5" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n2" name="title" xy="0,0" size="245,77" font="微软雅黑" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

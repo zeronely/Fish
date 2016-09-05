@@ -1,0 +1,616 @@
+xrrn5z.xml|364|<component size="350,29">
+  <displayList>
+    <text id="n0" name="targetTF" xy="0,0" size="150,29" fontSize="25" color="#ffffff" vAlign="middle" autoSize="height" bold="true" text="大大的鲤鱼"/>
+    <text id="n1" name="numTF" xy="200,0" size="150,29" fontSize="25" color="#ffffff" vAlign="middle" autoSize="height" bold="true" text="10条"/>
+  </displayList>
+</component>i98z41.xml|684|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="i98z3y" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+    <image id="n4" name="n4" src="i98z3q" xy="25,16">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n5" name="n5" src="i98z3r" xy="25,16">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>e1c166.xml|2393|<component size="691,252" extention="Button">
+  <displayList>
+    <image id="n0" name="n0" src="e1c162" xy="0,0"/>
+    <component id="n1" name="goBtn" src="xdeb54" xy="493,180"/>
+    <text id="n2" name="n2" xy="534,8" size="115,40" font="微软雅黑" fontSize="30" color="#ffffff" align="right" autoSize="height" text="50人场"/>
+    <text id="n5" name="n5" xy="21,68" size="117,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="段位限定:"/>
+    <text id="n6" name="n6" xy="21,112" size="118,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="奖金金额:"/>
+    <text id="n7" name="n7" xy="148,113" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <text id="n8" name="minStageTxt" xy="147,69" size="292,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="无"/>
+    <image id="n9" name="n9" src="8p1p1s" xy="359,105"/>
+    <image id="n10" name="n10" src="8p1p1q" xy="178,108"/>
+    <text id="n11" name="n11" xy="148,163" size="31,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <image id="n12" name="n12" src="8p1p1s" xy="359,155"/>
+    <text id="n13" name="n13" xy="148,209" size="31,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <image id="n14" name="n14" src="8p1p1s" xy="359,203"/>
+    <image id="n15" name="n15" src="8p1p1p" xy="176,158"/>
+    <image id="n16" name="n16" src="8p1p1r" xy="178,206"/>
+    <text id="n17" name="n17" xy="210,112" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n18" name="n18" xy="210,161" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n19" name="n19" xy="210,209" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n20" name="rankTxt1" xy="258,117" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="center" autoSize="none" bold="true" text="999"/>
+    <text id="n21" name="rankTxt3" xy="258,213" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="center" autoSize="height" bold="true" text="999"/>
+    <text id="n22" name="rankTxt2" xy="258,166" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="center" autoSize="height" bold="true" text="999"/>
+  </displayList>
+  <Button/>
+</component>xdeb4u.xml|1166|<component size="253,98" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb4r" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n6" name="n6" src="xdeb4q" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n7" name="n7" src="xdeb4m" xy="0,0">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>bksg4c.xml|571|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="i98z3y" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+    <image id="n2" name="n2" src="pylp4d" xy="58,16">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>xdeb4t.xml|1166|<component size="253,98" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb4r" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5" name="n5" src="xdeb4w" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n6" name="n6" src="xdeb4x" xy="0,0">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>e1c165.xml|2393|<component size="691,252" extention="Button">
+  <displayList>
+    <image id="n0" name="n0" src="e1c163" xy="0,0"/>
+    <component id="n1" name="goBtn" src="xdeb54" xy="493,180"/>
+    <text id="n2" name="n2" xy="534,8" size="115,40" font="微软雅黑" fontSize="30" color="#ffffff" align="right" autoSize="height" text="16人场"/>
+    <text id="n5" name="n5" xy="21,68" size="117,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="段位限定:"/>
+    <text id="n6" name="n6" xy="21,112" size="118,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="奖金金额:"/>
+    <text id="n7" name="n7" xy="148,113" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <text id="n8" name="minStageTxt" xy="147,69" size="292,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="无"/>
+    <image id="n9" name="n9" src="8p1p1s" xy="359,105"/>
+    <image id="n10" name="n10" src="8p1p1q" xy="178,108"/>
+    <text id="n11" name="n11" xy="148,163" size="31,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <image id="n12" name="n12" src="8p1p1s" xy="359,155"/>
+    <text id="n13" name="n13" xy="148,209" size="31,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <image id="n14" name="n14" src="8p1p1s" xy="359,203"/>
+    <image id="n15" name="n15" src="8p1p1p" xy="176,158"/>
+    <image id="n16" name="n16" src="8p1p1r" xy="178,206"/>
+    <text id="n17" name="n17" xy="210,112" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n18" name="n18" xy="210,161" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n19" name="n19" xy="210,209" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n20" name="rankTxt1" xy="258,117" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="center" autoSize="none" bold="true" text="999"/>
+    <text id="n21" name="rankTxt3" xy="258,213" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="center" autoSize="height" bold="true" text="999"/>
+    <text id="n22" name="rankTxt2" xy="258,166" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="center" autoSize="height" bold="true" text="999"/>
+  </displayList>
+  <Button/>
+</component>ilwh5k.xml|1293|<component size="636,894">
+  <displayList>
+    <image id="n20" name="n20" src="f5nr2j" pkg="lt21tmve" xy="0,0" size="636,894"/>
+    <text id="n21" name="n21" xy="279,12" size="77,32" font="微软雅黑" fontSize="24" color="#e7f7ff" text="排行榜"/>
+    <component id="n23" name="n23" src="ilwh5m" xy="549,3"/>
+    <image id="n32" name="n32" src="f5nr2k" pkg="lt21tmve" xy="28,121" size="576,736"/>
+    <list id="n24" name="rankList" xy="28,126" size="576,720" overflow="scroll" scrollBar="auto" margin="0,0,0,3" defaultItem="ui://2w4k7q1jilwh5y" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n28" name="n28" src="ilwh5u" xy="32,77">
+      <Label title="排名"/>
+    </component>
+    <component id="n29" name="n29" src="ilwh5u" xy="173,77">
+      <Label title="名字"/>
+    </component>
+    <component id="n30" name="n30" src="ilwh5u" xy="351,77">
+      <Label title="渔获"/>
+    </component>
+    <component id="n31" name="n31" src="ilwh5u" xy="500,77">
+      <Label title="奖励"/>
+    </component>
+  </displayList>
+</component>8p1p2p.xml|4175|<component size="750,185" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n38" name="bottomImg" xy="1,1" size="749,183">
+      <gearDisplay controller="button" pages="0,2"/>
+    </loader>
+    <loader id="n42" name="topImg" xy="1,1" size="750,337" group="n34">
+      <gearDisplay controller="button" pages="1,3"/>
+    </loader>
+    <loader id="n30" name="fishImg" xy="510,34" size="270,270" group="n34" scale="0.8,0.8" touchable="false"/>
+    <text id="n9" name="n9" xy="48,67" size="151,34" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="比赛类型:"/>
+    <text id="n14" name="n14" xy="48,126" size="151,34" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="段位限定:"/>
+    <text id="n46" name="titleImg" xy="46,61" size="481,62" font="ui://lt21tmvexdebaw" fontSize="50" color="#ffffff" leading="10" autoSize="none" bold="true" text="">
+      <gearDisplay controller="button" pages="0,2"/>
+    </text>
+    <text id="n15" name="n15" xy="48,186" size="151,34" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="奖金金额:"/>
+    <text id="n16" name="n16" xy="212,187" size="36,34" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="第"/>
+    <text id="n18" name="gameTypeNameTxt" xy="211,67" size="289,33" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text=""/>
+    <text id="n19" name="minStageTxt" xy="211,127" size="292,33" group="n34" visible="false" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text=""/>
+    <image id="n20" name="n20" src="8p1p1s" xy="423,179" group="n34"/>
+    <image id="n21" name="n21" src="8p1p1q" xy="242,182" group="n34"/>
+    <text id="n23" name="n23" xy="212,237" size="31,34" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="第"/>
+    <image id="n24" name="n24" src="8p1p1s" xy="423,229" group="n34"/>
+    <image id="n28" name="n28" src="8p1p1p" xy="240,232" group="n34"/>
+    <text id="n35" name="n35" xy="274,186" size="36,34" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="名"/>
+    <text id="n36" name="n36" xy="274,235" size="36,34" group="n34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="名"/>
+    <text id="n39" name="rankTxt1" xy="322,191" size="100,33" group="n34" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="right" autoSize="none" bold="true" text="999"/>
+    <text id="n41" name="rankTxt2" xy="322,240" size="100,33" group="n34" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="right" autoSize="height" bold="true" text="999"/>
+    <text id="n26" name="n26" xy="212,283" size="31,34" group="n49" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="第"/>
+    <image id="n27" name="n27" src="8p1p1s" xy="423,277" group="n49"/>
+    <image id="n29" name="n29" src="8p1p1r" xy="242,280" group="n49"/>
+    <text id="n37" name="n37" xy="274,283" size="36,34" group="n49" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="名"/>
+    <text id="n40" name="rankTxt3" xy="322,287" size="100,33" group="n49" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="right" autoSize="height" bold="true" text="999"/>
+    <group id="n49" name="n49" xy="212,277" size="268,47" group="n34" advanced="true"/>
+    <group id="n34" name="n34" xy="1,1" size="750,337" advanced="true">
+      <gearDisplay controller="button" pages="1,3" tween="true"/>
+    </group>
+    <component id="n45" name="matchBtn" src="xdeb59" xy="527,59">
+      <gearXY controller="button" pages="1,2,3" values="527,239|527,59|527,239" default="527,59"/>
+    </component>
+    <text id="n48" name="titleImg2" xy="49,14" size="282,33" font="ui://lt21tmvexdebau" fontSize="24" color="#ffffff" leading="10" autoSize="height" text="火热金龙鱼大赛">
+      <gearDisplay controller="button" pages="1,3"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>ilwh5y.xml|678|<component size="576,72">
+  <controller name="rankNumControl" pages="0,other,1,1,2,2,3,3" selected="1"/>
+  <displayList>
+    <component id="n0" name="n0" src="ilwh5n" xy="0,0">
+      <gearDisplay controller="rankNumControl" pages="1"/>
+    </component>
+    <component id="n1" name="n1" src="ilwh5v" xy="0,0">
+      <gearDisplay controller="rankNumControl" pages="2"/>
+    </component>
+    <component id="n2" name="n2" src="ilwh5w" xy="0,0">
+      <gearDisplay controller="rankNumControl" pages="3"/>
+    </component>
+    <component id="n3" name="n3" src="ilwh5x" xy="0,0">
+      <gearDisplay controller="rankNumControl" pages="0"/>
+    </component>
+  </displayList>
+</component>e1c161.xml|1843|<component size="691,252" extention="Button">
+  <displayList>
+    <image id="n0" name="n0" src="e1c164" xy="0,0"/>
+    <component id="n1" name="goBtn" src="xdeb54" xy="493,180"/>
+    <text id="n2" name="n2" xy="534,8" size="115,40" font="微软雅黑" fontSize="30" color="#ffffff" align="right" autoSize="height" text="2人场"/>
+    <text id="n5" name="n5" xy="21,68" size="117,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="段位限定:"/>
+    <text id="n6" name="n6" xy="21,112" size="118,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="奖金金额:"/>
+    <text id="n7" name="n7" xy="148,113" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <text id="n8" name="minStageTxt" xy="147,69" size="292,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="无"/>
+    <image id="n9" name="n9" src="8p1p1s" xy="359,105"/>
+    <image id="n10" name="n10" src="8p1p1q" xy="178,108"/>
+    <text id="n11" name="n11" xy="148,163" size="31,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="第"/>
+    <image id="n12" name="n12" src="8p1p1s" xy="359,155"/>
+    <image id="n15" name="n15" src="8p1p1p" xy="176,158"/>
+    <text id="n17" name="n17" xy="210,112" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n18" name="n18" xy="210,161" size="36,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" text="名"/>
+    <text id="n20" name="rankTxt1" xy="258,117" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#ffa800" align="center" autoSize="none" bold="true" text="999"/>
+    <text id="n22" name="rankTxt2" xy="258,166" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="center" autoSize="height" bold="true" text="999"/>
+  </displayList>
+  <Button/>
+</component>8p1p2k.xml|564|<component size="750,1334">
+  <displayList>
+    <image id="n37" name="n8" src="xdeb3d" pkg="lt21tmve" xy="0,0"/>
+    <image id="n35" name="n35" src="xdeb4h" xy="0,0"/>
+    <image id="n36" name="n36" src="xdeb4j" xy="238,285"/>
+    <text id="n16" name="title" xy="275,295" size="200,33" font="微软雅黑" fontSize="25" color="#ffef98" align="center" autoSize="height" bold="true" text=""/>
+    <list id="n34" name="matchList" xy="0,358" size="750,785" overflow="scroll" scrollBar="hidden" margin="0,0,0,0" defaultItem="ui://2w4k7q1j8p1p2p"/>
+  </displayList>
+</component>bksg49.xml|3094|<component size="750,1334">
+  <controller name="c1" pages="0,3,1,4" selected="0"/>
+  <controller name="c2" pages="0,1,1,2,2,3,3,4" selected="3"/>
+  <displayList>
+    <image id="n50" name="n8" src="xdeb3d" pkg="lt21tmve" xy="0,0"/>
+    <image id="n35" name="n35" src="bksg4b" xy="71,592" size="605,267"/>
+    <text id="n38" name="n38" xy="294,377" size="161,29" fontSize="25" color="#ffffff" bold="true" text="本场比赛名字"/>
+    <text id="n39" name="countTF" xy="347,428" size="55,44" fontSize="40" color="#ffffff" align="center" autoSize="none" bold="true" text=""/>
+    <text id="n40" name="n40" xy="268,428" size="46,44" fontSize="40" color="#ffffff" bold="true" text="第"/>
+    <text id="n41" name="n41" xy="432,428" size="46,44" fontSize="40" color="#ffffff" bold="true" text="名"/>
+    <text id="n49" name="msgTF" xy="129,658" size="491,29" fontSize="25" color="#ffffff" align="center" autoSize="height" bold="true" text=""/>
+    <text id="n42" name="n42" xy="281,607" size="187,29" fontSize="25" color="#ffffff" bold="true" text="本场比赛渔获："/>
+    <text id="n43" name="n43" xy="205,897" size="161,29" fontSize="25" color="#ffffff" bold="true" text="获得金币奖励"/>
+    <image id="n44" name="n44" src="8p1p1s" xy="491,883"/>
+    <text id="n45" name="rankTxt1" xy="390,895" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="right" autoSize="none" bold="true" text="999"/>
+    <component id="n46" name="okBtn" src="bksg4c" xy="438,969"/>
+    <image id="n52" name="n52" src="xdeb5f" xy="107,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n53" name="n53" src="xdeb5g" xy="106,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n54" name="n54" src="xdeb5d" xy="331,406">
+      <gearDisplay controller="c2" pages="0"/>
+    </image>
+    <image id="n55" name="n55" src="xdeb5c" xy="327,406">
+      <gearDisplay controller="c2" pages="2"/>
+    </image>
+    <image id="n56" name="n56" src="xdeb5b" xy="324,406">
+      <gearDisplay controller="c2" pages="1"/>
+    </image>
+    <image id="n57" name="n57" src="xdeb5e" xy="98,434">
+      <gearDisplay controller="c2" pages="0,1,2"/>
+    </image>
+    <component id="n71" name="rankBtn" src="ilwh5j" xy="140,969"/>
+    <text id="n73" name="timeTF" xy="295,1070" size="40,29" fontSize="25" color="#fff29c" align="right" vAlign="middle" autoSize="none" text="60"/>
+    <text id="n75" name="timeW" xy="334,1070" size="155,29" fontSize="25" color="#fff29c" align="right" vAlign="middle" text="秒后自动关闭"/>
+    <list id="n76" name="list" xy="133,657" size="484,144" overflow="scroll" scrollBar="auto" margin="10,10,110,0" lineGap="20" defaultItem="ui://2w4k7q1jxrrn5z">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n77" name="totleTargetTF" xy="243,814" size="150,29" fontSize="25" color="#ffcc66" vAlign="middle" autoSize="height" bold="true" text="总渔获"/>
+    <text id="n78" name="totleNumTF" xy="443,814" size="150,29" fontSize="25" color="#ffcc66" vAlign="middle" autoSize="height" bold="true" text="10条"/>
+  </displayList>
+</component>xdeb4s.xml|1166|<component size="253,98" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb4r" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="xdeb4k" xy="-1,-1">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5" name="n5" src="xdeb4y" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n6" name="n6" src="xdeb4z" xy="0,0">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>pdjc4g.xml|856|<component size="600,335">
+  <displayList>
+    <image id="n0" name="n0" src="pdjc31" pkg="lt21tmve" xy="0,0"/>
+    <text id="n1" name="msgtf" xy="55,92" size="486,38" font="微软雅黑" fontSize="30" color="#e9edff" align="center" vAlign="middle" ubb="true" autoSize="none" text="比赛房间已经刷新 请退出房间"/>
+    <component id="n2" name="sureBtn" src="f5nr2o" pkg="lt21tmve" xy="207,203"/>
+    <image id="n3" name="n3" src="pylp4d" xy="266,219"/>
+    <graph id="n5" name="dragArea" xy="-3,1" size="595,40">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n6" name="closeButton" xy="457,1" size="136,40">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n7" name="title" xy="245,7" size="109,32" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#3366ff" text=""/>
+  </displayList>
+</component>package.xml|5171|<packageDescription id="2w4k7q1j" name="SystemRoomUI">
+  <resources>
+    <image id="xdeb5e" name="_0006_guang" size="553,160"/>
+    <image id="xdeb5b" name="3" size="90,100"/>
+    <component id="ilwh5k" name="resultRank" exported="true" size="636,894"/>
+    <component id="xdeb4t" name="type2" size="253,98"/>
+    <image id="i98z40" name="_0002_fenduan" size="750,3"/>
+    <image id="8p1p1j" name="topImg0" size="750,337" exported="true" scale9grid="188,52,376,203"/>
+    <component id="8p1p2p" name="matchSelectBtn" exported="true" size="750,185"/>
+    <component id="xdeb59" name="matchBtn2" size="185,67"/>
+    <image id="ilwh5p" name="10_0003_1" size="500,54"/>
+    <component id="ilwh5j" name="rankBtn" size="185,67"/>
+    <image id="8p1p1c" name="bottomImg2" size="750,194" exported="true" scale="9grid" scale9grid="188,25,376,141"/>
+    <component id="ilwh5y" name="rankMsg" size="576,72"/>
+    <image id="xdeb4h" name="_0013_shang" size="750,301"/>
+    <component id="xdeb4s" name="type3" size="253,98"/>
+    <component id="ilwh5v" name="rankMsg2" size="576,72"/>
+    <component id="8p1p2k" name="selectRoom" exported="true" size="750,1334"/>
+    <image id="ilwh5s" name="10_0004_ziji" size="500,54"/>
+    <image id="ilwh5q" name="10_0002_2" size="500,54"/>
+    <image id="ilwh5t" name="10_0005_zidi" size="90,36"/>
+    <image id="xdeb4j" name="_0012_xianshi" size="274,48"/>
+    <component id="ilwh5u" name="randTitleType" size="90,36"/>
+    <component id="i98z41" name="cancelBtn" size="185,67"/>
+    <component id="bksg4c" name="okBtn" size="185,67"/>
+    <component id="ilwh5w" name="rankMsg3" size="576,72"/>
+    <image id="e1c163" name="PK_02" size="691,252"/>
+    <component id="e1c161" name="number1" size="691,252"/>
+    <image id="xdeb4q" name="_0000__0001_xinshou" size="253,98"/>
+    <image id="8p1p1f" name="titleImg2" size="347,51" exported="true"/>
+    <image id="8p1p1p" name="_0012_2" size="36,40"/>
+    <image id="xdeb55" name="_0004_cansai" size="72,34"/>
+    <component id="e1c165" name="number2" size="691,252"/>
+    <image id="e1c164" name="PK_01" size="691,252"/>
+    <image id="8p1p1k" name="topImg1" size="750,337" exported="true"/>
+    <image id="pylp4d" name="_0005_yes" size="69,34"/>
+    <component id="xdeb54" name="matchBtn" size="185,67"/>
+    <image id="i98z3y" name="_0004_anniu" size="185,67"/>
+    <image id="8p1p1i" name="topImg2" size="750,337" exported="true"/>
+    <component id="ilwh5x" name="rankMsgOther" size="576,72"/>
+    <image id="8p1p1d" name="bottomImg1" size="750,193" exported="true" scale="9grid" scale9grid="188,25,376,140"/>
+    <component id="e1c166" name="number3" size="691,252"/>
+    <image id="e1c162" name="PK_03" size="691,252"/>
+    <image id="xdeb5g" name="_0003_saihoujiesuan" size="535,359"/>
+    <image id="i98z3s" name="_0010_yuji" size="162,23"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="xdeb4m" name="_0004__0003_xinshou-1" size="253,98"/>
+    <image id="xdeb5f" name="_0005_saihoujiesuan2" size="535,359"/>
+    <image id="ilwh5h" name="rankWord" size="104,31"/>
+    <image id="xdeb5d" name="1" size="76,100"/>
+    <image id="bksg4b" name="_0003_zidi" size="163,163" scale="9grid" scale9grid="41,41,82,82"/>
+    <image id="8p1p1s" name="_0009_gold" size="57,47"/>
+    <image id="xdeb4y" name="_0001__0000_zhuanjia" size="253,98"/>
+    <component id="ilwh5m" name="closeBtn" size="80,80"/>
+    <image id="8p1p1h" name="titleImg1" size="347,50" exported="true"/>
+    <component id="ilwh5n" name="rankMsg1" size="576,72"/>
+    <image id="i98z3q" name="_0001_quxiao" size="135,35"/>
+    <image id="ilwh5l" name="_0009_X" size="53,53"/>
+    <image id="xdeb4r" name="_0011_1(2)" size="253,98"/>
+    <image id="ilwh5r" name="10_0001_3" size="500,54"/>
+    <component id="xrrn5z" name="fishInfo" size="350,29"/>
+    <image id="xdeb4w" name="_0002__0004_gaoshouzu" size="253,98"/>
+    <image id="xdeb53" name="_0005_anniu" size="185,67"/>
+    <image id="xdeb4z" name="_0005__0002_zhuanjia-1" size="253,98"/>
+    <component id="pdjc4g" name="refreshBox" exported="true" size="600,335"/>
+    <image id="xdeb5c" name="2" size="84,101"/>
+    <image id="xdeb5a" name="_0001_di" size="727,782"/>
+    <image id="8p1p1q" name="_0011_1" size="32,40"/>
+    <image id="i98z3r" name="_0000_chongxin" size="135,34"/>
+    <image id="i98z3x" name="_0005_yudi" size="217,32"/>
+    <component id="xdeb4u" name="type1" size="253,98"/>
+    <image id="xdeb52" name="_0005_anniu1" size="185,67"/>
+    <image id="8p1p1g" name="titleImg0" size="347,51" exported="true"/>
+    <image id="xdeb4k" name="_0006_1-1" size="256,100"/>
+    <component id="i98z3p" name="waitingRoom" exported="true" size="750,1334"/>
+    <image id="xdeb58" name="_0007_jinri" size="72,33"/>
+    <component id="bksg49" name="overUI" exported="true" size="750,1334"/>
+    <image id="8p1p1e" name="bottomImg0" size="750,194" exported="true" scale="9grid" scale9grid="188,25,376,141"/>
+    <image id="8p1p1r" name="_0010_3" size="34,40"/>
+    <component id="c1sj2q" name="selectNum" exported="true" size="750,1334"/>
+    <image id="xdeb4x" name="_0003__0005_gaoshou-1" size="253,98"/>
+  </resources>
+</packageDescription>c1sj2q.xml|1921|<component size="750,1334">
+  <controller name="button" pages="0,新手组,1,高手组,2,专家组" selected="0"/>
+  <displayList>
+    <image id="n28" name="n8" src="xdeb3d" pkg="lt21tmve" xy="0,0"/>
+    <image id="n31" name="n31" src="xdeb4h" xy="0,0"/>
+    <image id="n32" name="n32" src="xdeb4j" xy="238,285"/>
+    <text id="n25" name="title" xy="75,295" size="600,33" font="微软雅黑" fontSize="25" color="#ffef98" align="center" vAlign="middle" autoSize="height" bold="true" text=""/>
+    <component id="n33" name="n33" src="xdeb4u" xy="0,337" visible="false">
+      <Button checked="true" controller="button" page="0"/>
+    </component>
+    <component id="n34" name="n34" src="xdeb4t" xy="252,337" visible="false">
+      <Button controller="button" page="1"/>
+    </component>
+    <component id="n35" name="n35" src="xdeb4s" xy="503,337" visible="false">
+      <Button controller="button" page="2"/>
+    </component>
+    <component id="n39" name="num1" src="e1c161" xy="29,367"/>
+    <component id="n40" name="num2" src="e1c165" xy="29,626"/>
+    <component id="n41" name="num3" src="e1c166" xy="29,886"/>
+  </displayList>
+  <transition name="t1">
+    <item time="0" type="XY" target="n19" tween="true" startValue="212,330" endValue="212,441" duration="18" ease="Bounce.Out"/>
+    <item time="0" type="XY" target="n20" tween="true" startValue="-74,-" endValue="26,750" duration="18" ease="Bounce.Out"/>
+    <item time="0" type="XY" target="n37" tween="true" startValue="-158,-" endValue="2,783" duration="18" ease="Bounce.Out"/>
+    <item time="0" type="XY" target="n38" tween="true" startValue="530,-" endValue="374,783" duration="18" ease="Bounce.Out"/>
+    <item time="0" type="XY" target="n36" tween="true" startValue="-,339" endValue="188,462" duration="18" ease="Bounce.Out"/>
+    <item time="0" type="XY" target="n21" tween="true" startValue="496,-" endValue="396,750" duration="18" ease="Bounce.Out"/>
+  </transition>
+</component>i98z3p.xml|4267|<component size="750,1334">
+  <displayList>
+    <image id="n47" name="n8" src="xdeb3d" pkg="lt21tmve" xy="0,0"/>
+    <image id="n51" name="n51" src="xdeb5a" xy="13,352"/>
+    <text id="n7" name="n7" xy="76,830" size="151,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="比赛类型:"/>
+    <text id="n8" name="n8" xy="76,889" size="151,34" visible="false" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="段位限定:"/>
+    <text id="n9" name="n9" xy="76,949" size="151,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="奖金金额:"/>
+    <text id="n10" name="n10" xy="240,950" size="36,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="第"/>
+    <text id="n11" name="gameTypeNameTxt" xy="239,830" size="322,33" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text=""/>
+    <text id="n12" name="minStageTxt" xy="239,890" size="292,33" visible="false" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text=""/>
+    <image id="n13" name="n13" src="8p1p1s" xy="451,942"/>
+    <image id="n14" name="n14" src="8p1p1q" xy="270,945"/>
+    <text id="n15" name="n15" xy="240,1000" size="31,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="第"/>
+    <image id="n16" name="n16" src="8p1p1s" xy="451,992"/>
+    <text id="n17" name="n17" xy="240,1046" size="31,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="第"/>
+    <image id="n18" name="n18" src="8p1p1s" xy="451,1040"/>
+    <image id="n19" name="n19" src="8p1p1p" xy="268,995"/>
+    <image id="n20" name="n20" src="8p1p1r" xy="270,1043"/>
+    <text id="n21" name="n21" xy="302,949" size="36,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="名"/>
+    <text id="n22" name="n22" xy="302,998" size="36,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="名"/>
+    <text id="n23" name="n23" xy="302,1046" size="36,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="名"/>
+    <text id="n24" name="rankTxt1" xy="350,954" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="right" autoSize="none" bold="true" text="999"/>
+    <text id="n25" name="rankTxt3" xy="350,1050" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="right" autoSize="height" bold="true" text="999"/>
+    <text id="n26" name="rankTxt2" xy="350,1003" size="100,33" font="ui://lt21tmvesd1b1d" fontSize="25" color="#e2efff" align="right" autoSize="height" bold="true" text="999"/>
+    <image id="n27" name="n27" src="i98z40" xy="0,784"/>
+    <image id="n29" name="n29" src="i98z40" xy="-1,616"/>
+    <image id="n31" name="n31" src="i98z3s" xy="73,429"/>
+    <image id="n32" name="n32" src="i98z3x" xy="485,576"/>
+    <text id="n33" name="fishMsg" xy="73,697" size="586,77" fontSize="25" color="#dfe6ff" autoSize="none" text=""/>
+    <component id="n34" name="cancelBtn" src="i98z41" xy="56,495"/>
+    <text id="n35" name="n35" xy="307,424" size="147,29" fontSize="25" color="#e2efff" align="center" vAlign="middle" autoSize="none" bold="true" text="00:15"/>
+    <text id="n36" name="timeTF" xy="307,509" size="147,29" fontSize="25" color="#fff29c" align="center" vAlign="middle" autoSize="none" text="00:00"/>
+    <text id="n37" name="fishName" xy="522,578" size="147,29" fontSize="25" color="#dfe6ff" align="center" vAlign="middle" autoSize="none" strokeColor="#2a4194" text="龙舌鱼"/>
+    <text id="n44" name="n44" xy="73,637" size="151,34" font="微软雅黑" fontSize="25" color="#e2efff" autoSize="height" bold="true" text="鱼种介绍"/>
+    <image id="n48" name="n48" src="xdeb4h" xy="0,0"/>
+    <image id="n49" name="n49" src="xdeb4j" xy="244,289"/>
+    <text id="n50" name="title" xy="281,299" size="200,33" font="微软雅黑" fontSize="25" color="#ffef98" autoSize="height" bold="true" text=""/>
+    <text id="n53" name="titleTF" xy="220,364" size="310,34" fontSize="30" color="#e2efff" align="center" vAlign="middle" autoSize="none" bold="true" text="火热龙舌鱼钓王赛"/>
+    <loader id="n54" name="fishImg" xy="489,396" size="270,270" scale="0.8,0.8" touchable="false" url="ui://sn2rakulr9uu1"/>
+  </displayList>
+</component>ilwh5n.xml|720|<component size="576,72">
+  <displayList>
+    <image id="n12" name="rankBg" src="ilwh5p" xy="76,9"/>
+    <text id="n2" name="name" xy="117,22" size="175,32" font="微软雅黑" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#826600" text=""/>
+    <text id="n3" name="score" xy="327,22" size="100,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#826600" text=""/>
+    <text id="n4" name="award" xy="486,22" size="90,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#826600" text=""/>
+    <image id="n6" name="rankNum" src="xdeb5d" xy="11,11" size="50,50"/>
+  </displayList>
+</component>ilwh5w.xml|720|<component size="576,72">
+  <displayList>
+    <image id="n6" name="rankBg" src="ilwh5r" xy="77,9"/>
+    <text id="n7" name="name" xy="117,22" size="175,32" font="微软雅黑" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#606060" text=""/>
+    <text id="n8" name="score" xy="327,22" size="100,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#606060" text=""/>
+    <text id="n9" name="award" xy="486,22" size="90,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#606060" text=""/>
+    <image id="n10" name="rankNum" src="xdeb5c" xy="11,11" size="50,50"/>
+  </displayList>
+</component>ilwh5m.xml|355|<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="ilwh5l" xy="13,13">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ilwh5u.xml|293|<component size="90,36" extention="Label">
+  <displayList>
+    <image id="n0" name="n0" src="ilwh5t" xy="0,0"/>
+    <text id="n1" name="title" xy="0,0" size="90,36" font="微软雅黑" fontSize="24" color="#e7f7ff" align="center" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+</component>xdeb59.xml|966|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb53" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n7" name="n7" src="xdeb55" xy="56,16"/>
+  </displayList>
+  <Button/>
+</component>ilwh5x.xml|773|<component size="576,72">
+  <displayList>
+    <image id="n13" name="rankBg" src="ilwh5s" xy="77,9" visible="false"/>
+    <text id="n7" name="name" xy="117,22" size="175,32" font="微软雅黑" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" text="名字最少六字"/>
+    <text id="n8" name="score" xy="327,22" size="100,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="999999"/>
+    <text id="n9" name="award" xy="486,22" size="90,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="99999"/>
+    <text id="n11" name="rankNum" xy="10,11" size="61,61" font="微软雅黑" fontSize="48" color="#e7f7ff" align="center" vAlign="middle" autoSize="none" text="20"/>
+  </displayList>
+</component>xdeb54.xml|966|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb53" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n6" name="n6" src="xdeb58" xy="56,17"/>
+  </displayList>
+  <Button/>
+</component>ilwh5j.xml|966|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb53" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="xdeb52" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n7" name="n7" src="ilwh5h" xy="40,16"/>
+  </displayList>
+  <Button/>
+</component>ilwh5v.xml|720|<component size="576,72">
+  <displayList>
+    <image id="n6" name="rankBg" src="ilwh5q" xy="77,9"/>
+    <text id="n7" name="name" xy="117,22" size="175,32" font="微软雅黑" fontSize="24" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#822500" text=""/>
+    <text id="n8" name="score" xy="327,22" size="100,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#822500" text=""/>
+    <text id="n9" name="award" xy="486,22" size="90,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#822500" text=""/>
+    <image id="n10" name="rankNum" src="xdeb5b" xy="11,11" size="50,50"/>
+  </displayList>
+</component>

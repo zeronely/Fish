@@ -1,0 +1,12 @@
+xnap0.xml|204|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="xdeb3d" pkg="lt21tmve" xy="0,0"/>
+    <graph id="n5" name="holder" xy="223,479" size="303,376"/>
+  </displayList>
+</component>package.xml|297|<packageDescription id="r4tv4wyk" name="FishBook">
+  <resources>
+    <component id="xnap0" name="test" exported="true" size="750,1334"/>
+    <image id="xnap2" name="_0000_0" size="16,20" exported="true"/>
+    <atlas id="atlas0" size="32,32" file="atlas0.png"/>
+  </resources>
+</packageDescription>

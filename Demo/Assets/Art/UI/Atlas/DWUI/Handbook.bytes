@@ -1,0 +1,312 @@
+czyy1v.xml|408|<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="czyy1w" xy="24,24">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+    <graph id="n1" name="n1" xy="0,0" size="80,80"/>
+  </displayList>
+  <Button/>
+</component>keyq1m.xml|694|<component size="250,98" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n4" name="n4" src="keyq1d" xy="-3,0">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n5" name="n5" src="keyq1e" xy="-3,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n7" name="n7" src="keyq1k" xy="35,9">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n8" name="n8" src="keyq1g" xy="35,9">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>czyy25.xml|953|<component size="561,360">
+  <displayList>
+    <text id="n5" name="content" xy="28,8" size="110,32" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text="星级："/>
+    <text id="n9" name="content" xy="5,65" size="131,32" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text="体重范围："/>
+    <text id="n10" name="content" xy="5,120" size="131,32" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text="生活习性："/>
+    <component id="n11" name="starBite" src="czyy27" xy="150,2"/>
+    <text id="n13" name="weightBetween" xy="156,65" size="196,32" font="微软雅黑" fontSize="24" color="#00ff00" vAlign="middle" autoSize="height" text="100~11000g"/>
+    <text id="n14" name="fishInfo" xy="10,172" size="519,109" font="微软雅黑" fontSize="24" color="#e9edff" leading="10" ubb="true" autoSize="height" text="        鲫鱼主要是以植物为食的杂食性鱼，喜群居而行，择食而居。肉质细嫩，肉营养价值很高，每百克肉含蛋白质 13克、脂肪 11克。"/>
+  </displayList>
+</component>czyy20.xml|1291|<component size="599,628" overflow="hidden">
+  <controller name="isLocked" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n10" name="n10" src="keyqo" xy="0,0" size="599,628"/>
+    <text id="n1" name="title" xy="15,6" size="428,32" font="微软雅黑" fontSize="24" color="#e9edff" autoSize="height" text="罗甸羊里钓场"/>
+    <image id="n9" name="n9" src="pjvvd" xy="27,322" size="548,171"/>
+    <component id="n8" name="areaInfo" src="czyy1u" xy="26,318" size="561,176"/>
+    <component id="n11" name="closeBtn" src="czyy1v" xy="526,-14"/>
+    <loader id="n18" name="areaImg" xy="24,67" size="550,235" url="ui://s0utudr8pcjfa"/>
+    <text id="n3" name="timetf" xy="21,536" size="218,32" visible="false" font="微软雅黑" fontSize="24" color="#e9edff" vAlign="middle" autoSize="height" text="自由赛租赁金额："/>
+    <text id="n22" name="goldNum" xy="249,536" size="196,32" visible="false" font="微软雅黑" fontSize="24" color="#fff000" vAlign="middle" autoSize="height" text="200000"/>
+    <loader id="n23" name="moneyImg" xy="359,528" size="50,50" visible="false" url="ui://lt21tmvekrsy2w"/>
+    <image id="n26" name="n26" src="pjvvb" xy="170,92">
+      <gearDisplay controller="isLocked" pages="0"/>
+    </image>
+    <component id="n27" name="areaStar" src="czyy27" xy="330,247"/>
+  </displayList>
+</component>czyy1t.xml|1382|<component size="599,834" overflow="hidden">
+  <displayList>
+    <image id="n10" name="n10" src="keyqo" xy="0,0" size="599,834"/>
+    <text id="n1" name="title" xy="15,6" size="428,32" font="微软雅黑" fontSize="24" color="#e9edff" autoSize="height" text="罗非鱼"/>
+    <image id="n9" name="n9" src="pjvvd" xy="25,302" size="548,404"/>
+    <component id="n8" name="info" src="czyy25" xy="24,310" size="561,392"/>
+    <image id="n23" name="n23" src="r9uu2c" xy="26,67"/>
+    <component id="n11" name="closeBtn" src="czyy1v" xy="526,-14"/>
+    <image id="n19" name="n19" src="keyq16" xy="35,727"/>
+    <text id="n3" name="timetf" xy="241,724" size="130,32" font="微软雅黑" fontSize="24" color="#e9edff" vAlign="middle" autoSize="height" text="单尾最重："/>
+    <text id="n20" name="personalRecord" xy="382,724" size="196,31" font="微软雅黑" fontSize="24" color="#00ff00" vAlign="middle" autoSize="height" text=""/>
+    <text id="n21" name="timetf" xy="239,777" size="130,32" font="微软雅黑" fontSize="24" color="#e9edff" vAlign="middle" autoSize="height" text="本服排行："/>
+    <text id="n22" name="serverRecord" xy="382,777" size="196,31" font="微软雅黑" fontSize="24" color="#fff000" vAlign="middle" autoSize="height" text=""/>
+    <graph id="n24" name="fishAvator" xy="249,127" size="100,100"/>
+    <loader id="n25" name="fishImg" xy="164,42" size="270,270" url="ui://sn2rakulr9uu1"/>
+  </displayList>
+</component>czyy21.xml|799|<component size="599,628" overflow="hidden">
+  <displayList>
+    <image id="n10" name="n10" src="keyqo" xy="0,0" size="599,626"/>
+    <image id="n26" name="n26" src="sxw828" xy="26,61"/>
+    <text id="n1" name="title" xy="15,6" size="428,32" font="微软雅黑" fontSize="24" color="#e9edff" autoSize="height" text="日月潭草鱼饵料"/>
+    <image id="n9" name="n9" src="pjvvd" xy="25,334" size="548,268"/>
+    <component id="n8" name="info" src="czyy26" xy="23,333" size="561,268"/>
+    <component id="n11" name="closeBtn" src="czyy1v" xy="526,-14"/>
+    <loader id="n18" name="equipImg" xy="57,63" size="250,250" url="ui://qnsj61c9sxw81w"/>
+    <component id="n24" name="equipStar" src="krsy2s" pkg="lt21tmve" xy="330,259"/>
+    <loader id="n25" name="chop" xy="402,61" size="171,52"/>
+  </displayList>
+</component>keyq1b.xml|949|<component size="690,186" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isLocked" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="pjvvc" xy="0,0" size="690,186">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+    <loader id="n3" name="areaImg" xy="20,21" size="550,235" scale="0.6,0.6" url="ui://s0utudr8pcjfa" fill="scale" autoSize="true"/>
+    <component id="n4" name="areaStar" src="czyy27" xy="435,24"/>
+    <image id="n5" name="n5" src="pjvvf" xy="358,126"/>
+    <text id="n6" name="title" xy="384,104" size="225,32" font="微软雅黑" fontSize="24" color="#682104" align="center" autoSize="none" text="罗甸羊里钓场"/>
+    <image id="n9" name="n9" src="pjvvb" xy="56,23">
+      <gearDisplay controller="isLocked" pages="0"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>keyq1n.xml|675|<component size="318,330" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n9" name="n9" src="r9uu2a" xy="24,15"/>
+    <image id="n3" name="n3" src="keyqx" xy="50,293"/>
+    <loader id="n7" name="fishImg" xy="24,15" size="270,270" url="ui://sn2rakulr9uu1"/>
+    <image id="n2" name="n2" src="keyqv" xy="0,-9">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n8" name="name" xy="105,290" size="107,39" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" text="罗非鱼"/>
+  </displayList>
+  <Button/>
+</component>czyy27.xml|1375|<component size="230,44">
+  <controller name="starLevel" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="pjvve" xy="0,0">
+      <gearDisplay controller="starLevel" pages="1,2,3,4,5"/>
+    </image>
+    <image id="n2" name="n2" src="pjvve" xy="92,0">
+      <gearDisplay controller="starLevel" pages="3,4,5"/>
+    </image>
+    <image id="n3" name="n3" src="pjvve" xy="184,0">
+      <gearDisplay controller="starLevel" pages="5"/>
+    </image>
+    <image id="n4" name="n4" src="pjvve" xy="138,0">
+      <gearDisplay controller="starLevel" pages="4,5"/>
+    </image>
+    <image id="n5" name="n5" src="pjvve" xy="46,0">
+      <gearDisplay controller="starLevel" pages="2,3,4,5"/>
+    </image>
+    <image id="n0" name="n0" src="keyqn" xy="0,0">
+      <gearDisplay controller="starLevel" pages="0"/>
+    </image>
+    <image id="n6" name="n6" src="keyqn" xy="92,0">
+      <gearDisplay controller="starLevel" pages="0,1,2"/>
+    </image>
+    <image id="n7" name="n7" src="keyqn" xy="138,0">
+      <gearDisplay controller="starLevel" pages="0,1,2,3"/>
+    </image>
+    <image id="n8" name="n8" src="keyqn" xy="46,0">
+      <gearDisplay controller="starLevel" pages="0,1"/>
+    </image>
+    <image id="n9" name="n9" src="keyqn" xy="184,0">
+      <gearDisplay controller="starLevel" pages="0,1,2,3,4"/>
+    </image>
+  </displayList>
+</component>package.xml|2669|<packageDescription id="vqfmd7q1" name="Handbook">
+  <resources>
+    <component id="keyq1l" name="fishTypeBtn" size="250,98"/>
+    <image id="sxw828" name="handBook" size="546,253"/>
+    <component id="keyq1m" name="fishEquipBtn" size="250,98"/>
+    <image id="keyq1e" name="_0001_xuanzhong1" size="256,98"/>
+    <image id="keyq1q" name="_0000_xuanzhong" size="232,257"/>
+    <image id="keyq1j" name="_0001_yujian" size="180,79"/>
+    <image id="keyqo" name="_0005_tongyong" size="599,631" scale="9grid" scale9grid="150,158,300,316"/>
+    <image id="keyq1i" name="_0002_diaoc" size="180,79"/>
+    <image id="r9uu2a" name="_0005_yu" size="270,270"/>
+    <atlas id="atlas0" size="2048,1024" file="atlas0.png"/>
+    <image id="czyy1w" name="_0001_X" size="32,32"/>
+    <component id="czyy1v" name="closeBtn1" size="80,80"/>
+    <image id="keyqv" name="_0004_xuanzhong" size="318,318"/>
+    <image id="pjvvf" name="_0006_zitiao" size="267,16"/>
+    <image id="pjvvb" name="_0010_suo" size="258,145"/>
+    <image id="pjvvd" name="_0008_xia" size="103,103" scale="9grid" scale9grid="26,26,52,52"/>
+    <component id="czyy20" name="fishAreaWindow" exported="true" size="599,628"/>
+    <image id="keyq1f" name="_0005_diaochang1" size="180,79"/>
+    <image id="keyqx" name="_0002_di" size="217,32"/>
+    <component id="czyy26" name="fishEquipContent" size="561,360"/>
+    <image id="keyqn" name="xx" size="46,44"/>
+    <image id="r9uu2c" name="_0000_yu" size="546,217"/>
+    <component id="keyq1o" name="fishEquip" size="212,238"/>
+    <component id="keyq1n" name="fishType" size="318,330"/>
+    <image id="keyq1g" name="_0004_zb1" size="180,79"/>
+    <image id="keyq16" name="_0001_lishi" size="178,26"/>
+    <component id="qw9p2" name="HandbookUI" exported="true" size="750,1134"/>
+    <image id="r9uu2b" name="iconback" size="212,238"/>
+    <component id="czyy1u" name="fishAreaContent" size="561,180"/>
+    <image id="pjvvc" name="_0009_di" size="184,184" scale="9grid" scale9grid="46,46,92,92"/>
+    <component id="czyy27" name="starMC2" size="230,44"/>
+    <component id="czyy21" name="fishEquipWindow" exported="true" size="599,628"/>
+    <component id="keyq1b" name="fishArea" size="690,186"/>
+    <image id="pjvve" name="_0007_xx" size="46,44"/>
+    <component id="czyy25" name="fishTypeContent" size="561,360"/>
+    <image id="keyq1h" name="_0003_yujian1" size="180,79"/>
+    <image id="keyq1k" name="_0000_zb" size="180,79"/>
+    <component id="czyy1t" name="fishTypeWindow" exported="true" size="599,834"/>
+    <image id="keyq1d" name="_0003_xuanzhong" size="256,98"/>
+    <component id="pjvvm" name="fishAreaBtn" size="250,98"/>
+  </resources>
+</packageDescription>czyy1u.xml|370|<component size="561,180" overflow="scroll" scrollBar="hidden">
+  <displayList>
+    <text id="n14" name="content" xy="10,14" size="519,146" font="微软雅黑" fontSize="24" color="#e9edff" leading="10" ubb="true" autoSize="height" text="        鲫鱼主要是以植物为食的杂食性鱼，喜群居而行，择食而居。肉质细嫩，肉营养价值很高，每百克肉含蛋白质 13克、[color=#00ff00]脂肪 11克[/color]，并含有大量的钙、磷、铁等矿物质。"/>
+  </displayList>
+</component>pjvvm.xml|694|<component size="250,98" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n4" name="n4" src="keyq1d" xy="-3,0">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n5" name="n5" src="keyq1e" xy="-3,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n7" name="n7" src="keyq1i" xy="35,9">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n8" name="n8" src="keyq1f" xy="35,9">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>czyy26.xml|1058|<component size="561,360" overflow="scroll" scrollBar="auto">
+  <displayList>
+    <text id="n5" name="content" xy="14,8" size="135,32" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text="基础属性："/>
+    <text id="n8" name="range" xy="126,48" size="414,32" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text="属性仅对[color=#00ff00]草食性鱼类[/color]生效"/>
+    <text id="n9" name="attri1" xy="126,88" size="160,31" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text=""/>
+    <text id="n10" name="content" xy="14,128" size="131,32" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text="装备介绍："/>
+    <text id="n14" name="equipInfo" xy="14,168" size="519,109" font="微软雅黑" fontSize="24" color="#e9edff" leading="10" ubb="true" autoSize="height" text="        产自维卡莱林公司的顶级鱼漂，采用高密度轻质材料石墨烯制作，灵敏度准确，是不可多得的高品质鱼漂"/>
+    <text id="n16" name="attri2" xy="289,88" size="160,31" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text=""/>
+  </displayList>
+</component>keyq1o.xml|817|<component size="212,238" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="r9uu2b" xy="0,0"/>
+    <image id="n0" name="n0" src="keyq1q" xy="-9,-10">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n3" name="nametf" xy="31,196" size="150,24" font="黑体" fontSize="20" color="#2b3f53" align="center" autoSize="height" text="道具名六个字"/>
+    <loader id="n7" name="itemColor" xy="42,33" size="130,135" url="ui://qnsj61c99ubo21" fill="scaleFree"/>
+    <loader id="n6" name="itemImg" xy="39,33" size="133,133" url="ui://qnsj61c9sxw81f" fill="scale"/>
+    <component id="n8" name="equipStar" src="krsy2s" pkg="lt21tmve" xy="31,150" scale="0.6,0.6"/>
+  </displayList>
+  <Button/>
+</component>keyq1l.xml|694|<component size="250,98" overflow="hidden" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n4" name="n4" src="keyq1d" xy="-3,0">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n5" name="n5" src="keyq1e" xy="-3,0">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <image id="n7" name="n7" src="keyq1j" xy="35,9">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n8" name="n8" src="keyq1h" xy="35,9">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>qw9p2.xml|2131|<component size="750,1134">
+  <controller name="t1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="czyyj" pkg="qnsj61c9" xy="0,0" size="750,1334"/>
+    <image id="n6" name="n6" src="keyqbj" pkg="lt21tmve" xy="0,234" size="750,1100"/>
+    <component id="n7" name="areaBtn" src="pjvvm" xy="0,138" size="250,98">
+      <Button checked="true" controller="t1" page="0"/>
+    </component>
+    <component id="n18" name="typeBtn" src="keyq1l" xy="250,138">
+      <Button controller="t1" page="1"/>
+    </component>
+    <component id="n19" name="equipBtn" src="keyq1m" xy="500,138">
+      <Button controller="t1" page="2"/>
+    </component>
+    <list id="n20" name="areaList" xy="0,234" size="738,1076" overflow="scroll" scrollBar="auto" margin="30,0,30,0" scrollBarMargin="20,0,20,0" lineGap="25" defaultItem="ui://vqfmd7q1keyq1b">
+      <gearDisplay controller="t1" pages="0"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n22" name="typeList" xy="0,234" size="750,1049" layout="flow_hz" overflow="scroll" scrollBar="auto" margin="0,0,40,0" scrollBarMargin="20,0,20,0" lineGap="20" colGap="20" lineItemCount="2" defaultItem="ui://vqfmd7q1keyq1n">
+      <gearDisplay controller="t1" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n23" name="equipList" xy="0,234" size="750,1049" layout="flow_hz" overflow="scroll" scrollBar="auto" margin="25,0,30,0" scrollBarMargin="20,0,20,0" lineGap="20" colGap="27" lineItemCount="3" defaultItem="ui://vqfmd7q1keyq1o">
+      <gearDisplay controller="t1" pages="2"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

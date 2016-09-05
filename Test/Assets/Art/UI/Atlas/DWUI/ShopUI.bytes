@@ -1,0 +1,220 @@
+puyf1m.xml|399|<component size="713,906">
+  <displayList>
+    <list id="n0" name="list" xy="6,196" size="701,710" overflow="scroll" scrollBarFlags="4" margin="0,0,0,0" lineGap="5" defaultItem="ui://qaj9ig2hpuyf29">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n2" name="title" src="puyf1l" xy="0,0"/>
+  </displayList>
+</component>puyf1l.xml|809|<component size="715,199">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="puyf1f" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n1" name="n1" src="puyf1g" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n2" name="n2" src="puyf1h" xy="0,0">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n3" name="n3" src="puyf1i" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n4" name="n4" src="puyf1j" xy="0,0">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+    <image id="n5" name="n5" src="puyf1k" xy="0,0">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+  </displayList>
+</component>krsye.xml|387|<component size="110,144" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="krsy3" name="n1" xy="0,0">
+      <gearColor controller="button" pages="0,1,2,3" values="#FFFFFF|#A0A0A0|#FFFFFF|#A0A0A0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>puyf1w.xml|377|<component size="50,50">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="gbfwbl" pkg="lt21tmve" xy="0,3">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="krsy2w" pkg="lt21tmve" xy="1,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>puyf29.xml|1122|<component size="701,132">
+  <displayList>
+    <image id="n0" name="n0" src="puyf1o" xy="0,0"/>
+    <image id="n1" name="n1" src="puyf1v" xy="539,91" size="110,29"/>
+    <component id="n2" name="money" src="puyf1w" xy="509,79"/>
+    <text id="n3" name="price" xy="558,90" size="85,30" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="180000&#xA;"/>
+    <image id="n4" name="n4" src="puyf1x" xy="122,63" size="368,59"/>
+    <text id="n5" name="att1" xy="133,77" size="107,34" fontSize="24" color="#ffffff" ubb="true" autoSize="none" text="&#xA;"/>
+    <text id="n6" name="att2" xy="252,77" size="107,34" fontSize="24" color="#ffffff" ubb="true" autoSize="none" text=""/>
+    <text id="n7" name="att3" xy="378,77" size="107,34" fontSize="24" color="#ffffff" ubb="true" autoSize="none" text=""/>
+    <text id="n8" name="nameTf" xy="133,14" size="187,36" fontSize="26" color="#ffffff" text="春色满园的鱼竿"/>
+    <component id="n9" name="star" src="krsy2s" pkg="lt21tmve" xy="485,15" scale="0.8,0.8"/>
+    <component id="n10" name="iconLoader" src="puyf1z" xy="12,16"/>
+  </displayList>
+</component>package.xml|2707|<packageDescription id="qaj9ig2h" name="ShopUI">
+  <resources>
+    <component id="puyf2a" name="ShopUINew" exported="true" size="750,1334"/>
+    <image id="puyf1h" name="鱼钩" size="715,199"/>
+    <image id="qc5n2e" name="向右" size="51,66"/>
+    <image id="puyf25" name="确定按钮" size="145,67"/>
+    <image id="puyf1p" name="05红" size="101,100"/>
+    <component id="puyf1e" name="tab2" size="332,51"/>
+    <image id="puyf1c" name="1.鱼竿ICON" size="40,44"/>
+    <image id="puyf1o" name="商品底板" size="701,132"/>
+    <image id="puyf1i" name="鱼竿" size="715,199"/>
+    <image id="puyf26" name="取消按钮" size="152,67"/>
+    <image id="puyf19" name="4.鱼饵ICON" size="30,34"/>
+    <component id="krsye" name="moveBtn" exported="true" size="110,144"/>
+    <image id="puyf18" name="5.鱼漂ICON" size="39,51"/>
+    <component id="puyf27" name="sureBtn" size="145,67"/>
+    <image id="puyf24" name="系统设置面板" size="603,404"/>
+    <image id="qc5n2d" name="向左" size="51,66"/>
+    <image id="qc5n2b" name="返回" size="84,78"/>
+    <component id="puyf1l" name="title" size="715,199"/>
+    <image id="puyf1t" name="01白" size="101,100"/>
+    <image id="e1c115" name="krsy1(2)" size="750,409"/>
+    <image id="puyf1a" name="3.夜钓灯ICON" size="37,34"/>
+    <image id="puyf1u" name="06黄" size="101,100"/>
+    <image id="puyf1r" name="03蓝" size="101,100"/>
+    <component id="qc5n2c" name="backBtn" size="84,78"/>
+    <image id="puyf1j" name="鱼饵" size="715,199"/>
+    <image id="krsy6" name="_0005_？" size="83,83" exported="true"/>
+    <image id="puyf17" name="界面底板" size="750,972"/>
+    <image id="puyf1x" name="道具信息框" size="60,59" scale="9grid" scale9grid="15,15,30,30"/>
+    <component id="puyf29" name="item" exported="true" size="701,132"/>
+    <image id="puyf1g" name="鱼漂" size="715,199"/>
+    <image id="puyf1q" name="04紫" size="101,100"/>
+    <image id="w1oc13" name="_0012_daoju" size="95,103" exported="true"/>
+    <component id="puyf28" name="cancelBtn" size="152,67"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <component id="puyf20" name="shopBuyWindow" exported="true" size="603,404"/>
+    <image id="puyf1b" name="2.鱼线ICON" size="28,33"/>
+    <image id="krsy3" name="_0023_zuo" size="110,144"/>
+    <image id="puyf1v" name="货币底板" size="27,29" scale="9grid" scale9grid="7,8,14,16"/>
+    <component id="puyf1z" name="iconLoader" size="102,100"/>
+    <image id="puyf1k" name="夜钓灯" size="715,199"/>
+    <image id="puyf1f" name="鱼线" size="715,199"/>
+    <image id="puyf1s" name="02绿" size="101,100"/>
+    <image id="puyf1d" name="6.鱼钩ICON" size="31,42"/>
+    <component id="puyf1w" name="money" size="50,50"/>
+    <component id="puyf1m" name="List" exported="true" size="713,906"/>
+  </resources>
+</packageDescription>puyf1e.xml|1095|<component size="332,51">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="puyf18" xy="55,0" color="#000000">
+      <gearColor controller="c1" pages="1" values="#ffffff" default="#000000"/>
+    </image>
+    <image id="n1" name="n1" src="puyf19" xy="231,8" color="#000000">
+      <gearColor controller="c1" pages="4" values="#ffffff" default="#000000"/>
+    </image>
+    <image id="n2" name="n2" src="puyf1a" xy="295,8" color="#000000">
+      <gearColor controller="c1" pages="5" values="#ffffff" default="#000000"/>
+    </image>
+    <image id="n3" name="n3" src="puyf1b" xy="116,8" color="#000000">
+      <gearColor controller="c1" pages="2" values="#ffffff" default="#000000"/>
+    </image>
+    <image id="n4" name="n4" src="puyf1c" xy="0,3">
+      <gearColor controller="c1" pages="0" values="#ffffff" default="#000000"/>
+    </image>
+    <image id="n5" name="n5" src="puyf1d" xy="170,4" color="#000000">
+      <gearColor controller="c1" pages="3" values="#ffffff" default="#000000"/>
+    </image>
+  </displayList>
+</component>puyf20.xml|807|<component size="603,404">
+  <displayList>
+    <image id="n5" name="n5" src="puyf24" xy="0,0"/>
+    <text id="n6" name="nameTf" xy="227,146" size="187,36" fontSize="26" color="#ffffff" text="春色满园的鱼竿"/>
+    <component id="n7" name="star" src="krsy2s" pkg="lt21tmve" xy="220,100" scale="0.8,0.8"/>
+    <component id="n8" name="iconLoader" src="puyf1z" xy="106,90"/>
+    <text id="n11" name="msgTf" xy="130,212" size="213,36" fontSize="26" color="#ffffff" text="购买物品需要花费"/>
+    <component id="n17" name="cancelBtn" src="puyf28" xy="108,310"/>
+    <text id="n12" name="priceTf" xy="402,212" size="95,36" fontSize="26" color="#f5db5f" text="160000"/>
+    <component id="n13" name="money" src="puyf1w" xy="500,205"/>
+    <component id="n18" name="sureBtn" src="puyf27" xy="348,310"/>
+  </displayList>
+</component>puyf2a.xml|716|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="puyf17" xy="0,408" size="750,927"/>
+    <image id="n1" name="n1" src="e1c115" xy="0,0"/>
+    <component id="n3" name="tab" src="puyf1e" xy="209,408"/>
+    <list id="n6" name="list" xy="18,469" size="713,845" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="2" scrollBar="hidden" margin="0,0,0,0" defaultItem="ui://qaj9ig2hpuyf1m">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n8" name="backBtn" src="qc5n2c" xy="39,31"/>
+    <image id="n9" name="n9" src="qc5n2d" xy="1,699"/>
+    <image id="n10" name="n10" src="qc5n2e" xy="705,699"/>
+  </displayList>
+</component>puyf27.xml|417|<component size="145,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="puyf25" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1" values="#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>qc5n2c.xml|416|<component size="84,78" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="qc5n2b" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1" values="#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>puyf28.xml|565|<component size="152,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="puyf26" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1" default="#a0a0a0"/>
+    </image>
+    <image id="n2" name="n2" src="puyf26" xy="0,0" color="#a0a0a0">
+      <gearColor controller="button" pages="1" values="#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>puyf1z.xml|912|<component size="102,100">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="puyf1p" xy="0,0">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+    <image id="n1" name="n1" src="puyf1q" xy="0,0">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n2" name="n2" src="puyf1r" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n3" name="n3" src="puyf1s" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n4" name="n4" src="puyf1t" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n5" name="n5" src="puyf1u" xy="0,0">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+    <loader id="n7" name="loader" xy="8,11" size="83,79" align="center" vAlign="middle" fill="scale"/>
+  </displayList>
+</component>

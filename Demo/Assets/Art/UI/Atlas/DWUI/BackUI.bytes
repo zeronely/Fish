@@ -1,0 +1,403 @@
+f5nru.xml|734|<component size="150,27">
+  <controller name="level" pages="0,,1,,2,,3,,4,,5," selected="5"/>
+  <displayList>
+    <image id="n0" name="n0" src="f5nrv" xy="0,0">
+      <gearDisplay controller="level" pages="1,2,3,4,5"/>
+    </image>
+    <image id="n1" name="n1" src="f5nrv" xy="51,0">
+      <gearDisplay controller="level" pages="3,4,5"/>
+    </image>
+    <image id="n2" name="n2" src="f5nrv" xy="103,0">
+      <gearDisplay controller="level" pages="5"/>
+    </image>
+    <image id="n3" name="n3" src="f5nrv" xy="77,0">
+      <gearDisplay controller="level" pages="4,5"/>
+    </image>
+    <image id="n4" name="n4" src="f5nrv" xy="25,0">
+      <gearDisplay controller="level" pages="2,3,4,5"/>
+    </image>
+  </displayList>
+</component>qmmt23.xml|347|<component size="95,103">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="f5nrt" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n1" name="n1" src="qmmt24" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>f5nr9.xml|387|<component size="119,111" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="f5nr6" name="n1" xy="0,0">
+      <gearColor controller="button" pages="0,1,2,3" values="#FFFFFF|#A0A0A0|#FFFFFF|#A0A0A0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>f5nr0.xml|2611|<component size="750,1336">
+  <controller name="suitTab" pages="0,套装一,1,套装二" selected="0"/>
+  <displayList>
+    <component id="n40" name="back" src="oc2527" xy="0,0"/>
+    <component id="n6" name="oneKeyFix" src="f5nr9" xy="35,315" visible="false">
+      <relation target="" sidePair="left-left%,top-top"/>
+    </component>
+    <component id="n8" name="suit1" src="f5nrd" xy="251,367" visible="false">
+      <relation target="n40" sidePair="bottom-bottom%"/>
+      <relation target="n11" sidePair="left-left"/>
+      <Button checked="true" controller="suitTab" page="0"/>
+    </component>
+    <component id="n9" name="suit2" src="f5nre" xy="414,367" visible="false">
+      <relation target="n40" sidePair="bottom-bottom%"/>
+      <relation target="n8" sidePair="left-left"/>
+      <Button controller="suitTab" page="1"/>
+    </component>
+    <component id="n37" name="BackBtn" src="krsy30" pkg="lt21tmve" xy="31,29">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </component>
+    <image id="n45" name="n45" src="krsy1u" xy="233,1170" size="518,166" visible="false">
+      <relation target="n11" sidePair="width-width"/>
+      <relation target="n10" sidePair="left-right"/>
+    </image>
+    <list id="n10" name="equipList" xy="2,439" size="229,827" overflow="scroll" scrollBar="hidden" margin="0,0,0,0" lineGap="20" defaultItem="ui://1284j5sof5nrn">
+      <relation target="" sidePair="width-width%"/>
+      <relation target="" sidePair="bottom-bottom,height-height%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n11" name="list" xy="248,447" size="489,852" overflow="scroll" scrollBarFlags="6" margin="0,0,0,0" lineGap="10" defaultItem="ui://1284j5sof5nrq">
+      <relation target="" sidePair="bottom-bottom,right-right"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n19" name="useSuitBtn" src="f5nr2o" pkg="lt21tmve" xy="395,1247" group="n21"/>
+    <image id="n35" name="n35" src="krsy1v" xy="455,1264" group="n21"/>
+    <group id="n21" name="n21" xy="395,1247" size="185,67" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n50" name="n50" src="f5nrb" xy="251,367"/>
+    <text id="n52" name="title" xy="270,382" size="116,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#3366ff" text="我的装备"/>
+  </displayList>
+</component>package.xml|4009|<packageDescription id="1284j5so" name="BackUI">
+  <resources>
+    <image id="krsy1w" name="shiyong" size="41,39"/>
+    <component id="qmmt22" name="di" size="476,133"/>
+    <component id="f5nr9" name="oneKeyFix" size="119,111"/>
+    <image id="krsy1l" name="_0029_yuxian-lan" size="145,63"/>
+    <image id="f5nr6" name="_0019_yijianxiuli" size="119,111"/>
+    <image id="f5nr10" name="_0015_shuxingkuang" size="57,57" scale="9grid" scale9grid="15,15,30,30"/>
+    <component id="qmmt23" name="imgdi" size="95,103"/>
+    <image id="f5nrr" name="_0017_mingzixian" size="189,15"/>
+    <image id="f5nri" name="_0040_taozhuangyi1" size="110,43"/>
+    <image id="krsy1k" name="_0030_yuganlv" size="153,74"/>
+    <component id="mmen2b" name="ReturnBtn" size="750,1334"/>
+    <image id="f5nrh" name="_0035_taozhuangyizi" size="100,34"/>
+    <image id="f5nr12" name="_0026_lansedanyuange" size="476,133"/>
+    <component id="f5nre" name="suit2" size="152,58"/>
+    <image id="f5nrl" name="_0033_lanxuan" size="238,120"/>
+    <image id="qmmt26" name="_0014_biaozhidi" size="89,117"/>
+    <image id="krsy1u" name="zhe" size="519,166"/>
+    <image id="f5nrp" name="_0016_danyuange" size="527,133"/>
+    <image id="krsy1q" name="_0003_lvyupiao" size="162,78"/>
+    <image id="qmmt25" name="_0013_biaozhi-" size="65,63"/>
+    <image id="krsy1o" name="_0005_qita" size="150,62"/>
+    <image id="krsy1s" name="_0001_yugou" size="161,65"/>
+    <image id="krsy1j" name="_0031_yuerlv" size="147,65"/>
+    <image id="f5nro" name="_0024_misedanyuange-" size="477,135" scale="9grid" scale9grid="120,34,240,68"/>
+    <image id="f5nrk" name="_0038_taozhuangerzi2" size="109,43"/>
+    <image id="krsy1v" name="_0006_shiyong" size="67,34"/>
+    <image id="f5nr16" name="_0009_jianjiedi" size="100,100" scale="9grid" scale9grid="25,25,50,50"/>
+    <image id="f5nr5" name="_0043_di" size="750,930"/>
+    <image id="krsy1p" name="_0004_lvqita" size="150,62"/>
+    <image id="krsy1n" name="_0027_yuganlan" size="153,74"/>
+    <component id="f5nrq" name="detailBtn" size="476,133"/>
+    <image id="krsy1t" name="_0000_lvyugou" size="161,65"/>
+    <image id="krsy1i" name="_0032_yuxianlv" size="145,63"/>
+    <component id="pdjc21" name="frame" size="627,41"/>
+    <image id="f5nr4" name="_0045_ren" size="420,632"/>
+    <component id="f5nr0" name="BackUI" exported="true" size="750,1336"/>
+    <image id="f5nr1a" name="_0006_xiuli" size="70,34"/>
+    <image id="f5nrj" name="_0037_taozhuangerzi" size="99,34"/>
+    <image id="qmmt24" name="_0025_daoju-" size="95,103"/>
+    <image id="f5nrb" name="_0042_taozhuanganniu1" size="152,58"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="f5nr3" name="_0046_beijingdi" size="750,465"/>
+    <component id="f5nrn" name="tabBtn" size="238,120"/>
+    <image id="krsy1r" name="_0002_yupiao" size="162,78"/>
+    <image id="f5nra" name="_0041_putonganniu" size="152,58"/>
+    <image id="f5nr1h" name="_0002_no" size="37,33"/>
+    <image id="f5nrs" name="_0020_yizhuangbei" size="86,84"/>
+    <image id="f5nrt" name="_0012_daoju" size="95,103" exported="true"/>
+    <component id="f5nr1d" name="fixWindow" exported="true" size="750,249"/>
+    <image id="f5nr1g" name="_0000_yes" size="37,33"/>
+    <component id="f5nru" name="starMc" size="150,27"/>
+    <component id="f5nr13" name="opeWindow" exported="true" size="636,451"/>
+    <component id="mmen2c" name="TipsDlgUI" exported="true" size="750,1334"/>
+    <image id="f5nrv" name="_0010_xx" size="29,27"/>
+    <component id="oc2527" name="Pannel" exported="true" size="750,1334"/>
+    <image id="f5nr1f" name="_0005_gold" size="57,54"/>
+    <component id="f5nrd" name="suit1" size="152,58"/>
+    <image id="krsy1m" name="_0028_yuerlan" size="147,65"/>
+    <image id="f5nrm" name="_0034_lvxuan" size="241,120"/>
+    <image id="f5nr1b" name="_0004_chushou" size="68,34"/>
+    <image id="mmen2d" name="_0002_di" size="750,228"/>
+    <image id="f5nr19" name="_0007_zhuangbei" size="70,35"/>
+  </resources>
+</packageDescription>qmmt22.xml|478|<component size="476,133">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="f5nro" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="f5nr12" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>f5nre.xml|1216|<component size="152,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="f5nra" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="f5nrb" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="f5nrb" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="f5nrb" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5" name="n5" src="f5nrj" xy="26,12">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n6" name="n6" src="f5nrk" xy="21,7">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </image>
+    <image id="n7" name="hasImg" src="krsy1w" xy="111,0"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>f5nrq.xml|2356|<component size="476,133" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <component id="n26" name="di" src="qmmt22" xy="0,3" group="n29">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n27" name="imgdi" src="qmmt23" xy="18,18" group="n29" visible="false"/>
+    <image id="n5" name="n5" src="f5nrr" xy="139,46" group="n29"/>
+    <image id="n6" name="hasImg" src="f5nrs" xy="390,2" group="n29">
+      <relation target="n26" sidePair="right-right,top-top"/>
+    </image>
+    <text id="n8" name="nametf" xy="148,32" size="151,25" group="n29" font="黑体" fontSize="18" color="#2b3f53" autoSize="none" text="道具名称有八个字">
+      <gearColor controller="button" default="#2b3f53"/>
+    </text>
+    <image id="n10" name="n10" src="f5nr10" xy="134,67" size="323,31" group="n29">
+      <relation target="n26" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n11" name="atr1" xy="145,71" size="100,22" group="n29" font="黑体" fontSize="18" color="#ffffff" vAlign="middle" autoSize="height" text="">
+      <relation target="n10" sidePair="left-left"/>
+    </text>
+    <text id="n12" name="atr2" xy="250,71" size="100,22" group="n29" font="黑体" fontSize="18" color="#ffffff" vAlign="middle" autoSize="height" text="">
+      <relation target="n10" sidePair="center-center"/>
+    </text>
+    <text id="n13" name="atr3" xy="354,71" size="100,22" group="n29" font="黑体" fontSize="18" color="#ffffff" vAlign="middle" autoSize="height" text="">
+      <relation target="n10" sidePair="right-right"/>
+    </text>
+    <loader id="n24" name="imgLoader2" xy="24,25" size="88,88" group="n29" fill="scale"/>
+    <loader id="n23" name="imgLoader" xy="24,25" size="88,88" group="n29" fill="scale"/>
+    <text id="n28" name="durTf" xy="148,101" size="294,25" group="n29" font="黑体" fontSize="18" color="#2b3f53" ubb="true" autoSize="none" text="装备耐久:100/100(耐久影响属性)">
+      <gearColor controller="button" default="#2b3f53"/>
+    </text>
+    <component id="n9" name="starMc" src="krsy2s" pkg="lt21tmve" xy="17,108" group="n29" scale="0.4,0.4"/>
+    <group id="n29" name="n29" xy="0,2" size="476,134" advanced="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </group>
+  </displayList>
+  <Button mode="Radio"/>
+</component>mmen2c.xml|649|<component size="750,1334">
+  <displayList>
+    <image id="n6" name="n6" src="mmen2d" xy="-103,546"/>
+    <image id="n4" name="n4" src="f5nr4" xy="-117,351" flip="hz"/>
+    <text id="n7" name="tfTips" xy="227,589" size="300,32" font="微软雅黑" fontSize="25" color="#ffffff" autoSize="height" text=""/>
+    <text id="n8" name="title" xy="153,1092" size="428,104" font="微软雅黑" fontSize="50" color="#ffffff" align="center" vAlign="middle" autoSize="none" singleLine="true" text="单击当前返回">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3" name="closeBtn" src="mmen2b" xy="0,1"/>
+  </displayList>
+</component>f5nr1d.xml|893|<component size="750,249">
+  <displayList>
+    <image id="n15" name="n15" src="pdjc31" pkg="lt21tmve" xy="0,0" size="750,249"/>
+    <text id="n3" name="msg" xy="109,52" size="532,39" font="微软雅黑" fontSize="28" color="#ffffff" vAlign="middle" autoSize="none" text="是否花费                         修理全部装备？"/>
+    <text id="n4" name="pricetf" xy="231,50" size="121,39" fontSize="28" color="#ffde45" align="center" vAlign="middle" autoSize="none" text="200000"/>
+    <image id="n5" name="n5" src="f5nr1f" xy="362,42"/>
+    <component id="n1" name="cancelBtn" src="f5nr2q" pkg="lt21tmve" xy="137,156"/>
+    <image id="n7" name="n7" src="f5nr1h" xy="211,173"/>
+    <component id="n2" name="okBtn" src="f5nr2p" pkg="lt21tmve" xy="418,156"/>
+    <image id="n6" name="n6" src="f5nr1g" xy="493,174"/>
+    <component id="n14" name="frame" src="pdjc32" pkg="lt21tmve" xy="88,0"/>
+  </displayList>
+</component>oc2527.xml|233|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="f5nr3" xy="0,0"/>
+    <image id="n1" name="n1" src="f5nr4" xy="326,0"/>
+    <image id="n2" name="n2" src="f5nr5" xy="0,405"/>
+  </displayList>
+</component>f5nrn.xml|3251|<component size="238,120" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="img" pages="0,鱼竿,1,鱼漂,2,鱼线,3,鱼钩,4,鱼饵,5,其他" selected="5"/>
+  <displayList>
+    <image id="n1" name="n1" src="f5nrl" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n4" name="n4" src="f5nrm" xy="-1,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="f5nrm" xy="-1,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="f5nrm" xy="-1,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5" name="yuxian1" src="krsy1i" xy="46,33">
+      <gearDisplay controller="img" pages="2"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n6" name="yuer1" src="krsy1j" xy="45,36">
+      <gearDisplay controller="img" pages="4"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n8" name="yuxian0" src="krsy1l" xy="47,32">
+      <gearDisplay controller="img" pages="2"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n9" name="yuer0" src="krsy1m" xy="45,36">
+      <gearDisplay controller="img" pages="4"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n12" name="qita1" src="krsy1p" xy="41,28">
+      <gearDisplay controller="img" pages="5"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n11" name="qita0" src="krsy1o" xy="42,28">
+      <gearDisplay controller="img" pages="5"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n13" name="yupiao1" src="krsy1q" xy="29,17">
+      <gearDisplay controller="img" pages="1"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n14" name="yupiao0" src="krsy1r" xy="29,17">
+      <gearDisplay controller="img" pages="1"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n16" name="yugou1" src="krsy1t" xy="30,25">
+      <gearDisplay controller="img" pages="3"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n15" name="yugou0" src="krsy1s" xy="29,24">
+      <gearDisplay controller="img" pages="3"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n7" name="yugan1" src="krsy1k" xy="38,21">
+      <gearDisplay controller="img" pages="0"/>
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n10" name="yugan0" src="krsy1n" xy="39,21">
+      <gearDisplay controller="img" pages="0"/>
+      <relation target="n2" sidePair="center-center,middle-middle"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>f5nrd.xml|1216|<component size="152,58" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="f5nra" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="f5nrb" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="f5nrb" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="f5nrb" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5" name="n5" src="f5nrh" xy="26,12">
+      <gearDisplay controller="button" pages="0"/>
+    </image>
+    <image id="n6" name="n6" src="f5nri" xy="21,7">
+      <gearDisplay controller="button" pages="1,2,3"/>
+    </image>
+    <image id="n7" name="hasImg" src="krsy1w" xy="111,0"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>f5nr13.xml|2289|<component size="636,451">
+  <displayList>
+    <image id="n1" name="n1" src="f5nr2j" pkg="lt21tmve" xy="1,-1" size="636,451"/>
+    <image id="n2" name="n2" src="f5nr2k" pkg="lt21tmve" xy="29,62" size="576,270"/>
+    <image id="n39" name="n39" src="f5nrp" xy="51,70"/>
+    <image id="n11" name="n11" src="f5nr16" xy="51,206" size="528,104"/>
+    <text id="n14" name="msg" xy="74,217" size="484,60" fontSize="22" color="#644933" autoSize="none" text="来自失传已久绝世高人的秘方所制，鱼对此完全没有抵抗力。"/>
+    <image id="n17" name="n17" src="f5nrr" xy="187,104"/>
+    <text id="n18" name="nametf" xy="204,90" size="180,31" font="微软雅黑" fontSize="22" color="#2b3f53" autoSize="height" strokeColor="#e8eefb" text="道具名六个字"/>
+    <component id="n19" name="starMc" src="f5nru" xy="389,89"/>
+    <image id="n20" name="n20" src="f5nr10" xy="182,125" size="302,32"/>
+    <text id="n21" name="atr1" xy="191,129" size="88,22" font="黑体" fontSize="18" color="#ffffff" autoSize="height" text=""/>
+    <text id="n22" name="atr2" xy="291,129" size="88,22" font="黑体" fontSize="18" color="#ffffff" autoSize="height" text=""/>
+    <text id="n23" name="atr3" xy="391,129" size="88,22" font="黑体" fontSize="18" color="#ffffff" autoSize="height" text=""/>
+    <component id="n4" name="fixBtn" src="f5nr2p" pkg="lt21tmve" xy="225,352"/>
+    <loader id="n35" name="imgLoader2" xy="79,88" size="88,88" fill="scale"/>
+    <loader id="n27" name="imgLoader" xy="80,88" size="88,88" fill="scale"/>
+    <image id="n29" name="n29" src="f5nr1a" xy="283,369"/>
+    <component id="n5" name="sellBtn" src="f5nr2q" pkg="lt21tmve" xy="32,352"/>
+    <image id="n30" name="n30" src="f5nr1b" xy="90,368"/>
+    <component id="n6" name="equipBtn" src="f5nr2o" pkg="lt21tmve" xy="420,352"/>
+    <image id="n28" name="n28" src="f5nr19" xy="478,369" pivot="140,0,2,0"/>
+    <component id="n37" name="frame" src="pdjc21" xy="0,0"/>
+    <image id="n42" name="n42" src="qmmt26" xy="484,72"/>
+    <image id="n41" name="n41" src="qmmt25" xy="494,85"/>
+    <text id="n43" name="durTf" xy="204,164" size="294,22" font="黑体" fontSize="18" color="#2b3f53" autoSize="none" text="装备耐久:100/100(耐久影响属性)"/>
+    <text id="n44" name="fixTf" xy="171,283" size="294,22" font="黑体" fontSize="18" color="#ff0000" align="center" autoSize="none" text=""/>
+  </displayList>
+</component>mmen2b.xml|173|<component size="750,1334" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList/>
+  <Button/>
+</component>pdjc21.xml|472|<component size="627,41">
+  <displayList>
+    <graph id="n0" name="dragArea" xy="0,0" size="627,40">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n1" name="closeButton" xy="460,0" size="165,40">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n2" name="title" xy="259,6" size="109,32" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#3366ff" text="详细信息"/>
+  </displayList>
+</component>

@@ -1,0 +1,130 @@
+s8vt4.xml|915|<component size="710,126" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="isReaded" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n4" name="n4" src="s8vt12" xy="0,0" size="710,126">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+    <text id="n1" name="title" xy="145,39" size="428,47" font="微软雅黑" fontSize="36" color="#51090b" autoSize="height" text="来自GM的问候"/>
+    <image id="n2" name="appendImg" src="s8vt17" xy="58,35"/>
+    <text id="n3" name="timetf" xy="503,97" size="197,25" font="微软雅黑" fontSize="18" color="#51090b" vAlign="middle" autoSize="height" text="2016-12-12  12:59:59"/>
+    <image id="n5" name="readImg" src="s8vt19" xy="616,-4">
+      <gearDisplay controller="isReaded" pages="1"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>s8vt1a.xml|682|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="f5nr2m" pkg="lt21tmve" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+    <text id="n3" name="title" xy="38,19" size="109,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#3366ff" text=""/>
+    <loader id="n5" name="icon" xy="25,16" size="135,34"/>
+  </displayList>
+  <Button/>
+</component>s8vt1c.xml|682|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="f5nr2l" pkg="lt21tmve" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+    <text id="n3" name="title" xy="38,19" size="109,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#3366ff" text=""/>
+    <loader id="n5" name="icon" xy="25,16" size="135,34"/>
+  </displayList>
+  <Button/>
+</component>s8vtp.xml|579|<component size="600,335">
+  <displayList>
+    <image id="n8" name="n8" src="pdjc31" pkg="lt21tmve" xy="0,0"/>
+    <text id="n1" name="msgtf" xy="104,83" size="377,82" font="微软雅黑" fontSize="30" color="#e9edff" align="center" autoSize="height" text="邮件中尚有未领取的附件，是否全部提取后再删除？"/>
+    <component id="n2" name="delBtn" src="f5nr2o" pkg="lt21tmve" xy="89,211"/>
+    <component id="n3" name="getBtn" src="f5nr2o" pkg="lt21tmve" xy="322,211"/>
+    <image id="n9" name="n9" src="s8vt11" xy="347,227"/>
+    <image id="n10" name="n10" src="s8vtz" xy="116,227"/>
+  </displayList>
+</component>package.xml|1366|<packageDescription id="s8x0d7hn" name="MailBox">
+  <resources>
+    <image id="s8vt13" name="_0004_youxiangxia" size="750,187"/>
+    <image id="s8vt19" name="yidu" size="98,97"/>
+    <image id="s8vts" name="mail" size="114,114" scale="9grid" scale9grid="29,29,58,58"/>
+    <image id="s8vt12" name="_0005_jiugongge" size="112,112" scale="9grid" scale9grid="28,28,56,56"/>
+    <atlas id="atlas0" size="1024,512" file="atlas0.png"/>
+    <component id="s8vt1c" name="getAllBtn" size="185,67"/>
+    <image id="s8vt16" name="_0001_mail" size="707,56"/>
+    <component id="nvmq2" name="MailUI" exported="true" size="750,1334"/>
+    <image id="s8vtv" name="_0000_tiqu" size="136,34"/>
+    <component id="s8vtp" name="delAllMail" exported="true" size="600,335"/>
+    <image id="s8vt11" name="_0006_tiqu" size="135,34"/>
+    <component id="lmas1f" name="mailWindow" exported="true" size="590,614"/>
+    <component id="lmas1g" name="itemShow" size="106,142"/>
+    <component id="s8vt1a" name="delAllBtn" size="185,67"/>
+    <image id="lmas1h" name="_0012_daoju" size="95,103" exported="true"/>
+    <image id="s8vtz" name="_0008_shanchu" size="135,34"/>
+    <component id="s8vt4" name="singleMail" size="710,126"/>
+    <component id="s8vtr" name="mailContent" size="561,360"/>
+    <image id="s8vt17" name="_0000_fujianbiaoshi" size="41,56"/>
+  </resources>
+</packageDescription>s8vtr.xml|690|<component size="561,360" overflow="scroll" scrollBar="auto">
+  <displayList>
+    <text id="n5" name="content" xy="10,10" size="519,748" font="微软雅黑" fontSize="24" color="#e9edff" ubb="true" autoSize="height" text="刀币相关&#xA;1、刀币主要来自于充值，1 RMB = 10 刀币&#xA;2、刀币可兑换为金币，向系统兑换，则 1 刀币 = 200 金币（向玩家兑换可获得更好价格）&#xA;3、刀币无法兑换为积分&#xA;4、刀币不影响微信小店的交易&#xA;金币相关&#xA;1、金币主要来自于系统，金币只可在交易所中兑换来自其他玩家的刀币，价格自定义&#xA;2、金币无法通过充值直接获得&#xA;3、金币无法兑换为积分&#xA;4、金币不影响微信小店的交易&#xA;&#xA;刀币相关&#xA;1、刀币主要来自于充值，1 RMB = 10 刀币&#xA;2、刀币可兑换为金币，向系统兑换，则 1 刀币 = 200 金币（向玩家兑换可获得更好价格）&#xA;3、刀币无法兑换为积分&#xA;4、刀币不影响微信小店的交易&#xA;金币相关&#xA;1、金币主要来自于系统，金币只可在交易所中兑换来自其他玩家的刀币，价格自定义&#xA;2、金币无法通过充值直接获得&#xA;3、金币无法兑换为积分"/>
+  </displayList>
+</component>lmas1g.xml|534|<component size="106,142">
+  <displayList>
+    <text id="n3" name="itemNum" xy="10,120" size="84,25" font="微软雅黑" fontSize="18" color="#f9d45e" align="center" vAlign="middle" autoSize="none" text="+200000"/>
+    <loader id="n4" name="imgLoader2" xy="3,7" size="100,100" url="ui://qnsj61c99ubo22" fill="scale"/>
+    <loader id="n5" name="imgLoader" xy="3,7" size="100,100" url="ui://qnsj61c9sxw81w" fill="scale"/>
+    <component id="n6" name="starMc" src="krsy2s" pkg="lt21tmve" xy="3,93" scale="0.4,0.4"/>
+  </displayList>
+</component>lmas1f.xml|2003|<component size="590,614" overflow="hidden">
+  <controller name="isAppend" pages="0,,1," selected="1"/>
+  <displayList>
+    <image id="n10" name="n10" src="keyqbk" pkg="lt21tmve" xy="-2,-1"/>
+    <text id="n1" name="title" xy="11,7" size="428,32" font="微软雅黑" fontSize="24" color="#e9edff" autoSize="height" text="来自GM的问候"/>
+    <component id="n5" name="checkBtn" src="f5nr2o" pkg="lt21tmve" xy="202,511">
+      <gearDisplay controller="isAppend" pages="0"/>
+    </component>
+    <image id="n9" name="n9" src="lmasbe" pkg="lt21tmve" xy="21,72" size="548,404"/>
+    <component id="n8" name="n8" src="s8vtr" xy="21,77" size="561,190">
+      <gearSize controller="isAppend" pages="0,1" values="-|561,190,1,1" default="561,360,1,1"/>
+    </component>
+    <component id="n11" name="closeBtn" src="dnh2bp" pkg="lt21tmve" xy="526,-14"/>
+    <text id="n3" name="timetf" xy="248,277" size="300,25" font="微软雅黑" fontSize="18" color="#e9edff" align="right" vAlign="middle" autoSize="height" text="2016-12-12 12:59:59">
+      <gearXY controller="isAppend" pages="0,1" values="-|248,277" default="248,446"/>
+    </text>
+    <image id="n12" name="n12" src="7w4fbd" pkg="lt21tmve" xy="262,527">
+      <gearDisplay controller="isAppend" pages="0"/>
+    </image>
+    <component id="n13" name="getBtn" src="f5nr2o" pkg="lt21tmve" xy="202,511">
+      <gearDisplay controller="isAppend" pages="1"/>
+    </component>
+    <image id="n14" name="n14" src="s8vtv" xy="227,525">
+      <gearDisplay controller="isAppend" pages="1"/>
+    </image>
+    <image id="n15" name="n15" src="s8vts" xy="33,322" size="524,116">
+      <gearDisplay controller="isAppend" pages="1"/>
+    </image>
+    <list id="n16" name="itemList" xy="42,321" size="507,142" layout="row" overflow="hidden" scroll="horizontal" margin="0,0,10,0" colGap="20" defaultItem="ui://s8x0d7hnlmas1g" autoItemSize="false">
+      <gearDisplay controller="isAppend" pages="1"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>nvmq2.xml|779|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="czyyj" pkg="qnsj61c9" xy="0,0"/>
+    <image id="n8" name="n8" src="keyqbj" pkg="lt21tmve" xy="0,233" size="750,955"/>
+    <component id="n3" name="delAllBtn" src="s8vt1a" xy="133,1227">
+      <Button icon="ui://s8x0d7hns8vtz"/>
+    </component>
+    <component id="n4" name="getAllBtn" src="s8vt1c" xy="416,1227">
+      <Button icon="ui://s8x0d7hns8vt11"/>
+    </component>
+    <list id="n2" name="mailList" xy="0,248" size="750,932" overflow="scroll" scrollBar="auto" margin="10,10,20,0" scrollBarMargin="5,0,0,0" lineGap="31" defaultItem="ui://s8x0d7hns8vt4"/>
+    <image id="n6" name="n6" src="s8vt13" xy="0,46"/>
+    <image id="n5" name="n5" src="s8vt16" xy="21,161"/>
+  </displayList>
+</component>

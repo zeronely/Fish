@@ -1,0 +1,1147 @@
+f5nr2p.xml|402|<component size="185,67" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" pkg="lt21tmve" src="f5nr2l" name="n1" xy="0,0">
+      <gearColor controller="button" pages="0,1,2,3" values="#FFFFFF|#A0A0A0|#FFFFFF|#A0A0A0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>bd78hd9.xml|426|<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="bd78hd6" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>krsy2s.xml|2424|<component size="250,50">
+  <controller name="starLevel" pages="0,1,1,2,2,3,3,4,4,5,5,6,6,7" selected="6"/>
+  <displayList>
+    <image id="n14" name="n14" src="pcjfbo" xy="100,0" group="n15"/>
+    <group id="n15" name="n15" xy="100,0" size="50,50" advanced="true">
+      <gearDisplay controller="starLevel" pages="1"/>
+    </group>
+    <image id="n19" name="n19" src="pcjfbo" xy="80,0" group="n21"/>
+    <image id="n20" name="n20" src="pcjfbo" xy="120,0" group="n21"/>
+    <group id="n21" name="n21" xy="80,0" size="90,50" advanced="true">
+      <gearDisplay controller="starLevel" pages="2"/>
+    </group>
+    <image id="n24" name="n24" src="pcjfbo" xy="60,0" group="n27"/>
+    <image id="n25" name="n25" src="pcjfbo" xy="100,0" group="n27"/>
+    <image id="n26" name="n26" src="pcjfbo" xy="140,0" group="n27"/>
+    <group id="n27" name="n27" xy="60,0" size="130,50" advanced="true">
+      <gearDisplay controller="starLevel" pages="3"/>
+    </group>
+    <image id="n29" name="n29" src="pcjfbo" xy="40,0" group="n33"/>
+    <image id="n30" name="n30" src="pcjfbo" xy="80,0" group="n33"/>
+    <image id="n31" name="n31" src="pcjfbo" xy="120,0" group="n33"/>
+    <image id="n32" name="n32" src="pcjfbo" xy="160,0" group="n33"/>
+    <group id="n33" name="n33" xy="40,0" size="170,50" advanced="true">
+      <gearDisplay controller="starLevel" pages="4"/>
+    </group>
+    <image id="n34" name="n34" src="pcjfbo" xy="20,0" group="n39"/>
+    <image id="n35" name="n35" src="pcjfbo" xy="60,0" group="n39"/>
+    <image id="n36" name="n36" src="pcjfbo" xy="100,0" group="n39"/>
+    <image id="n37" name="n37" src="pcjfbo" xy="140,0" group="n39"/>
+    <image id="n38" name="n38" src="pcjfbo" xy="180,0" group="n39"/>
+    <group id="n39" name="n39" xy="20,0" size="210,50" advanced="true">
+      <gearDisplay controller="starLevel" pages="5"/>
+    </group>
+    <image id="n40" name="n40" src="pcjfbo" xy="80,0" group="n47"/>
+    <image id="n41" name="n41" src="pcjfbo" xy="160,0" group="n47"/>
+    <image id="n42" name="n42" src="pcjfbo" xy="120,0" group="n47"/>
+    <image id="n43" name="n43" src="pcjfbo" xy="200,0" group="n47"/>
+    <image id="n44" name="n44" src="pcjfbo" xy="40,0" group="n47"/>
+    <image id="n45" name="n45" src="pcjfbo" xy="0,0" group="n47"/>
+    <group id="n47" name="n47" xy="0,0" size="250,50" advanced="true">
+      <gearDisplay controller="starLevel" pages="6"/>
+    </group>
+  </displayList>
+</component>xdeb3b.xml|447|<component size="113,141" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb34" xy="0,0" size="113,141">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>xdeb3a.xml|432|<component size="108,145" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb37" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>gz2vhfg.xml|560|<component size="220,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n3" name="n3" src="gz2vhfi" xy="166,18"/>
+    <image id="n1" name="n1" src="gz2vhff" xy="162,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4" name="n4" xy="-2,22" size="169,32" fontSize="24" color="#ffffff" autoSize="height" text="今日不再提醒"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>mbv0hd0.xml|670|<component size="600,335">
+  <displayList>
+    <image id="n0" name="n0" src="pdjc31" xy="0,0"/>
+    <text id="n2" name="msgtf" xy="16,98" size="572,106" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="none" text="您的网络状况较差，请检查网络后重试"/>
+    <component id="n3" name="quitBtn" src="f5nr2o" xy="85,236">
+      <Button title="退出游戏"/>
+    </component>
+    <text id="n5" name="n5" xy="250,4" size="99,40" font="微软雅黑" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="提示"/>
+    <component id="n6" name="reconBtn" src="f5nr2o" xy="329,236">
+      <Button title="重新连接"/>
+    </component>
+  </displayList>
+</component>package.xml|18715|<packageDescription id="lt21tmve" name="CommonUI">
+  <resources>
+    <image id="ruiohf0" name="单条最重" size="302,74"/>
+    <image id="w0dshei" name="战斗开始" size="326,99"/>
+    <image id="xdeb9k" name="_0044_鳞" size="62,53"/>
+    <component id="w0dshev" name="matchOver" exported="true" size="321,104"/>
+    <image id="xdeb8i" name="_0082_赛-" size="51,43"/>
+    <image id="ee7whcm" name="单3" size="63,55"/>
+    <component id="krsy2s" name="starMc" exported="true" size="250,50"/>
+    <image id="xdeb7u" name="_0020_体" size="58,52"/>
+    <component id="tlvpbg" name="simpleTitle" exported="true" size="750,141"/>
+    <image id="w0dsheo" name="05" size="95,126"/>
+    <image id="x26kby" name="鲟1" size="67,59"/>
+    <image id="i7kohcs" name="mailImg" size="106,137" exported="true"/>
+    <image id="x26kbw" name="非2" size="67,59"/>
+    <image id="w0dshen" name="06" size="93,128"/>
+    <image id="w0dshep" name="04" size="97,127"/>
+    <image id="krsy2t" name="_0018_daxingx" size="42,40" exported="true"/>
+    <image id="ruiohf2" name="白线" size="285,9"/>
+    <image id="xdeb84" name="_0010_高" size="62,52"/>
+    <image id="xdeb97" name="_0057_口" size="58,47"/>
+    <image id="w0dsheh" name="00" size="93,128"/>
+    <image id="ruiohez" name="尾数最多" size="303,74"/>
+    <image id="ruiohf3" name="本场比赛模式" size="189,30"/>
+    <image id="xdeb9q" name="_0118_鲢" size="61,50"/>
+    <font id="sd1b1d" name="numFont" exported="true"/>
+    <image id="w0dsheq" name="03" size="95,128"/>
+    <component id="tlvpbh" name="backAndHelp" exported="true" size="750,141"/>
+    <image id="pcjfbo" name="star" size="50,50" exported="true"/>
+    <image id="xdeb7y" name="_0016_圆" size="61,50"/>
+    <image id="keyqbj" name="_0010_hei" size="128,128" scale="9grid" scale9grid="32,32,64,64" exported="true"/>
+    <component id="9ocdb3" name="滚动条1_arrow1" size="9,20"/>
+    <image id="xdeb7o" name="_0026_鲚" size="63,53"/>
+    <image id="xdeba0" name="_0108_娃" size="60,50"/>
+    <image id="xdebal" name="_0087_鳞" size="60,51"/>
+    <image id="xdeb8r" name="_0073_似" size="56,53"/>
+    <image id="xdeb7m" name="_0028_鯮" size="64,52"/>
+    <image id="xdeb9f" name="_0049_鲌" size="62,52"/>
+    <component id="gz2vhfg" name="按钮6" size="220,67"/>
+    <component id="w0dsheu" name="matchBegin" exported="true" size="326,99"/>
+    <image id="9ocdb2" name="_0000_huadong" size="10,73" scale="9grid" scale9grid="3,10,6,53"/>
+    <image id="x26kbx" name="中1" size="61,59"/>
+    <image id="8b5dhd2" name="20150811032507847" size="56,53"/>
+    <image id="xdeb36" name="_0031_shop" size="105,141"/>
+    <image id="ruiohf1" name="渔获总重" size="304,74"/>
+    <image id="xdeb7t" name="_0021_鲂" size="63,53"/>
+    <image id="xdeb8z" name="_0065_娃" size="62,52"/>
+    <image id="izu32g" name="311" size="404,24"/>
+    <image id="xdebak" name="_0088_短" size="62,50"/>
+    <image id="krsy2v" name="_0019_daobi" size="55,51" exported="true"/>
+    <image id="xdeb9n" name="_0121_鲤" size="61,50"/>
+    <image id="gz2vhf7" name="知道按钮" size="167,67"/>
+    <image id="xdeb8p" name="_0075_鲢" size="63,52"/>
+    <image id="xdebaf" name="_0093_刺" size="60,50"/>
+    <image id="xdeb3h" name="_0005_anniu1" size="185,67"/>
+    <image id="xdeb7d" name="_0037_鱼" size="57,51"/>
+    <image id="xdeb9y" name="_0110_龙" size="60,50"/>
+    <image id="xdeb8e" name="_0000_寡" size="62,53"/>
+    <image id="xdeb8o" name="_0076_麻" size="64,53"/>
+    <image id="xdebad" name="_0095_鮈" size="61,50"/>
+    <image id="xdeb82" name="_0012_鳑" size="62,53"/>
+    <image id="sd1b19" name="_0009_9" size="16,20"/>
+    <component id="gbfwbm" name="yellowBtn" exported="true" size="185,67"/>
+    <image id="xdebat" name="_0122_草" size="62,50"/>
+    <component id="izu32h" name="bar" size="400,20"/>
+    <image id="xdeb88" name="_0006_鲌" size="62,52"/>
+    <image id="xdeb7p" name="_0025_刀" size="61,48"/>
+    <image id="xdeb99" name="_0055_鳑" size="62,53"/>
+    <image id="x26kc0" name="华1" size="65,60"/>
+    <image id="xdeb7i" name="_0032_鲢" size="63,52"/>
+    <image id="xdeb7r" name="_0023_金" size="61,51"/>
+    <image id="x26kbs" name="中2" size="61,59"/>
+    <image id="xdeb90" name="_0064_鲂" size="63,53"/>
+    <image id="xdebar" name="_0124_鳤" size="62,50"/>
+    <image id="sd1b17" name="_0001_1" size="15,20"/>
+    <image id="x26kbv" name="华2" size="65,60"/>
+    <image id="xdebas" name="_0123_鱼" size="55,49"/>
+    <image id="sd1b10" name="_0008_8" size="16,20"/>
+    <component id="bd78hd9" name="按钮3" size="100,100"/>
+    <image id="ee7whck" name="单1" size="63,55"/>
+    <image id="xdeba2" name="_0106_体" size="56,50"/>
+    <image id="xdeb7s" name="_0022_娃" size="62,52"/>
+    <image id="xdeban" name="_0128_火" size="49,41"/>
+    <image id="xdeb9h" name="_0047_近" size="62,53"/>
+    <image id="xdeb94" name="_0060_吻" size="60,52"/>
+    <image id="x26kbt" name="鲟2" size="67,59"/>
+    <image id="ee7whcg" name="总1" size="62,55"/>
+    <image id="xdebam" name="_0086_寡" size="60,51"/>
+    <image id="sd1b15" name="_0003_3" size="15,20"/>
+    <image id="xdeb9m" name="_0085_火-" size="51,43"/>
+    <image id="xdeb7n" name="_0027_鳙" size="63,52"/>
+    <image id="xdeb9x" name="_0111_刀" size="59,46"/>
+    <image id="xdebah" name="_0091_红" size="59,48"/>
+    <image id="xdeb9u" name="_0114_鯮" size="62,50"/>
+    <image id="xdebao" name="_0127_热" size="49,41"/>
+    <image id="xdeb3e" name="_0005_？" size="83,83" exported="true"/>
+    <image id="btn9hdy" name="头像选择底板与登录成功底板" size="44,41"/>
+    <image id="sd1b14" name="_0004_4" size="17,20"/>
+    <component id="bd78hdi" name="noticeMsg" size="540,500"/>
+    <image id="krsy2x" name="_0017_+" size="45,46" exported="true"/>
+    <image id="x26kc1" name="非1" size="67,59"/>
+    <image id="9ocdb8" name="_0017_^" size="54,39"/>
+    <image id="ee7whcb" name="尾2" size="65,53"/>
+    <image id="xdeb7g" name="_0034_鲫" size="62,52"/>
+    <component id="dnh2bp" name="closeBtn1" exported="true" size="80,80"/>
+    <movieclip id="izu32e" name="动画1" size="400,20"/>
+    <image id="9ocdb9" name="_0018_^" size="54,39"/>
+    <image id="xdeb8a" name="_0004_近" size="62,53"/>
+    <image id="ee7whco" name="总3" size="62,55"/>
+    <image id="xdeb8v" name="_0069_鲚" size="63,53"/>
+    <image id="xdeb93" name="_0061_鲴" size="62,52"/>
+    <image id="xdeb3i" name="_0007_jinri" size="72,33"/>
+    <image id="xdeb8n" name="_0077_鲫" size="62,52"/>
+    <component id="qh45hdj" name="headMc" exported="true" size="750,141"/>
+    <image id="xdeb9w" name="_0112_鲚" size="61,51"/>
+    <component id="krsy30" name="backBtnNew" exported="true" size="83,68"/>
+    <image id="hyh9hec" name="经验条(2)" size="28,25" scale="9grid" scale9grid="7,7,14,14"/>
+    <image id="sd1b12" name="_0006_6" size="16,20"/>
+    <image id="w0dshes" name="01" size="61,127"/>
+    <image id="xdeb8k" name="_0080_鱼" size="57,51"/>
+    <image id="pdjc31" name="qie" size="600,335" exported="true" scale="9grid" scale9grid="150,84,300,168"/>
+    <image id="sd1b29" name="_0033_xia" size="750,58" exported="true"/>
+    <image id="x26kc6" name="鲟3" size="67,59"/>
+    <image id="xdeb7z" name="_0015_铜" size="60,52"/>
+    <image id="w0dshel" name="08" size="93,128"/>
+    <image id="sd1b11" name="_0007_7" size="16,20"/>
+    <image id="xdeb87" name="_0007_刺" size="62,52"/>
+    <image id="xdeb8c" name="_0002_短" size="64,52"/>
+    <image id="xdeb7c" name="_0038_鳤-" size="64,52"/>
+    <image id="gz2vhf6" name="游戏公告" size="167,37"/>
+    <image id="xdeb8h" name="_0083_大-" size="51,43"/>
+    <component id="9ocdb5" name="滚动条1_grip" size="9,20"/>
+    <component id="pdjc32" name="frame" exported="true" size="573,41"/>
+    <image id="xdebac" name="_0096_高" size="60,50"/>
+    <image id="xdeb8g" name="_0084_热-" size="51,43"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="bd78hd7" name="2" size="100,100" exported="true"/>
+    <image id="xdeb3d" name="_0036_di" size="750,1334" exported="true"/>
+    <image id="xdeba9" name="_0099_鲏" size="61,50"/>
+    <image id="xdeb8l" name="_0079_草" size="64,52"/>
+    <image id="xdeb86" name="_0008_鳊" size="62,53"/>
+    <image id="xdeb9t" name="_0115_青" size="56,50"/>
+    <image id="evd8bb" name="_0035_xia" size="760,149"/>
+    <component id="btn9hdw" name="RegisterBtn" size="233,95"/>
+    <image id="bd78hd6" name="1" size="100,100" exported="true"/>
+    <font id="xdebau" name="ziFont1" exported="true"/>
+    <image id="9ocdb1" name="_0001_xiala" size="9,687" scale="9grid" scale9grid="3,10,6,667"/>
+    <image id="xdeb9i" name="_0046_臀" size="60,50"/>
+    <font id="xdebav" name="ziFont2" exported="true"/>
+    <image id="xdeb95" name="_0059_圆" size="61,50"/>
+    <component id="xdeb3a" name="packBtn" size="108,145"/>
+    <image id="xdeb7v" name="_0019_长" size="56,53"/>
+    <font id="xdebaw" name="ziFont3" exported="true"/>
+    <image id="ee7whch" name="重1" size="68,53"/>
+    <image id="9ybyhdl" name="体力图标" size="39,46" exported="true"/>
+    <image id="xdeb8b" name="_0003_臀" size="60,50"/>
+    <image id="sd1b13" name="_0005_5" size="15,20"/>
+    <component id="izu32d" name="loadingUI" exported="true" size="750,1334"/>
+    <component id="pylp2c" name="title" exported="true" size="750,141"/>
+    <image id="xdeb34" name="_0033_yuleitujian" size="113,141"/>
+    <image id="xdebab" name="_0097_体" size="56,50"/>
+    <component id="bd78hdc" name="noticeWindow" exported="true" size="600,600"/>
+    <image id="x26kbu" name="罗2" size="63,58"/>
+    <image id="xdeb9j" name="_0045_短" size="64,52"/>
+    <image id="xdeb91" name="_0063_体" size="58,52"/>
+    <component id="xdeb3b" name="fishBookBtn" size="113,141"/>
+    <image id="9ybyhdn" name="经验条底板" size="31,30" exported="true" scale="9grid" scale9grid="8,8,16,16"/>
+    <image id="krsy2w" name="_0018_gold" size="45,45" exported="true"/>
+    <font id="w0dshet" name="ziFont4" exported="true"/>
+    <image id="xdeb98" name="_0056_鲏" size="63,52"/>
+    <image id="xdeb9g" name="_0048_红" size="61,50"/>
+    <image id="xdeb8y" name="_0066_金" size="61,51"/>
+    <image id="xdeb7x" name="_0017_吻" size="60,52"/>
+    <image id="xdeb8u" name="_0070_鳙" size="63,52"/>
+    <image id="btn9hds" name="输入底板" size="604,265"/>
+    <image id="gbfwbl" name="_0017_zuansih" size="43,37" exported="true"/>
+    <component id="izu32f" name="expBar" exported="true" size="404,24"/>
+    <component id="xdeb39" name="settingBtn" size="125,142"/>
+    <image id="krsy2u" name="_0020_zidi" size="27,29" exported="true" scale="9grid" scale9grid="7,8,14,16"/>
+    <image id="xdeb7b" name="_0039_赛-" size="51,43"/>
+    <image id="gz2vhff" name="打钩(3)" size="57,55"/>
+    <component id="krsy2z" name="addBtnNew" exported="true" size="46,45"/>
+    <component id="gz2vhfk" name="按钮7" size="200,67"/>
+    <component id="ruiohf4" name="typeFont" size="304,74"/>
+    <image id="xdeb8x" name="_0067_龙" size="62,52"/>
+    <component id="xdeb38" name="shopBtn" size="105,141"/>
+    <image id="xdebap" name="_0126_大" size="49,41"/>
+    <image id="xdeb8j" name="_0081_鳤-" size="64,52"/>
+    <component id="qmmt33" name="FloatTips" exported="true" size="750,1334"/>
+    <image id="keyqbk" name="_0002_di" size="646,793" scale9grid="66,183,475,229" exported="true"/>
+    <image id="xdeb8m" name="_0078_鲤" size="63,52"/>
+    <image id="xdeba7" name="_0101_铜" size="58,50"/>
+    <component id="i7kohcr" name="mailBtn" size="106,137"/>
+    <component id="hyh9hee" name="进度条1" size="50,25"/>
+    <image id="xdeb7w" name="_0018_鲴" size="62,52"/>
+    <image id="gz2vhf5" name="公告面板" size="603,772"/>
+    <image id="xdeb7h" name="_0033_麻" size="64,53"/>
+    <image id="xdeb9s" name="_0116_似" size="54,51"/>
+    <image id="9ocdba" name="lv" size="54,39"/>
+    <image id="xdeba6" name="_0102_圆" size="59,48"/>
+    <image id="krsy2y" name="_0044_fanhui-" size="83,68" exported="true"/>
+    <image id="xdeb8q" name="_0074_鲛" size="63,53"/>
+    <image id="x26kc4" name="非3" size="67,59"/>
+    <image id="xdebaa" name="_0098_鳑" size="60,51"/>
+    <image id="xdeb9r" name="_0117_鲛" size="61,51"/>
+    <image id="ee7whcd" name="单2" size="63,55"/>
+    <component id="w0dshex" name="battleNumFont" exported="true" size="750,1334"/>
+    <image id="f5nr2j" name="qqqq" size="636,119" scale="9grid" scale9grid="159,56,318,13" exported="true"/>
+    <component id="111chc7" name="addGold" exported="true" size="223,54"/>
+    <image id="gz2vhfi" name="打钩底板(4)" size="40,37"/>
+    <image id="x26kbz" name="罗1" size="63,58"/>
+    <image id="xdeb7e" name="_0036_草" size="64,52"/>
+    <image id="dnh2bq" name="_0001_X" size="32,32"/>
+    <image id="xdeb8d" name="_0001_鳞" size="62,53"/>
+    <image id="xdeb7k" name="_0030_似" size="56,53"/>
+    <image id="ee7whcf" name="场1" size="63,55"/>
+    <component id="bd78hd8" name="按钮2" size="100,100"/>
+    <image id="xdeb81" name="_0013_鲏" size="63,52"/>
+    <image id="xdeb9e" name="_0050_刺" size="62,52"/>
+    <component id="i7kohct" name="simpleTitle2" exported="true" size="223,110"/>
+    <image id="xdeb9z" name="_0109_金" size="59,49"/>
+    <component id="9ocdb6" name="滚动条V" exported="true" size="9,200"/>
+    <image id="ee7whcn" name="场3" size="63,55"/>
+    <image id="xdeb9v" name="_0113_鳙" size="61,50"/>
+    <image id="f5nr2k" name="zzzzz" size="578,100" scale="9grid" scale9grid="145,25,290,50" exported="true"/>
+    <image id="xdeb9p" name="_0119_麻" size="62,51"/>
+    <image id="xdeb37" name="_0034_beibao" size="108,145"/>
+    <image id="9ybyhdo" name="经验条" size="28,25" exported="true" scale="9grid" scale9grid="7,7,14,14"/>
+    <component id="q138hcu" name="loadCircle" exported="true" size="750,1334"/>
+    <image id="ee7whcq" name="尾3" size="65,53"/>
+    <component id="9ocdb7" name="滚动条H" exported="true" size="200,9"/>
+    <image id="xdeba4" name="_0104_鲴" size="60,50"/>
+    <component id="8b5dhd3" name="按钮1" size="81,66"/>
+    <image id="xdeb7q" name="_0024_龙" size="62,52"/>
+    <image id="w0dshem" name="07" size="91,125"/>
+    <image id="xdeb7l" name="_0029_青" size="58,52"/>
+    <image id="bd78hd5" name="4" size="100,100" exported="true"/>
+    <image id="xdebag" name="_0092_鲌" size="60,50"/>
+    <image id="xdeb80" name="_0014_口" size="58,47"/>
+    <image id="xdeba3" name="_0105_长" size="54,51"/>
+    <image id="f5nr2l" name="_0003_lvanniu" size="185,67" exported="true"/>
+    <component id="111chc8" name="addCoin" exported="true" size="223,54"/>
+    <image id="xdeb9b" name="_0053_高" size="62,52"/>
+    <image id="btn9hdv" name="确定按钮" size="233,95"/>
+    <image id="xdeb92" name="_0062_长" size="56,53"/>
+    <image id="ee7whcl" name="数3" size="68,57"/>
+    <image id="btn9hdx" name="头像选择指示" size="35,19"/>
+    <component id="9ocdb4" name="滚动条1_arrow2" size="9,20"/>
+    <image id="ee7whca" name="重2" size="68,53"/>
+    <image id="xdeba8" name="_0100_口" size="56,45"/>
+    <image id="sd1b18" name="_0000_0" size="16,20"/>
+    <component id="w0dshef" name="addTili" exported="true" size="227,46"/>
+    <image id="sd1b16" name="_0002_2" size="16,20"/>
+    <image id="f5nr2m" name="_0001_redanniu" size="183,65" exported="true"/>
+    <image id="xdeb9a" name="_0054_体" size="58,52"/>
+    <image id="xdeb8w" name="_0068_刀" size="61,48"/>
+    <image id="xdeba1" name="_0107_鲂" size="61,51"/>
+    <image id="xdeb96" name="_0058_铜" size="60,52"/>
+    <component id="ugudhcz" name="hostFailHint" exported="true" size="600,335"/>
+    <image id="xdeb7a" name="_0040_大-" size="51,43"/>
+    <image id="xdeb8t" name="_0071_鯮" size="64,52"/>
+    <image id="xdeb9o" name="_0120_鲫" size="60,50"/>
+    <image id="ee7whc9" name="总2" size="62,55"/>
+    <image id="9ybyhdq" name="头像底框" size="108,108" exported="true"/>
+    <image id="xdeb7f" name="_0035_鲤" size="63,52"/>
+    <image id="xdeb9c" name="_0052_鮈" size="63,52"/>
+    <image id="f5nr2n" name="_0004_anniu" size="185,67" exported="true"/>
+    <component id="ugudhcx" name="TipOpenBox" exported="true" size="600,335"/>
+    <image id="xdeb3g" name="_0005_anniu" size="185,67" exported="true"/>
+    <component id="bd78hda" name="按钮4" size="100,100"/>
+    <image id="q138hcv" name="littleLoading" size="199,199"/>
+    <image id="x26kc5" name="中3" size="61,59"/>
+    <image id="xdeb79" name="_0041_热-" size="51,43"/>
+    <component id="mbv0hd0" name="netFailHint" exported="true" size="600,335"/>
+    <image id="x26kc3" name="华3" size="65,60"/>
+    <component id="hyh9hea" name="jingyanbar" exported="true" size="310,36"/>
+    <image id="xdeb85" name="_0009_鮈" size="63,52"/>
+    <image id="xdeb8f" name="_0042_火-" size="51,43"/>
+    <image id="xdeb9d" name="_0051_鳊" size="62,53"/>
+    <component id="7w4fbc" name="netVoidHint" exported="true" size="600,335"/>
+    <image id="xdebaj" name="_0089_臀" size="58,48"/>
+    <image id="bd78hd4" name="3" size="100,100" exported="true"/>
+    <component id="bd78hdb" name="按钮5" size="100,100"/>
+    <component id="8b5dhd1" name="setNickMc" exported="true" size="600,600"/>
+    <image id="7w4fbd" name="_0005_yes" size="69,34" exported="true"/>
+    <component id="f5nr2o" name="normalBtn" exported="true" size="185,67"/>
+    <image id="ruiohey" name="模式底板" size="68,66" scale="9grid" scale9grid="17,17,34,34"/>
+    <image id="9ybyhdp" name="称号底板" size="24,30" exported="true" scale="9grid" scale9grid="6,8,12,16"/>
+    <image id="ee7whce" name="场2" size="63,55"/>
+    <image id="w0dshek" name="09" size="94,128"/>
+    <component id="f5nr2p" name="greenBtn" exported="true" size="185,67"/>
+    <image id="xdeb7j" name="_0031_鲛" size="63,53"/>
+    <image id="xdebaq" name="_0125_赛" size="49,41"/>
+    <image id="w0dsher" name="02" size="93,127"/>
+    <image id="w0dshej" name="比赛结束" size="321,104"/>
+    <image id="ee7whcj" name="数1" size="68,57"/>
+    <image id="ee7whcp" name="重3" size="68,53"/>
+    <image id="xdeb8s" name="_0072_青" size="58,52"/>
+    <image id="9ybyhdm" name="名字底板" size="58,41" exported="true" scale="9grid" scale9grid="10,11,18,19"/>
+    <image id="dnh2br" name="xdeb35" size="125,142" exported="true"/>
+    <component id="w0dshew" name="matchMsg" exported="true" size="750,1334"/>
+    <image id="ee7whci" name="尾1" size="65,53"/>
+    <component id="xdeb3f" name="TipBtn" size="83,83"/>
+    <image id="xdebai" name="_0090_近" size="60,51"/>
+    <component id="f5nr2q" name="redBtn" exported="true" size="183,65"/>
+    <component id="xdeb3j" name="goBtn" exported="true" size="185,67"/>
+    <image id="x26kc2" name="罗3" size="63,58"/>
+    <image id="xdeb9l" name="_0043_寡" size="62,53"/>
+    <image id="lmasbe" name="_0010_jiugongge" size="112,112" scale="9grid" scale9grid="28,28,56,56" exported="true"/>
+    <image id="xdeba5" name="_0103_吻" size="58,50"/>
+    <image id="xdebae" name="_0094_鳊" size="60,51"/>
+    <image id="xdeb83" name="_0011_体" size="58,52"/>
+    <image id="xdeb89" name="_0005_红" size="61,50"/>
+    <image id="ee7whcc" name="数2" size="68,57"/>
+    <component id="krsy2r" name="bottomUI" exported="true" size="750,149"/>
+  </resources>
+</packageDescription>xdeb38.xml|447|<component size="105,141" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb36" xy="0,0" size="105,141">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>xdebau.fnt|3129|info creator=UIBuilder size=50 resizable=true
+char id=23521 img=xdeb8e xoffset=0 yoffset=7 xadvance=0
+char id=40158 img=xdeb8d xoffset=0 yoffset=7 xadvance=0
+char id=30701 img=xdeb8c xoffset=0 yoffset=7 xadvance=0
+char id=33216 img=xdeb8b xoffset=0 yoffset=7 xadvance=0
+char id=36817 img=xdeb8a xoffset=0 yoffset=7 xadvance=0
+char id=32418 img=xdeb89 xoffset=0 yoffset=7 xadvance=0
+char id=40076 img=xdeb88 xoffset=0 yoffset=7 xadvance=0
+char id=21050 img=xdeb87 xoffset=0 yoffset=7 xadvance=0
+char id=40138 img=xdeb86 xoffset=0 yoffset=7 xadvance=0
+char id=39816 img=xdeb85 xoffset=0 yoffset=7 xadvance=0
+char id=39640 img=xdeb84 xoffset=0 yoffset=7 xadvance=0
+char id=20307 img=xdeb83 xoffset=0 yoffset=7 xadvance=0
+char id=40145 img=xdeb82 xoffset=0 yoffset=7 xadvance=0
+char id=40079 img=xdeb81 xoffset=0 yoffset=7 xadvance=0
+char id=21475 img=xdeb80 xoffset=0 yoffset=7 xadvance=0
+char id=38108 img=xdeb7z xoffset=0 yoffset=7 xadvance=0
+char id=22278 img=xdeb7y xoffset=0 yoffset=7 xadvance=0
+char id=21563 img=xdeb7x xoffset=0 yoffset=7 xadvance=0
+char id=40116 img=xdeb7w xoffset=0 yoffset=7 xadvance=0
+char id=38271 img=xdeb7v xoffset=0 yoffset=7 xadvance=0
+char id=20307 img=xdeb7u xoffset=0 yoffset=0 xadvance=0
+char id=40066 img=xdeb7t xoffset=0 yoffset=7 xadvance=0
+char id=40060 img=xdeb7s xoffset=0 yoffset=7 xadvance=0
+char id=37329 img=xdeb7r xoffset=0 yoffset=7 xadvance=0
+char id=40857 img=xdeb7q xoffset=0 yoffset=7 xadvance=0
+char id=20992 img=xdeb7p xoffset=0 yoffset=7 xadvance=0
+char id=40090 img=xdeb7o xoffset=0 yoffset=7 xadvance=0
+char id=40153 img=xdeb7n xoffset=0 yoffset=7 xadvance=0
+char id=39918 img=xdeb7m xoffset=0 yoffset=7 xadvance=0
+char id=38738 img=xdeb7l xoffset=0 yoffset=7 xadvance=0
+char id=20284 img=xdeb7k xoffset=0 yoffset=7 xadvance=0
+char id=40091 img=xdeb7j xoffset=0 yoffset=7 xadvance=0
+char id=40098 img=xdeb7i xoffset=0 yoffset=7 xadvance=0
+char id=40635 img=xdeb7h xoffset=0 yoffset=7 xadvance=0
+char id=40107 img=xdeb7g xoffset=0 yoffset=7 xadvance=0
+char id=40100 img=xdeb7f xoffset=0 yoffset=7 xadvance=0
+char id=33609 img=xdeb7e xoffset=0 yoffset=7 xadvance=0
+char id=40060 img=xdeb7d xoffset=0 yoffset=7 xadvance=0
+char id=40164 img=xdeb7c xoffset=0 yoffset=7 xadvance=0
+char id=36187 img=xdeb7b xoffset=0 yoffset=0 xadvance=0
+char id=22823 img=xdeb7a xoffset=4 yoffset=0 xadvance=0
+char id=28909 img=xdeb79 xoffset=0 yoffset=0 xadvance=0
+char id=28779 img=xdeb8f xoffset=0 yoffset=0 xadvance=0
+char id=94 img=9ocdb8 xoffset=0 yoffset=0 xadvance=0
+char id=38750 img=x26kbw xoffset=0 yoffset=7 xadvance=0
+char id=21326 img=x26kbv xoffset=0 yoffset=7 xadvance=0
+char id=32599 img=x26kbu xoffset=0 yoffset=7 xadvance=0
+char id=20013 img=x26kbs xoffset=0 yoffset=7 xadvance=0
+char id=40095 img=x26kbt xoffset=0 yoffset=7 xadvance=0
+char id=22330 img=ee7whce xoffset=0 yoffset=7 xadvance=0
+char id=21333 img=ee7whcd xoffset=0 yoffset=7 xadvance=0
+char id=25968 img=ee7whcc xoffset=0 yoffset=7 xadvance=0
+char id=23614 img=ee7whcb xoffset=0 yoffset=7 xadvance=0
+char id=37325 img=ee7whca xoffset=0 yoffset=7 xadvance=0
+char id=24635 img=ee7whc9 xoffset=0 yoffset=7 xadvance=0
+8b5dhd1.xml|2289|<component size="600,600">
+  <controller name="c1" pages="0,,1," selected="1"/>
+  <controller name="c2" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n25" name="n25" src="btn9hdy" xy="15,205" size="504,124" group="n30"/>
+    <image id="n26" name="n26" src="9ybyhdq" xy="19,213" group="n30"/>
+    <image id="n27" name="n27" src="9ybyhdq" xy="139,213" group="n30"/>
+    <image id="n28" name="n28" src="9ybyhdq" xy="259,213" group="n30"/>
+    <image id="n29" name="n29" src="9ybyhdq" xy="379,213" group="n30"/>
+    <image id="n24" name="n24" src="btn9hdx" xy="56,325" group="n30"/>
+    <group id="n30" name="n30" xy="15,205" size="504,139" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n19" name="n19" src="btn9hds" xy="-2,335"/>
+    <component id="n1" name="frame" src="pdjc32" xy="0,0" size="594,41"/>
+    <text id="n2" name="msgtf" xy="147,351" size="155,32" font="微软雅黑" fontSize="24" color="#cfe1fe" align="center" ubb="true" text="你的游戏昵称:"/>
+    <text id="n5" name="nametf" xy="167,398" size="315,45" input="true" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="none" text=""/>
+    <component id="n7" name="randomBtn" src="8b5dhd3" xy="506,397"/>
+    <component id="n14" name="1" src="bd78hd9" xy="23,216" group="n18">
+      <Button checked="true" controller="c2" page="0"/>
+    </component>
+    <component id="n15" name="4" src="bd78hda" xy="383,216" group="n18">
+      <Button controller="c2" page="3"/>
+    </component>
+    <component id="n16" name="3" src="bd78hdb" xy="263,216" group="n18">
+      <Button controller="c2" page="2"/>
+    </component>
+    <component id="n17" name="2" src="bd78hd8" xy="143,216" group="n18">
+      <Button controller="c2" page="1"/>
+    </component>
+    <group id="n18" name="n18" xy="23,216" size="460,100" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n20" name="n20" src="9ybyhdq" xy="20,350"/>
+    <text id="n22" name="msgtf" xy="24,468" size="101,32" font="微软雅黑" fontSize="24" color="#55e2fc" align="center" ubb="true" text="点击更换"/>
+    <component id="n23" name="btn" src="btn9hdw" xy="209,472"/>
+    <loader id="n21" name="headIcon" xy="24,354" size="100,146" fill="scale"/>
+  </displayList>
+</component>sd1b1d.fnt|576|info creator=UIBuilder size=24 resizable=true
+char id=48 img=sd1b18 xoffset=0 yoffset=0 xadvance=0
+char id=49 img=sd1b17 xoffset=0 yoffset=0 xadvance=0
+char id=50 img=sd1b16 xoffset=0 yoffset=0 xadvance=0
+char id=51 img=sd1b15 xoffset=0 yoffset=0 xadvance=0
+char id=52 img=sd1b14 xoffset=0 yoffset=0 xadvance=0
+char id=53 img=sd1b13 xoffset=0 yoffset=0 xadvance=0
+char id=54 img=sd1b12 xoffset=0 yoffset=0 xadvance=0
+char id=55 img=sd1b11 xoffset=0 yoffset=0 xadvance=0
+char id=56 img=sd1b10 xoffset=0 yoffset=0 xadvance=0
+char id=57 img=sd1b19 xoffset=0 yoffset=0 xadvance=0
+w0dshev.xml|126|<component size="321,104">
+  <displayList>
+    <image id="n0" name="n0" src="w0dshej" xy="0,0"/>
+  </displayList>
+</component>9ocdb7.xml|650|<component size="200,9">
+  <displayList>
+    <image id="n0" name="n0" src="9ocdb1" xy="200,0" size="9,200" rotation="90">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <graph id="n1" name="bar" xy="180,0" size="9,160" rotation="90">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <component id="n2" name="arrow1" src="9ocdb3" xy="200,0" rotation="90"/>
+    <component id="n3" name="arrow2" src="9ocdb4" xy="84,192" rotation="90">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n4" name="grip" src="9ocdb5" xy="68,0" rotation="90"/>
+  </displayList>
+</component>btn9hdw.xml|428|<component size="233,95" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="btn9hdv" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>bd78hda.xml|442|<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="bd78hd5" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>7w4fbc.xml|564|<component size="600,335">
+  <displayList>
+    <image id="n0" name="n0" src="pdjc31" xy="0,0"/>
+    <text id="n2" name="msgtf" xy="16,98" size="572,106" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="none" text="当前网络不可用，请检查是否连接了可用的Wifi或移动网络"/>
+    <component id="n3" name="btn" src="f5nr2o" xy="207,249">
+      <Button title="确认"/>
+    </component>
+    <text id="n5" name="n5" xy="250,4" size="99,40" font="微软雅黑" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="提示"/>
+  </displayList>
+</component>ruiohf4.xml|466|<component size="304,74">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="ruiohf0" xy="1,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n1" name="n1" src="ruiohez" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n2" name="n2" src="ruiohf1" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+  </displayList>
+</component>w0dsheu.xml|125|<component size="326,99">
+  <displayList>
+    <image id="n0" name="n0" src="w0dshei" xy="0,0"/>
+  </displayList>
+</component>q138hcu.xml|846|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="q138hcv" xy="274,566" pivot="99.5,99.5,0.5,0.5" size="200,200"/>
+    <text id="n2" name="n2" xy="319,647" size="112,40" font="微软雅黑" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="加载中"/>
+  </displayList>
+  <transition name="t1">
+    <item time="0" type="Rotation" target="n0" tween="true" startValue="0" endValue="360" duration="12" ease="Linear" repeat="-1"/>
+    <item time="0" type="Visible" target="n2" value="false"/>
+    <item time="0" type="Visible" target="n0" value="false"/>
+    <item time="12" type="Rotation" target="n0" tween="true" startValue="360" ease="Linear"/>
+    <item time="12" type="Visible" target="n0" value="true"/>
+    <item time="12" type="Visible" target="n2" value="true"/>
+  </transition>
+</component>gz2vhfk.xml|403|<component size="200,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="gz2vhf7" xy="16,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1" values="#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>8b5dhd3.xml|427|<component size="81,66" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="8b5dhd2" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>ugudhcx.xml|469|<component size="600,335">
+  <displayList>
+    <image id="n0" name="n0" src="pdjc31" xy="0,0"/>
+    <component id="n1" name="frame" src="pdjc32" xy="0,0" size="594,41"/>
+    <text id="n2" name="msgtf" xy="16,74" size="572,106" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="none" text=""/>
+    <component id="n3" name="btn" src="f5nr2o" xy="207,209"/>
+    <image id="n4" name="n4" src="7w4fbd" xy="264,225"/>
+  </displayList>
+</component>hyh9hee.xml|441|<component size="50,25" extention="ProgressBar">
+  <displayList>
+    <image id="n2" name="bar" src="hyh9hec" xy="0,0" size="50,25">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n3" name="title2" xy="0,0" size="226,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" bold="true" strokeColor="#000000" text="100/100"/>
+  </displayList>
+  <ProgressBar/>
+</component>111chc7.xml|607|<component size="223,54" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="krsy2u" xy="18,12" size="174,29">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n2" name="n2" src="gbfwbl" xy="-4,8"/>
+    <image id="n4" name="n4" src="krsy2x" xy="177,4">
+      <relation target="n0" sidePair="right-right"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>krsy2z.xml|430|<component size="46,45" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="krsy2x" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>krsy2r.xml|449|<component size="750,149">
+  <displayList>
+    <image id="n6" name="n6" src="evd8bb" xy="-5,0"/>
+    <component id="n2" name="packBtn" src="xdeb3a" xy="21,-8"/>
+    <component id="n1" name="fishBtn" src="xdeb3b" xy="169,-4"/>
+    <component id="n3" name="setBtn" src="xdeb39" xy="313,-3"/>
+    <component id="n4" name="shopBtn" src="xdeb38" xy="627,-3"/>
+    <component id="n7" name="mailBtn" src="i7kohcr" xy="470,1"/>
+  </displayList>
+</component>izu32e.xml|184|<movieclip pivot="200,10" interval="83" frameCount="3">
+  <frames>
+    <frame rect="0,0,400,20"/>
+    <frame rect="0,0,400,20"/>
+    <frame rect="0,0,400,20"/>
+  </frames>
+</movieclip>i7kohcr.xml|356|<component size="106,137" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="i7kohcs" xy="0,0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>xdeb3j.xml|966|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb3g" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="xdeb3h" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="xdeb3h" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="xdeb3h" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n5" name="n5" src="xdeb3i" xy="56,17"/>
+  </displayList>
+  <Button/>
+</component>dnh2bp.xml|355|<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="dnh2bq" xy="24,24">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>xdebav.fnt|3129|info creator=UIBuilder size=50 resizable=true
+char id=23521 img=xdeb9l xoffset=0 yoffset=7 xadvance=0
+char id=40158 img=xdeb9k xoffset=0 yoffset=7 xadvance=0
+char id=30701 img=xdeb9j xoffset=0 yoffset=7 xadvance=0
+char id=33216 img=xdeb9i xoffset=0 yoffset=7 xadvance=0
+char id=36817 img=xdeb9h xoffset=0 yoffset=7 xadvance=0
+char id=32418 img=xdeb9g xoffset=0 yoffset=7 xadvance=0
+char id=40076 img=xdeb9f xoffset=0 yoffset=7 xadvance=0
+char id=21050 img=xdeb9e xoffset=0 yoffset=7 xadvance=0
+char id=40138 img=xdeb9d xoffset=0 yoffset=7 xadvance=0
+char id=39816 img=xdeb9c xoffset=0 yoffset=7 xadvance=0
+char id=39640 img=xdeb9b xoffset=0 yoffset=7 xadvance=0
+char id=20307 img=xdeb9a xoffset=0 yoffset=7 xadvance=0
+char id=40145 img=xdeb99 xoffset=0 yoffset=7 xadvance=0
+char id=40079 img=xdeb98 xoffset=0 yoffset=7 xadvance=0
+char id=21475 img=xdeb97 xoffset=0 yoffset=7 xadvance=0
+char id=38108 img=xdeb96 xoffset=0 yoffset=7 xadvance=0
+char id=22278 img=xdeb95 xoffset=0 yoffset=7 xadvance=0
+char id=21563 img=xdeb94 xoffset=0 yoffset=7 xadvance=0
+char id=40116 img=xdeb93 xoffset=0 yoffset=7 xadvance=0
+char id=38271 img=xdeb92 xoffset=0 yoffset=7 xadvance=0
+char id=20307 img=xdeb91 xoffset=0 yoffset=7 xadvance=0
+char id=40066 img=xdeb90 xoffset=0 yoffset=7 xadvance=0
+char id=23043 img=xdeb8z xoffset=0 yoffset=7 xadvance=0
+char id=37329 img=xdeb8y xoffset=0 yoffset=7 xadvance=0
+char id=40857 img=xdeb8x xoffset=0 yoffset=7 xadvance=0
+char id=20992 img=xdeb8w xoffset=0 yoffset=7 xadvance=0
+char id=40090 img=xdeb8v xoffset=0 yoffset=7 xadvance=0
+char id=40153 img=xdeb8u xoffset=0 yoffset=7 xadvance=0
+char id=39918 img=xdeb8t xoffset=0 yoffset=7 xadvance=0
+char id=38738 img=xdeb8s xoffset=0 yoffset=7 xadvance=0
+char id=20284 img=xdeb8r xoffset=0 yoffset=7 xadvance=0
+char id=40091 img=xdeb8q xoffset=0 yoffset=7 xadvance=0
+char id=40098 img=xdeb8p xoffset=0 yoffset=7 xadvance=0
+char id=40635 img=xdeb8o xoffset=0 yoffset=7 xadvance=0
+char id=40107 img=xdeb8n xoffset=0 yoffset=7 xadvance=0
+char id=40100 img=xdeb8m xoffset=0 yoffset=7 xadvance=0
+char id=33609 img=xdeb8l xoffset=0 yoffset=7 xadvance=0
+char id=40060 img=xdeb8k xoffset=0 yoffset=7 xadvance=0
+char id=40164 img=xdeb8j xoffset=0 yoffset=7 xadvance=0
+char id=36187 img=xdeb8i xoffset=0 yoffset=0 xadvance=0
+char id=22823 img=xdeb8h xoffset=4 yoffset=0 xadvance=0
+char id=28909 img=xdeb8g xoffset=0 yoffset=0 xadvance=0
+char id=28779 img=xdeb9m xoffset=0 yoffset=0 xadvance=0
+char id=94 img=9ocdb9 xoffset=0 yoffset=0 xadvance=0
+char id=38750 img=x26kc1 xoffset=0 yoffset=7 xadvance=0
+char id=21326 img=x26kc0 xoffset=0 yoffset=7 xadvance=0
+char id=32599 img=x26kbz xoffset=0 yoffset=7 xadvance=0
+char id=20013 img=x26kbx xoffset=0 yoffset=7 xadvance=0
+char id=40095 img=x26kby xoffset=0 yoffset=7 xadvance=0
+char id=22330 img=ee7whcf xoffset=0 yoffset=7 xadvance=0
+char id=21333 img=ee7whck xoffset=0 yoffset=7 xadvance=0
+char id=25968 img=ee7whcj xoffset=0 yoffset=7 xadvance=0
+char id=23614 img=ee7whci xoffset=0 yoffset=7 xadvance=0
+char id=37325 img=ee7whch xoffset=0 yoffset=7 xadvance=0
+char id=24635 img=ee7whcg xoffset=0 yoffset=7 xadvance=0
+f5nr2q.xml|402|<component size="183,65" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" pkg="lt21tmve" src="f5nr2m" name="n1" xy="0,0">
+      <gearColor controller="button" pages="0,1,2,3" values="#FFFFFF|#A0A0A0|#FFFFFF|#A0A0A0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>w0dshex.xml|583|<component size="750,1334" opaque="false">
+  <displayList>
+    <text id="n0" name="bigtf" xy="174,344" size="401,150" font="ui://lt21tmvew0dshet" fontSize="40" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="1">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n1" name="smalltf" xy="100,93" size="74,62" font="ui://lt21tmvew0dshet" fontSize="18" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="1">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+  </displayList>
+</component>tlvpbh.xml|230|<component size="750,141" opaque="false">
+  <displayList>
+    <component id="n27" name="BackBtn" src="krsy30" xy="24,33"/>
+    <component id="n37" name="n37" src="xdeb3f" xy="637,24" visible="false"/>
+  </displayList>
+</component>izu32h.xml|146|<component size="400,20" overflow="hidden">
+  <displayList>
+    <movieclip id="n0" name="n0" src="izu32e" xy="0,0"/>
+  </displayList>
+</component>w0dshef.xml|608|<component size="227,46" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="2"/>
+  <displayList>
+    <image id="n7" name="n7" src="krsy2u" xy="22,8" size="174,29">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n9" name="n9" src="krsy2x" xy="174,0">
+      <relation target="n7" sidePair="right-right"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+    <image id="n10" name="n10" src="9ybyhdl" xy="0,0"/>
+  </displayList>
+  <Button/>
+</component>xdeb39.xml|447|<component size="125,142" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="dnh2br" xy="0,0" size="125,142">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>bd78hdc.xml|453|<component size="600,600">
+  <displayList>
+    <component id="n1" name="frame" src="pdjc32" xy="4,2" size="594,41"/>
+    <image id="n15" name="n15" src="gz2vhf5" xy="0,0"/>
+    <image id="n16" name="n16" src="gz2vhf6" xy="196,16"/>
+    <component id="n14" name="msgTf" src="bd78hdi" xy="34,82"/>
+    <component id="n21" name="n21" src="gz2vhfg" xy="367,579"/>
+    <component id="n22" name="btn" src="gz2vhfk" xy="203,672"/>
+  </displayList>
+</component>hyh9hea.xml|499|<component size="310,36">
+  <displayList>
+    <image id="n2" name="n2" src="9ybyhdn" xy="0,0" size="310,30"/>
+    <component id="n6" name="bar" src="hyh9hee" xy="78,3" size="226,25">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n7" name="n7" xy="5,1" size="69,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" ubb="true" bold="true" strokeColor="#000000" text="[color=#f2e7b7]Lv [color][color=#f2c508]28[color]"/>
+  </displayList>
+</component>9ocdb6.xml|597|<component size="9,200" extention="ScrollBar">
+  <ScrollBar/>
+  <displayList>
+    <image id="n1" src="9ocdb1" name="n1" xy="0,0" size="9,200">
+      <relation target="" sidePair="height"/>
+    </image>
+    <graph id="n2" name="bar" xy="0,20" size="9,160">
+      <relation target="" sidePair="height"/>
+    </graph>
+    <component id="n3" name="arrow1" xy="0,0" src="9ocdb3"/>
+    <component id="n4" name="arrow2" xy="0,180" src="9ocdb4">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n5" name="grip" xy="0,20" src="9ocdb5"/>
+  </displayList>
+</component>pylp2c.xml|1042|<component size="750,141" opaque="false">
+  <displayList>
+    <component id="n27" name="BackBtn" src="krsy30" xy="24,33"/>
+    <image id="n28" name="n28" src="krsy2u" xy="152,49"/>
+    <image id="n29" name="n29" src="krsy2u" xy="395,49"/>
+    <image id="n30" name="n30" src="krsy2w" xy="148,38"/>
+    <image id="n31" name="n31" src="gbfwbl" xy="380,40"/>
+    <component id="n32" name="addCoinBtn" src="krsy2z" xy="325,44"/>
+    <component id="n33" name="addGoldBtn" src="krsy2z" xy="569,44"/>
+    <text id="n35" name="cointf" xy="198,52" size="130,33" font="微软雅黑" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" italic="true" strokeColor="#0b1635" strokeSize="2" text="999,999,999 "/>
+    <text id="n36" name="goldtf" xy="441,52" size="114,33" font="微软雅黑" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" italic="true" strokeColor="#0b1635" strokeSize="2" text="999,999,999 "/>
+    <component id="n37" name="n37" src="xdeb3f" xy="637,24" visible="false"/>
+  </displayList>
+</component>izu32f.xml|522|<component size="404,24" extention="ProgressBar">
+  <displayList>
+    <image id="n1" name="n1" src="izu32g" xy="0,0" size="404,24">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3" name="bar" src="izu32h" xy="2,2"/>
+    <text id="n4" name="title" xy="2,0" size="396,24" visible="false" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="height" strokeColor="#000000" singleLine="true" text="1000/2000"/>
+  </displayList>
+  <ProgressBar/>
+</component>w0dshet.fnt|586|info creator=UIBuilder size=40 resizable=true
+char id=48 img=w0dsheh xoffset=0 yoffset=0 xadvance=0
+char id=49 img=w0dshes xoffset=0 yoffset=0 xadvance=0
+char id=50 img=w0dsher xoffset=0 yoffset=0 xadvance=0
+char id=51 img=w0dsheq xoffset=0 yoffset=0 xadvance=0
+char id=52 img=w0dshep xoffset=0 yoffset=0 xadvance=0
+char id=53 img=w0dsheo xoffset=0 yoffset=0 xadvance=0
+char id=54 img=w0dshen xoffset=0 yoffset=0 xadvance=0
+char id=55 img=w0dshem xoffset=0 yoffset=0 xadvance=0
+char id=56 img=w0dshel xoffset=0 yoffset=0 xadvance=0
+char id=57 img=w0dshek xoffset=0 yoffset=0 xadvance=0
+qmmt33.xml|749|<component size="750,1334" opaque="false">
+  <displayList>
+    <text id="n0" name="msg" xy="-1,543" size="751,52" fontSize="40" color="#ffff00" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="获得金币100"/>
+  </displayList>
+  <transition name="play">
+    <item time="0" type="Alpha" target="n0" value="1"/>
+    <item time="0" type="XY" target="n0" tween="true" startValue="-,-" endValue="-1,443" duration="12"/>
+    <item time="24" type="Alpha" target="n0" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="24" type="XY" target="n0" tween="true" startValue="-1,443" endValue="-1,343" duration="12"/>
+    <item time="36" type="Alpha" target="n0" tween="true" startValue="0"/>
+  </transition>
+</component>gbfwbm.xml|587|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="xdeb3g" xy="0,0" color="#a0a0a0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+    <text id="n1" name="title" xy="46,17" size="92,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" letterSpacing="10" autoSize="height" text=""/>
+    <loader id="n2" name="icon" xy="27,8" size="130,50"/>
+  </displayList>
+  <Button/>
+</component>111chc8.xml|607|<component size="223,54" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="krsy2u" xy="18,12" size="174,29">
+      <relation target="" sidePair="width-width"/>
+    </image>
+    <image id="n2" name="n2" src="krsy2w" xy="-4,4"/>
+    <image id="n4" name="n4" src="krsy2x" xy="177,4">
+      <relation target="n0" sidePair="right-right"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>izu32d.xml|878|<component size="750,1334">
+  <displayList>
+    <image id="n4" name="back" src="xdeb3d" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n0" name="n0" src="izu32f" xy="174,1078">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+      <ProgressBar max="100"/>
+    </component>
+    <text id="n1" name="txt" xy="189,1051" size="373,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" strokeColor="#000000" text="正在加载">
+      <relation target="" sidePair="center-center,bottom-bottom%"/>
+    </text>
+    <text id="n3" name="txt" xy="188,646" size="373,42" fontSize="38" color="#ffff00" align="center" vAlign="middle" autoSize="height" strokeColor="#000000" text="战斗加载中">
+      <relation target="" sidePair="center-center,top-top%"/>
+    </text>
+  </displayList>
+</component>xdeb3f.xml|471|<component size="83,83" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="xdeb3e" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>i7kohct.xml|555|<component size="223,110" opaque="false">
+  <displayList>
+    <component id="n46" name="addCoinBtn" src="111chc8" xy="0,0"/>
+    <component id="n47" name="addGoldBtn" src="111chc7" xy="0,48"/>
+    <text id="n36" name="goldtf" xy="45,60" size="130,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="999999999"/>
+    <text id="n35" name="cointf" xy="44,12" size="130,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="999999999 "/>
+  </displayList>
+</component>bd78hdi.xml|249|<component size="540,500" overflow="scroll" scrollBarFlags="4" scrollBar="hidden">
+  <displayList>
+    <text id="n0" name="msg" xy="0,0" size="540,38" fontSize="30" color="#ffffff" ubb="true" autoSize="height" text=""/>
+  </displayList>
+</component>ugudhcz.xml|662|<component size="600,335">
+  <displayList>
+    <image id="n0" name="n0" src="pdjc31" xy="0,0"/>
+    <text id="n2" name="msgtf" xy="16,98" size="572,106" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="none" text="获取服务器地址失败"/>
+    <component id="n3" name="quitBtn" src="f5nr2o" xy="85,236">
+      <Button title="退出游戏"/>
+    </component>
+    <text id="n5" name="n5" xy="250,4" size="99,40" font="微软雅黑" fontSize="30" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="提示"/>
+    <component id="n6" name="reconBtn" src="f5nr2o" xy="329,236">
+      <Button title="重新获取"/>
+    </component>
+  </displayList>
+</component>pdjc32.xml|467|<component size="573,41">
+  <displayList>
+    <graph id="n3" name="dragArea" xy="0,0" size="500,40">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <graph id="n4" name="closeButton" xy="501,1" size="72,40">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <text id="n5" name="title" xy="207,6" size="109,32" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#3366ff" text=""/>
+  </displayList>
+</component>9ocdb3.xml|169|<component size="9,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList/>
+  <Button/>
+</component>9ocdb4.xml|169|<component size="9,20" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList/>
+  <Button/>
+</component>tlvpbg.xml|562|<component size="750,141" opaque="false">
+  <displayList>
+    <component id="n46" name="addCoinBtn" src="111chc8" xy="154,28"/>
+    <component id="n47" name="addGoldBtn" src="111chc7" xy="402,28"/>
+    <text id="n36" name="goldtf" xy="447,40" size="130,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="999999999"/>
+    <text id="n35" name="cointf" xy="198,40" size="130,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="999999999 "/>
+  </displayList>
+</component>krsy30.xml|430|<component size="83,68" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="krsy2y" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>bd78hdb.xml|442|<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="bd78hd4" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>w0dshew.xml|1307|<component size="750,1334">
+  <displayList>
+    <image id="n1" name="n1" src="ruiohey" xy="-413,340" size="414,158" group="n7">
+      <relation target="" sidePair="left-left%,center-center"/>
+    </image>
+    <image id="n5" name="n5" src="ruiohf2" xy="-348,399" group="n7">
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n6" name="n6" src="ruiohf3" xy="-301,359" group="n7">
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </image>
+    <component id="n8" name="n8" src="ruiohf4" xy="-360,409" group="n7">
+      <relation target="n1" sidePair="center-center,middle-middle"/>
+    </component>
+    <group id="n7" name="n7" xy="-413,340" size="414,158" advanced="true">
+      <relation target="" sidePair="left-left"/>
+    </group>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n7" tween="true" startValue="-,-" endValue="168,340" duration="12"/>
+    <item time="0" type="XY" target="n0" tween="true" startValue="-,-" endValue="174,344" duration="12"/>
+    <item time="48" type="XY" target="n7" tween="true" startValue="168,340" endValue="746,340" duration="12"/>
+    <item time="84" type="XY" target="n0" tween="true" startValue="174,344" endValue="749,344" duration="12"/>
+  </transition>
+</component>f5nr2o.xml|608|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="f5nr2n" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="#ffffff|#a0a0a0|#ffffff|#a0a0a0" default="#ffffff"/>
+    </image>
+    <text id="n3" name="title" xy="38,17" size="109,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#3366ff" text=""/>
+  </displayList>
+  <Button/>
+</component>xdebaw.fnt|3129|info creator=UIBuilder size=50 resizable=true
+char id=23521 img=xdebam xoffset=0 yoffset=7 xadvance=0
+char id=40158 img=xdebal xoffset=0 yoffset=7 xadvance=0
+char id=30701 img=xdebak xoffset=0 yoffset=7 xadvance=0
+char id=33216 img=xdebaj xoffset=0 yoffset=7 xadvance=0
+char id=36817 img=xdebai xoffset=0 yoffset=7 xadvance=0
+char id=32418 img=xdebah xoffset=0 yoffset=7 xadvance=0
+char id=40076 img=xdebag xoffset=0 yoffset=7 xadvance=0
+char id=21050 img=xdebaf xoffset=0 yoffset=7 xadvance=0
+char id=40138 img=xdebae xoffset=0 yoffset=7 xadvance=0
+char id=39816 img=xdebad xoffset=0 yoffset=7 xadvance=0
+char id=39640 img=xdebac xoffset=0 yoffset=7 xadvance=0
+char id=20307 img=xdebab xoffset=0 yoffset=7 xadvance=0
+char id=40145 img=xdebaa xoffset=0 yoffset=7 xadvance=0
+char id=40079 img=xdeba9 xoffset=0 yoffset=7 xadvance=0
+char id=21475 img=xdeba8 xoffset=0 yoffset=7 xadvance=0
+char id=38108 img=xdeba7 xoffset=0 yoffset=7 xadvance=0
+char id=22278 img=xdeba6 xoffset=0 yoffset=7 xadvance=0
+char id=21563 img=xdeba5 xoffset=0 yoffset=7 xadvance=0
+char id=40116 img=xdeba4 xoffset=0 yoffset=7 xadvance=0
+char id=38271 img=xdeba3 xoffset=0 yoffset=7 xadvance=0
+char id=20307 img=xdeba2 xoffset=0 yoffset=7 xadvance=0
+char id=40066 img=xdeba1 xoffset=0 yoffset=7 xadvance=0
+char id=23043 img=xdeba0 xoffset=0 yoffset=7 xadvance=0
+char id=37329 img=xdeb9z xoffset=0 yoffset=7 xadvance=0
+char id=40857 img=xdeb9y xoffset=0 yoffset=7 xadvance=0
+char id=20992 img=xdeb9x xoffset=0 yoffset=7 xadvance=0
+char id=40090 img=xdeb9w xoffset=0 yoffset=7 xadvance=0
+char id=40153 img=xdeb9v xoffset=0 yoffset=7 xadvance=0
+char id=39918 img=xdeb9u xoffset=0 yoffset=7 xadvance=0
+char id=38738 img=xdeb9t xoffset=0 yoffset=7 xadvance=0
+char id=20284 img=xdeb9s xoffset=0 yoffset=7 xadvance=0
+char id=40091 img=xdeb9r xoffset=0 yoffset=7 xadvance=0
+char id=40098 img=xdeb9q xoffset=0 yoffset=7 xadvance=0
+char id=40635 img=xdeb9p xoffset=0 yoffset=7 xadvance=0
+char id=40107 img=xdeb9o xoffset=0 yoffset=7 xadvance=0
+char id=40100 img=xdeb9n xoffset=0 yoffset=7 xadvance=0
+char id=33609 img=xdebat xoffset=0 yoffset=7 xadvance=0
+char id=40060 img=xdebas xoffset=0 yoffset=7 xadvance=0
+char id=40164 img=xdebar xoffset=0 yoffset=7 xadvance=0
+char id=36187 img=xdebaq xoffset=0 yoffset=0 xadvance=0
+char id=22823 img=xdebap xoffset=4 yoffset=0 xadvance=0
+char id=28909 img=xdebao xoffset=0 yoffset=0 xadvance=0
+char id=28779 img=xdeban xoffset=0 yoffset=0 xadvance=0
+char id=94 img=9ocdba xoffset=0 yoffset=0 xadvance=0
+char id=38750 img=x26kc4 xoffset=0 yoffset=7 xadvance=0
+char id=21326 img=x26kc3 xoffset=0 yoffset=7 xadvance=0
+char id=32599 img=x26kc2 xoffset=0 yoffset=7 xadvance=0
+char id=20013 img=x26kc5 xoffset=0 yoffset=7 xadvance=0
+char id=40095 img=x26kc6 xoffset=0 yoffset=7 xadvance=0
+char id=22330 img=ee7whcn xoffset=0 yoffset=7 xadvance=0
+char id=21333 img=ee7whcm xoffset=0 yoffset=7 xadvance=0
+char id=25968 img=ee7whcl xoffset=0 yoffset=7 xadvance=0
+char id=23614 img=ee7whcq xoffset=0 yoffset=7 xadvance=0
+char id=37325 img=ee7whcp xoffset=0 yoffset=7 xadvance=0
+char id=24635 img=ee7whco xoffset=0 yoffset=7 xadvance=0
+9ocdb5.xml|852|<component size="9,20" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="9ocdb2" name="n1" xy="0,-26">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2" src="9ocdb2" name="n2" xy="0,-26">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n3" src="9ocdb2" name="n3" xy="0,-26">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n4" src="9ocdb2" name="n4" xy="0,-26">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>qh45hdj.xml|1482|<component size="750,141">
+  <displayList>
+    <image id="n4" name="n4" src="9ybyhdq" xy="4,16"/>
+    <component id="n27" name="n27" src="w0dshef" xy="539,90" size="218,46"/>
+    <loader id="n0" name="loader" xy="8,20" size="100,100" align="center" vAlign="middle" fill="scaleFree"/>
+    <component id="n7" name="addCoinBtn" src="111chc8" xy="314,6" size="212,54"/>
+    <component id="n8" name="addGoldBtn" src="111chc7" xy="539,8" size="212,54"/>
+    <text id="n9" name="goldtf" xy="579,19" size="130,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="999999999"/>
+    <text id="n10" name="cointf" xy="351,19" size="130,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="999999999 "/>
+    <text id="n15" name="tilitf" xy="578,97" size="130,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="100/100"/>
+    <image id="n16" name="n16" src="9ybyhdp" xy="110,17" size="136,30"/>
+    <image id="n17" name="n17" src="9ybyhdm" xy="111,52" size="207,41"/>
+    <text id="n22" name="nameTf" xy="110,56" size="191,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="名字限制七个字"/>
+    <text id="n23" name="chenghaoTf" xy="120,19" size="122,27" font="微软雅黑" fontSize="20" color="#87fbff" vAlign="middle" autoSize="none" strokeColor="#000000" text="钓鱼大师"/>
+  </displayList>
+</component>bd78hd8.xml|426|<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="bd78hd7" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

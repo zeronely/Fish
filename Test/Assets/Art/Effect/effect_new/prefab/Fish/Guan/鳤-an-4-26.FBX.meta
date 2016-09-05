@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: e24b39f8f7a2d44469babf4578a824a3
+timeCreated: 1461742688
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone010
+    100012: Bone011
+    100014: Bone012
+    100016: Bone013
+    100018: Bone015
+    100020: Bone017
+    100022: Bone018
+    100024: Bone019
+    100026: Bone020
+    100028: Bone025
+    100030: Bone025(mirrored)
+    100032: Bone026
+    100034: Bone028
+    100036: gaotipangpi
+    100038: "\u9CE4"
+    100040: //RootNode
+    100042: Bone029
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone010
+    400012: Bone011
+    400014: Bone012
+    400016: Bone013
+    400018: Bone015
+    400020: Bone017
+    400022: Bone018
+    400024: Bone019
+    400026: Bone020
+    400028: Bone025
+    400030: Bone025(mirrored)
+    400032: Bone026
+    400034: Bone028
+    400036: gaotipangpi
+    400038: "\u9CE4"
+    400040: //RootNode
+    400042: Bone029
+    4300000: "\u9CE4"
+    7400000: ZhengZa
+    7400002: Getup
+    9500000: //RootNode
+    13700000: "\u9CE4"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ZhengZa
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gaotipangpi
+        weight: 1
+      - path: gaotipangpi/Bone001
+        weight: 1
+      - path: gaotipangpi/Bone001/Bone026
+        weight: 1
+      - path: gaotipangpi/Bone001/Bone028
+        weight: 1
+      - path: gaotipangpi/Bone002
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005/Bone010
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005/Bone010/Bone011
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005/Bone010/Bone011/Bone012
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone017
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone017/Bone020
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone013
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone013/Bone018
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone015
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone015/Bone019
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone025
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone025(mirrored)
+        weight: 1
+      - path: "\u9CE4"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Getup
+      takeName: Take 001
+      firstFrame: 86
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: gaotipangpi
+        weight: 1
+      - path: gaotipangpi/Bone001
+        weight: 1
+      - path: gaotipangpi/Bone001/Bone026
+        weight: 1
+      - path: gaotipangpi/Bone001/Bone028
+        weight: 1
+      - path: gaotipangpi/Bone002
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005/Bone010
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005/Bone010/Bone011
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone005/Bone010/Bone011/Bone012
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone017
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone004/Bone017/Bone020
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone013
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone013/Bone018
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone015
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone003/Bone015/Bone019
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone025
+        weight: 1
+      - path: gaotipangpi/Bone002/Bone025(mirrored)
+        weight: 1
+      - path: "\u9CE4"
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

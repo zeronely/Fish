@@ -1,0 +1,141 @@
+8n7ov.xml|1190|<component size="600,335">
+  <displayList>
+    <image id="n3" name="n3" src="pdjc31" pkg="lt21tmve" xy="0,0"/>
+    <text id="n4" name="msgtf" xy="77,91" size="74,40" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="height" text="花费"/>
+    <component id="n5" name="aliPay" src="f5nr2o" pkg="lt21tmve" xy="84,232">
+      <Button title="支付宝"/>
+    </component>
+    <component id="n6" name="weixinPay" src="f5nr2o" pkg="lt21tmve" xy="342,232">
+      <Button title="微信"/>
+    </component>
+    <text id="n7" name="moneytf" xy="152,91" size="81,40" font="微软雅黑" fontSize="30" color="#ffff00" align="center" vAlign="middle" ubb="true" autoSize="none" text=""/>
+    <text id="n8" name="msgtf" xy="235,90" size="107,40" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="height" text="元购买"/>
+    <text id="n9" name="goldtf" xy="344,90" size="95,40" font="微软雅黑" fontSize="30" color="#ffff00" align="center" vAlign="middle" ubb="true" autoSize="none" text=""/>
+    <text id="n10" name="msgtf" xy="442,89" size="106,40" font="微软雅黑" fontSize="30" color="#e9edff" align="center" ubb="true" autoSize="height" text="个彩钻"/>
+  </displayList>
+</component>i98zr.xml|1217|<component size="745,709" opaque="false">
+  <controller name="c1" pages="0,1,1,2,2,3" selected="0"/>
+  <displayList>
+    <loader id="n0" name="loader" xy="38,0" size="668,681" touchable="false"/>
+    <component id="n3" name="goBtn" src="xdeb3j" pkg="lt21tmve" xy="283,575"/>
+    <text id="n6" name="n6" xy="167,432" size="431,41" fontSize="30" color="#ffffff" align="center" autoSize="none" bold="true" text="规则"/>
+    <text id="n7" name="tx3" xy="169,491" size="431,69" font="微软雅黑" fontSize="20" color="#ffffff" leading="10" ubb="true" autoSize="none" text="15秒内同时进入的玩家将被安排在同一钓场一齐竞赛！">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <text id="n8" name="tx2" xy="168,491" size="431,69" font="微软雅黑" fontSize="20" color="#ffffff" leading="10" ubb="true" autoSize="none" text="以[color=#fbdd79]3[/color]人为一组的团体赛，己方每位队员在比赛项目中[color=#fbdd79]3选1[/color]与对手比拼，且不可重复选择">
+      <gearDisplay controller="c1" pages="1"/>
+    </text>
+    <text id="n9" name="tx1" xy="168,491" size="431,69" font="微软雅黑" fontSize="20" color="#ffffff" leading="10" ubb="true" autoSize="none" text="分为[color=#fbdd79]1v1单挑赛、16人挑战赛、50人大乱斗[/color]">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+  </displayList>
+</component>package.xml|1674|<packageDescription id="vdl62vz4" name="SelectMatchUI">
+  <resources>
+    <image id="xdebs" name="Match2" size="668,681" exported="true"/>
+    <component id="sd1bb" name="selectMatch" exported="true" size="750,1334"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="gbfw15" name="_0014_3" size="170,117"/>
+    <component id="dnh21l" name="buyGoldWindow" exported="true" size="608,629"/>
+    <image id="gbfw12" name="_0009_8" size="153,139"/>
+    <image id="xdebu" name="Match1" size="668,681" exported="true"/>
+    <component id="kx3a1i" name="restoreWindow" exported="true" size="600,335"/>
+    <image id="gbfw18" name="_0011_6" size="180,130"/>
+    <component id="8n7ov" name="payWindow" exported="true" size="600,335"/>
+    <image id="dnh21j" name="Match3" size="668,681" exported="true"/>
+    <image id="gbfwy" name="di" size="750,1334"/>
+    <image id="gbfw16" name="_0013_4" size="172,140"/>
+    <image id="gbfw13" name="_0016_1" size="169,111"/>
+    <image id="gbfw19" name="_0010_7" size="148,145"/>
+    <image id="gbfw10" name="_0018_tubiao" size="215,260"/>
+    <component id="dnh21m" name="buyGoldBtn" size="194,73"/>
+    <component id="i98zr" name="selectBtn" exported="true" size="745,709"/>
+    <image id="i7ko21" name="VIP" size="95,29" exported="true"/>
+    <image id="gbfw17" name="_0012_5" size="162,130"/>
+    <image id="dnh21k" name="03" size="608,629"/>
+    <component id="gbfww" name="PayUI" exported="true" size="750,1334"/>
+    <image id="dnh21n" name="07" size="194,73"/>
+    <component id="gbfwz" name="recharge" size="210,260"/>
+    <image id="gbfw14" name="_0015_2" size="155,111"/>
+  </resources>
+</packageDescription>dnh21m.xml|348|<component size="194,73" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="dnh21n" xy="0,0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|-" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>sd1bb.xml|161|<component size="750,1334" margin="0,1334,0,0">
+  <displayList>
+    <image id="n1" name="n8" src="xdeb3d" pkg="lt21tmve" xy="0,0"/>
+  </displayList>
+</component>gbfww.xml|627|<component size="750,1334">
+  <displayList>
+    <image id="n1" name="n1" src="gbfwy" xy="0,0"/>
+    <list id="n2" name="list" xy="120,178" size="509,1125" layout="flow_hz" margin="0,0,0,0" lineGap="9" colGap="70" lineItemCount="2" defaultItem="ui://vdl62vz4gbfwz">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3" name="restoreBtn" src="f5nr2o" pkg="lt21tmve" xy="551,116">
+      <Button title="恢复购买"/>
+    </component>
+    <component id="n4" name="simpleTile" src="tlvpbg" pkg="lt21tmve" xy="0,0"/>
+  </displayList>
+</component>gbfwz.xml|1646|<component size="210,260">
+  <controller name="c1" pages="0,,1,,2,,3,,4,,5,,6,,7," selected="7"/>
+  <displayList>
+    <image id="n0" name="n0" src="gbfw10" xy="0,0"/>
+    <text id="n1" name="zuanNum" xy="39,64" size="69,32" font="微软雅黑" fontSize="24" color="#ffce54" align="right" autoSize="none" text="10"/>
+    <text id="n2" name="n2" xy="107,64" size="62,32" font="微软雅黑" fontSize="24" color="#ffce54" autoSize="none" text="彩钻"/>
+    <image id="n4" name="n4" src="gbfw12" xy="48,83">
+      <gearDisplay controller="c1" pages="7"/>
+    </image>
+    <image id="n5" name="n5" src="gbfw19" xy="23,91">
+      <gearDisplay controller="c1" pages="6"/>
+    </image>
+    <image id="n6" name="n6" src="gbfw18" xy="6,86">
+      <gearDisplay controller="c1" pages="5"/>
+    </image>
+    <image id="n7" name="n7" src="gbfw17" xy="25,91">
+      <gearDisplay controller="c1" pages="4"/>
+    </image>
+    <image id="n8" name="n8" src="gbfw16" xy="15,80">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+    <image id="n9" name="n9" src="gbfw15" xy="7,95">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n10" name="n10" src="gbfw14" xy="15,100">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n11" name="n11" src="gbfw13" xy="16,102">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <component id="n12" name="buyBtn" src="gbfwbm" pkg="lt21tmve" xy="21,218"/>
+    <text id="n21" name="priceTf" xy="24,236" size="178,32" font="微软雅黑" fontSize="24" color="#fff8f1" align="center" letterSpacing="12" autoSize="height" strokeColor="#af8701" text="¥648"/>
+  </displayList>
+</component>kx3a1i.xml|597|<component size="600,335">
+  <displayList>
+    <image id="n3" name="n3" src="pdjc31" pkg="lt21tmve" xy="0,0"/>
+    <component id="n5" name="confirmBtn" src="f5nr2o" pkg="lt21tmve" xy="84,232">
+      <Button title="确定"/>
+    </component>
+    <component id="n6" name="cancelBtn" src="f5nr2o" pkg="lt21tmve" xy="342,232">
+      <Button title="取消"/>
+    </component>
+    <text id="n7" name="info" xy="22,92" size="556,82" font="微软雅黑" fontSize="30" color="#ffff00" align="center" vAlign="middle" ubb="true" autoSize="none" text="注意：恢复购买只能恢复组织的身份。&#xA;其他任何信息均不能恢复，请谨慎处理。"/>
+  </displayList>
+</component>dnh21l.xml|409|<component size="608,629">
+  <displayList>
+    <image id="n0" name="n0" src="dnh21k" xy="0,0"/>
+    <component id="n1" name="duihuan" src="dnh21m" xy="207,529"/>
+    <richtext id="n2" name="goPay" xy="445,562" size="119,32" font="微软雅黑" fontSize="24" color="#ffcc00" underline="true" text="购买彩钻>"/>
+    <component id="n3" name="closeBtn" src="dnh2bp" pkg="lt21tmve" xy="535,-11"/>
+  </displayList>
+</component>

@@ -1,0 +1,39 @@
+package.xml|2760|<packageDescription id="sn2rakul" name="FishIcon">
+  <resources>
+    <image id="x8dmq" name="icon_wuchangyu" size="270,270" exported="true"/>
+    <image id="x8dmz" name="icon_lingyu_1" size="270,270" exported="true"/>
+    <image id="x8dm1a" name="icon_hongboyu" size="270,270" exported="true"/>
+    <image id="x8dmy" name="icon_liyu" size="270,270" exported="true"/>
+    <image id="x8dmn" name="icon_yongyu_1" size="270,270" exported="true"/>
+    <image id="x8dm1e" name="icon_caoyu" size="270,270" exported="true"/>
+    <image id="x8dm16" name="icon_jinlongyu" size="270,270" exported="true"/>
+    <image id="x8dm19" name="icon_hongboyu_1" size="270,270" exported="true"/>
+    <image id="x8dm1f" name="icon_bianyu_1" size="270,270" exported="true"/>
+    <image id="x8dm15" name="icon_jinlongyu_1" size="270,270" exported="true"/>
+    <image id="x8dmr" name="icon_qingyu_1" size="270,270" exported="true"/>
+    <image id="x8dmo" name="icon_yongyu" size="270,270" exported="true"/>
+    <image id="x8dmk" name="icon_zhonghuaxun" size="270,270" exported="true"/>
+    <image id="x8dm10" name="icon_lingyu" size="270,270" exported="true"/>
+    <image id="x8dm11" name="icon_lianyu_1" size="270,270" exported="true"/>
+    <image id="x8dmu" name="icon_maisuiyu" size="270,270" exported="true"/>
+    <image id="x8dmx" name="icon_liyu_1" size="270,270" exported="true"/>
+    <image id="x8dm1d" name="icon_caoyu_1" size="270,270" exported="true"/>
+    <image id="x8dm18" name="icon_huangweiyu" size="270,270" exported="true"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="x8dm1b" name="icon_daoyu_1" size="270,270" exported="true"/>
+    <image id="x8dm17" name="icon_huangweiyu_1" size="270,270" exported="true"/>
+    <image id="x8dm12" name="icon_lianyu" size="270,270" exported="true"/>
+    <image id="x8dm13" name="icon_jiyu_1" size="270,270" exported="true"/>
+    <image id="x8dmm" name="icon_zhimayu" size="270,270" exported="true"/>
+    <image id="x8dms" name="icon_qingyu" size="270,270" exported="true"/>
+    <image id="x8dmp" name="icon_wuchangyu_1" size="270,270" exported="true"/>
+    <image id="x8dm1g" name="icon_bianyu" size="270,270" exported="true"/>
+    <image id="x8dml" name="icon_zhimayu_1" size="270,270" exported="true"/>
+    <image id="x8dmv" name="icon_luofeiyu_1" size="270,270" exported="true"/>
+    <image id="x8dm14" name="icon_jiyu" size="270,270" exported="true"/>
+    <image id="x8dmj" name="icon_zhonghuaxun_1" size="270,270" exported="true"/>
+    <image id="x8dmw" name="icon_luofeiyu" size="270,270" exported="true"/>
+    <image id="x8dmt" name="icon_maisuiyu_1" size="270,270" exported="true"/>
+    <image id="x8dm1c" name="icon_daoyu" size="270,270" exported="true"/>
+  </resources>
+</packageDescription>

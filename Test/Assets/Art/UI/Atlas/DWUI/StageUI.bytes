@@ -1,0 +1,220 @@
+d2wkf.xml|1441|<component size="750,1334">
+  <displayList>
+    <graph id="n14" name="n14" xy="0,0" size="750,1334" type="rect" fillColor="#ff336699"/>
+    <list id="n2" name="stageList" xy="0,0" size="750,1334" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="6" margin="0,0,0,0" defaultItem="ui://t2ap8c8ghnddc">
+      <item url="ui://t2ap8c8gd2wke"/>
+      <item url="ui://t2ap8c8gd2wkd"/>
+      <item url="ui://t2ap8c8git6p1b"/>
+      <item url="ui://t2ap8c8git6p1c"/>
+    </list>
+    <component id="n4" name="btnBack" src="dhm1y" xy="10,101"/>
+    <image id="n5" name="n5" src="dhm1m" xy="0,0" size="750,95"/>
+    <component id="n7" name="btnAddCoin" src="111chc8" pkg="lt21tmve" xy="40,17" size="207,54"/>
+    <component id="n8" name="btnAddGold" src="111chc7" pkg="lt21tmve" xy="283,17" size="207,54"/>
+    <component id="n9" name="btnAddTili" src="w0dshef" pkg="lt21tmve" xy="515,22" size="214,46"/>
+    <text id="n11" name="cointf" xy="82,31" size="120,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="99999999"/>
+    <text id="n12" name="goldtf" xy="326,31" size="120,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="99999999"/>
+    <text id="n13" name="tilitf" xy="559,31" size="120,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" text="100/100"/>
+  </displayList>
+</component>dhm1v.xml|886|<component size="110,110" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="stage" pages="0,未开启,1,当前关,2,已通关" selected="0"/>
+  <displayList>
+    <image id="n4" name="n4" src="dhm1h" xy="17,34">
+      <gearDisplay controller="stage" pages="0,2"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+    <image id="n5" name="n5" src="dhm1r" xy="17,0">
+      <gearDisplay controller="stage" pages="1"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+    <image id="n6" name="n6" src="dhm1j" xy="17,0">
+      <gearDisplay controller="stage" pages="2"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>it6p1b.xml|1087|<component size="750,1334">
+  <displayList>
+    <image id="n8" name="n8" src="dhm1k" xy="0,0"/>
+    <image id="n24" name="n24" src="dhm1o" xy="698,671" alpha="0.5"/>
+    <component id="n10" name="stage17" src="hnddb" xy="537,985"/>
+    <component id="n11" name="stage18" src="hnddb" xy="312,864"/>
+    <component id="n12" name="stage19" src="hnddb" xy="192,724"/>
+    <component id="n13" name="stage20" src="hnddb" xy="366,652"/>
+    <component id="n14" name="stage21" src="hnddb" xy="570,601"/>
+    <component id="n15" name="stage22" src="hnddb" xy="322,515"/>
+    <component id="n16" name="stage23" src="hnddb" xy="464,370"/>
+    <component id="n17" name="stage24" src="hnddb" xy="215,341"/>
+    <image id="n18" name="n18" src="dhm1q" xy="478,269" size="270,90"/>
+    <text id="n19" name="n19" xy="507,280" size="77,32" font="微软雅黑" fontSize="24" color="#ffffff" text="第三章"/>
+    <text id="n20" name="n20" xy="507,314" size="125,40" font="微软雅黑" fontSize="30" color="#fff100" text="中原混战"/>
+    <image id="n23" name="n23" src="dhm1n" xy="0,671" alpha="0.5"/>
+  </displayList>
+</component>hnddc.xml|299|<component size="700,160">
+  <controller name="position" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <component id="n0" name="item" src="hnddb" xy="38,0">
+      <gearXY controller="position" pages="0,2" values="38,0|428,4" default="239,-2"/>
+    </component>
+  </displayList>
+</component>d2wkd.xml|1086|<component size="750,1334">
+  <displayList>
+    <image id="n8" name="n8" src="dhm1k" xy="0,0"/>
+    <image id="n24" name="n24" src="dhm1o" xy="698,671" alpha="0.5"/>
+    <component id="n10" name="stage9" src="hnddb" xy="537,985"/>
+    <component id="n11" name="stage10" src="hnddb" xy="312,864"/>
+    <component id="n12" name="stage11" src="hnddb" xy="192,724"/>
+    <component id="n13" name="stage12" src="hnddb" xy="366,652"/>
+    <component id="n14" name="stage13" src="hnddb" xy="570,601"/>
+    <component id="n15" name="stage14" src="hnddb" xy="322,515"/>
+    <component id="n16" name="stage15" src="hnddb" xy="464,370"/>
+    <component id="n17" name="stage16" src="hnddb" xy="215,341"/>
+    <image id="n18" name="n18" src="dhm1q" xy="478,269" size="270,90"/>
+    <text id="n19" name="n19" xy="507,280" size="77,32" font="微软雅黑" fontSize="24" color="#ffffff" text="第二章"/>
+    <text id="n20" name="n20" xy="507,314" size="125,40" font="微软雅黑" fontSize="30" color="#fff100" text="北上冒险"/>
+    <image id="n23" name="n23" src="dhm1n" xy="0,671" alpha="0.5"/>
+  </displayList>
+</component>d2wke.xml|1003|<component size="750,1334">
+  <displayList>
+    <image id="n10" name="n10" src="dhm1k" xy="0,0"/>
+    <image id="n9" name="n9" src="dhm1o" xy="698,671" alpha="0.5"/>
+    <component id="n0" name="stage1" src="hnddb" xy="537,986"/>
+    <component id="n1" name="stage2" src="hnddb" xy="312,864"/>
+    <component id="n2" name="stage3" src="hnddb" xy="192,725"/>
+    <component id="n3" name="stage4" src="hnddb" xy="366,652"/>
+    <component id="n4" name="stage5" src="hnddb" xy="570,602"/>
+    <component id="n5" name="stage6" src="hnddb" xy="322,516"/>
+    <component id="n6" name="stage7" src="hnddb" xy="465,370"/>
+    <component id="n7" name="stage8" src="hnddb" xy="215,343"/>
+    <image id="n12" name="n12" src="dhm1q" xy="478,269" size="270,90"/>
+    <text id="n15" name="n15" xy="507,280" size="77,32" font="微软雅黑" fontSize="24" color="#ffffff" text="第一章"/>
+    <text id="n16" name="n16" xy="507,314" size="125,40" font="微软雅黑" fontSize="30" color="#fff100" text="初入钓圈"/>
+  </displayList>
+</component>package.xml|1709|<packageDescription id="t2ap8c8g" name="StageUI">
+  <resources>
+    <image id="dhm1k" name="临时BG" size="750,1334"/>
+    <component id="it6p1b" name="StageChapter_3" size="750,1334"/>
+    <component id="d2wke" name="StageChapter_1" size="750,1334"/>
+    <image id="dhm1h" name="未开启节点" size="78,57"/>
+    <image id="dhm116" name="大星底板" size="78,75"/>
+    <image id="dhm115" name="地图" size="623,261"/>
+    <image id="dhm1j" name="通关节点" size="78,91"/>
+    <image id="dhm1o" name="关卡右" size="52,67"/>
+    <component id="hnddb" name="StageItem" size="110,110"/>
+    <image id="dhm117" name="大星" size="78,75"/>
+    <component id="hnddc" name="StageListItem" size="700,160"/>
+    <component id="it6p1c" name="StageChapter_4" size="750,1334"/>
+    <image id="dhm1n" name="关卡左" size="52,67"/>
+    <image id="dhm114" name="进入按钮" size="152,67"/>
+    <image id="dhm1m" name="货币底板" size="44,41"/>
+    <image id="dhm1l" name="获得星" size="39,40"/>
+    <image id="dhm1r" name="当前节点" size="78,91"/>
+    <image id="dhm111" name="信息框底板" size="607,826"/>
+    <component id="dhm11a" name="btnEnter" size="152,67"/>
+    <image id="dhm1i" name="未获得星" size="37,40"/>
+    <image id="dhm1q" name="地图名字底板" size="86,90" scale="9grid" scale9grid="22,23,44,46"/>
+    <component id="dhm1v" name="btnStage" size="110,110"/>
+    <image id="dhm1p" name="返回" size="85,79"/>
+    <component id="hndd4" name="StageInfoWin" exported="true" size="607,826"/>
+    <component id="d2wkd" name="StageChapter_2" size="750,1334"/>
+    <component id="d2wkf" name="StageUI" exported="true" size="750,1334"/>
+    <component id="dhm1y" name="btnBack" size="85,79"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+  </resources>
+</packageDescription>hndd4.xml|2910|<component size="607,826">
+  <controller name="stars" pages="0,0星,1,1星,2,2星,3,3星,4,无星" selected="0"/>
+  <displayList>
+    <image id="n24" name="n24" src="dhm111" xy="0,0"/>
+    <text id="n9" name="city" xy="25,15" size="73,46" font="微软雅黑" fontSize="34" color="#9df2eb" align="center" vAlign="middle" leading="0" text="北京"/>
+    <text id="n8" name="name" xy="0,15" size="607,49" font="微软雅黑" fontSize="37" color="#ffffff" align="center" vAlign="middle" leading="0" letterSpacing="6" autoSize="height" text="罗甸羊里钓场"/>
+    <image id="n28" name="n28" src="dhm115" xy="17,67" size="571,246"/>
+    <loader id="n0" name="preview" xy="17,67" size="571,246" fill="scaleFree"/>
+    <image id="n32" name="n32" src="dhm117" xy="164,282">
+      <gearDisplay controller="stars" pages="1,2,3"/>
+    </image>
+    <image id="n30" name="n30" src="dhm117" xy="264,282">
+      <gearDisplay controller="stars" pages="2,3"/>
+    </image>
+    <image id="n31" name="n31" src="dhm117" xy="364,282">
+      <gearDisplay controller="stars" pages="3"/>
+    </image>
+    <image id="n34" name="n34" src="dhm116" xy="164,282">
+      <gearDisplay controller="stars" pages="0"/>
+    </image>
+    <image id="n35" name="n35" src="dhm116" xy="264,282">
+      <gearDisplay controller="stars" pages="0,1"/>
+    </image>
+    <image id="n36" name="n36" src="dhm116" xy="364,282">
+      <gearDisplay controller="stars" pages="0,1,2"/>
+    </image>
+    <text id="n20" name="n20" xy="26,378" size="135,36" font="微软雅黑" fontSize="26" color="#f6db60" leading="0" text="通关建议："/>
+    <text id="n21" name="suggest" xy="159,378" size="431,36" font="微软雅黑" fontSize="26" color="#f6db60" leading="0" text="鱼种类型较多,建议使用杂食性鱼饵。"/>
+    <text id="n10" name="n10" xy="26,435" size="187,36" font="微软雅黑" fontSize="26" color="#ffffff" align="center" vAlign="middle" leading="0" text="本关最高记录："/>
+    <text id="n14" name="scoreTop" xy="217,435" size="101,35" font="微软雅黑" fontSize="26" color="#f39800" vAlign="middle" leading="0" bold="true" text="999999"/>
+    <text id="n15" name="n15" xy="26,478" size="187,36" font="微软雅黑" fontSize="26" color="#ffffff" align="center" vAlign="middle" leading="0" text="玩家最高记录："/>
+    <text id="n16" name="score" xy="217,478" size="101,35" font="微软雅黑" fontSize="26" color="#f39800" vAlign="middle" leading="0" bold="true" text="999999"/>
+    <text id="n17" name="desc" xy="42,544" size="518,127" font="微软雅黑" fontSize="26" color="#dbdae5" leading="9" letterSpacing="1" autoSize="none" text="生活着多个鱼种的水库型混养场，其中甚至有水中霸主中华鲟出没。生活着多个鱼种的水库型混养场，其中甚至有"/>
+    <component id="n29" name="btnEnter" src="dhm11a" xy="224,701"/>
+    <text id="n18" name="n18" xy="175,774" size="187,36" font="微软雅黑" fontSize="26" color="#e81a1a" align="center" vAlign="middle" leading="0" text="今日剩余次数："/>
+    <text id="n19" name="times" xy="364,774" size="76,36" font="微软雅黑" fontSize="26" color="#e81a1a" vAlign="middle" leading="0" text="10/10"/>
+  </displayList>
+</component>dhm1y.xml|425|<component size="85,79" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="dhm1p" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>dhm11a.xml|482|<component size="152,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,disable" selected="2"/>
+  <displayList>
+    <image id="n1" name="n1" src="dhm114" xy="0,0" grayed="true">
+      <gearLook controller="button" pages="2" values="1,0,1" default="1,0,0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1" values="#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>hnddb.xml|923|<component size="110,110">
+  <controller name="stars" pages="0,0星,1,1星,2,2星,3,3星,5,不显示" selected="0"/>
+  <displayList>
+    <component id="n16" name="btnStage" src="dhm1v" xy="1,0"/>
+    <image id="n9" name="n9" src="dhm1l" xy="3,55">
+      <gearDisplay controller="stars" pages="1,2,3"/>
+    </image>
+    <image id="n8" name="n8" src="dhm1l" xy="35,69">
+      <gearDisplay controller="stars" pages="2,3"/>
+    </image>
+    <image id="n13" name="n13" src="dhm1l" xy="68,55">
+      <gearDisplay controller="stars" pages="3"/>
+    </image>
+    <image id="n14" name="n14" src="dhm1i" xy="3,55">
+      <gearDisplay controller="stars" pages="0"/>
+    </image>
+    <image id="n15" name="n15" src="dhm1i" xy="35,69">
+      <gearDisplay controller="stars" pages="0,1"/>
+    </image>
+    <image id="n7" name="n7" src="dhm1i" xy="68,55">
+      <gearDisplay controller="stars" pages="0,1,2"/>
+    </image>
+  </displayList>
+</component>it6p1c.xml|1017|<component size="750,1334">
+  <displayList>
+    <image id="n8" name="n8" src="dhm1k" xy="0,0"/>
+    <component id="n10" name="stage25" src="hnddb" xy="537,985"/>
+    <component id="n11" name="stage26" src="hnddb" xy="312,864"/>
+    <component id="n12" name="stage27" src="hnddb" xy="192,724"/>
+    <component id="n13" name="stage28" src="hnddb" xy="366,652"/>
+    <component id="n14" name="stage29" src="hnddb" xy="570,601"/>
+    <component id="n15" name="stage30" src="hnddb" xy="322,515"/>
+    <component id="n16" name="stage31" src="hnddb" xy="464,370"/>
+    <component id="n17" name="stage32" src="hnddb" xy="215,341"/>
+    <image id="n18" name="n18" src="dhm1q" xy="478,269" size="270,90"/>
+    <text id="n19" name="n19" xy="507,280" size="77,32" font="微软雅黑" fontSize="24" color="#ffffff" text="第四章"/>
+    <text id="n20" name="n20" xy="507,314" size="125,40" font="微软雅黑" fontSize="30" color="#fff100" text="南北差异"/>
+    <image id="n23" name="n23" src="dhm1n" xy="0,671" alpha="0.5"/>
+  </displayList>
+</component>

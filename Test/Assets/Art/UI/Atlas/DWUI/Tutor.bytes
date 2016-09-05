@@ -1,0 +1,12 @@
+dnh23.xml|446|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="r3xj4" xy="0,0"/>
+    <richtext id="n1" name="n1" xy="212,985" size="502,183" font="微软雅黑" fontSize="24" color="#ffffff" leading="10" letterSpacing="2" ubb="true" autoSize="none" text="    热情而又不失沉着冷静的钓鱼高手——&#xA;[color=#00FFFF]姜尚[/color]，钓鱼技术迅猛而精细，驰骋于争霸赛&#xA;无敌手。在[color=#00FFFF]钓王争霸赛[/color]中，姜尚为您提供导师祝福：大鱼概率[color=#00FFFF]+1% [/color]。"/>
+  </displayList>
+</component>package.xml|286|<packageDescription id="b2znjefz" name="Tutor">
+  <resources>
+    <image id="r3xj4" name="导师选择0" size="750,1334"/>
+    <atlas id="atlas0" size="1024,2048" file="atlas0.png"/>
+    <component id="dnh23" name="TutorUI" exported="true" size="750,1334"/>
+  </resources>
+</packageDescription>

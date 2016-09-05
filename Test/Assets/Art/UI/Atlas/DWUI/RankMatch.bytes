@@ -1,0 +1,508 @@
+wxi332.xml|586|<component size="151,78">
+  <controller name="c1" pages="0,,1,,2,,3," selected="0"/>
+  <displayList>
+    <image id="n0" name="icon" src="q5s11p" xy="53,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n1" name="n1" src="q5s12a" xy="0,22">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n2" name="n2" src="q5s129" xy="13,22">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n3" name="n3" src="q5s128" xy="-1,22">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+  </displayList>
+</component>q5s1t.xml|2509|<component size="543,159">
+  <controller name="titleC" pages="0,0,1,1" selected="1"/>
+  <displayList>
+    <image id="n2" name="n2" src="q5s1v" xy="0,0" size="543,159"/>
+    <image id="n3" name="n3" src="q5s1w" xy="0,0">
+      <gearDisplay controller="titleC" pages="0"/>
+    </image>
+    <image id="n4" name="n4" src="q5s1x" xy="0,0">
+      <gearDisplay controller="titleC" pages="1"/>
+    </image>
+    <text id="n5" name="titleTf0" xy="15,3" size="165,31" font="微软雅黑" fontSize="24" autoSize="none" text="单尾最重">
+      <gearDisplay controller="titleC" pages="0"/>
+    </text>
+    <component id="n6" name="n6" src="q5s115" xy="457,3"/>
+    <text id="n11" name="s_nametf1" xy="23,39" size="182,31" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="height" text=""/>
+    <text id="n12" name="d_nametf1" xy="339,39" size="182,31" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="height" text=""/>
+    <text id="n13" name="s_nametf3" xy="23,123" size="182,31" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="height" text=""/>
+    <text id="n14" name="d_nametf3" xy="339,123" size="182,31" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="height" text=""/>
+    <text id="n15" name="s_nametf2" xy="23,82" size="182,31" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="height" text=""/>
+    <text id="n16" name="d_nametf2" xy="339,82" size="182,31" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="height" text=""/>
+    <text id="n17" name="score1" xy="217,39" size="111,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" letterSpacing="10" ubb="true" autoSize="height" text="[color=#00ff00]1[/color]:[color=#ff0000]0[/color]"/>
+    <text id="n18" name="score3" xy="217,123" size="111,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" letterSpacing="10" ubb="true" autoSize="height" text="[color=#00ff00]1[/color]:[color=#ff0000]0[/color]"/>
+    <text id="n19" name="score2" xy="217,82" size="111,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" letterSpacing="10" ubb="true" autoSize="height" text="[color=#00ff00]1[/color]:[color=#ff0000]0[/color]"/>
+    <image id="n20" name="n20" src="q5s1y" xy="22,114"/>
+    <image id="n24" name="n24" src="q5s1y" xy="22,156"/>
+    <image id="n25" name="n25" src="q5s1y" xy="22,72"/>
+    <text id="n26" name="titleTf1" xy="15,3" size="165,31" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="none" strokeColor="#000000" text="单尾最重">
+      <gearDisplay controller="titleC" pages="1"/>
+    </text>
+  </displayList>
+</component>q5s115.xml|348|<component size="55,24">
+  <controller name="c1" pages="0,0,1,1" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="q5s1z" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="q5s116" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+  </displayList>
+</component>wxi333.xml|408|<component size="197,198">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n2" name="n2" src="wxi334" xy="-27,-23">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n1" name="n1" src="q5s11n" xy="-2,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>evd848.xml|353|<component size="309,176">
+  <controller name="c1" pages="0,0,1,1" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="evd838" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n1" name="n1" src="evd83o" xy="23,32">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>evd835.xml|1305|<component size="750,1334">
+  <displayList>
+    <image id="n25" name="n25" src="q5s11a" xy="0,0" size="750,1334"/>
+    <image id="n23" name="n23" src="evd836" xy="0,0"/>
+    <image id="n0" name="n0" src="evd836" xy="0,1102"/>
+    <image id="n1" name="n1" src="evd837" xy="-1,231" flip="hz"/>
+    <image id="n5" name="n5" src="evd83b" xy="77,167"/>
+    <image id="n26" name="n26" src="evd837" xy="0,529" flip="hz"/>
+    <image id="n27" name="n27" src="evd837" xy="1,829" flip="hz"/>
+    <component id="n28" name="goBtn" src="f5nr2o" pkg="lt21tmve" xy="282,1162"/>
+    <image id="n29" name="n29" src="evd846" xy="306,1178"/>
+    <component id="n30" name="s1" src="evd83u" xy="-2,231"/>
+    <component id="n31" name="d1" src="evd83u" xy="372,231"/>
+    <component id="n32" name="s2" src="evd83u" xy="0,530"/>
+    <component id="n33" name="d2" src="evd83u" xy="374,530"/>
+    <component id="n34" name="s3" src="evd83u" xy="-1,827"/>
+    <component id="n35" name="d3" src="evd83u" xy="373,827"/>
+    <component id="n36" name="win1" src="evd848" xy="0,0"/>
+    <component id="n37" name="win2" src="evd848" xy="441,0"/>
+    <text id="n38" name="pointTf" xy="237,169" size="165,52" font="ui://xnjumn4aevd849" fontSize="12" leading="0" letterSpacing="-10" autoSize="none" text="+10"/>
+  </displayList>
+</component>q5s12l.xml|587|<component size="151,78">
+  <controller name="c1" pages="0,0,1,1,2,2,3,3" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="q5s11q" xy="53,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n2" name="n2" src="q5s127" xy="1,22">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n3" name="n3" src="q5s126" xy="14,21">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n4" name="n4" src="q5s12b" xy="0,21">
+      <gearDisplay controller="c1" pages="3"/>
+    </image>
+  </displayList>
+</component>q5s12p.xml|813|<component size="750,124">
+  <displayList>
+    <image id="n0" name="n0" src="q5s12q" xy="306,0"/>
+    <image id="n1" name="n1" src="q5s12r" xy="1,0"/>
+    <image id="n6" name="n6" src="q5s12v" xy="224,40"/>
+    <image id="n7" name="n7" src="q5s12s" xy="407,40"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n1" tween="true" startValue="-,-" endValue="-419,0" duration="12" ease="Quad.In"/>
+    <item time="0" type="XY" target="n0" tween="true" startValue="-,-" endValue="746,0" duration="12" ease="Quad.In"/>
+    <item time="0" type="XY" target="n6" tween="true" startValue="-,-" endValue="-216,40" duration="12" ease="Quad.In"/>
+    <item time="0" type="XY" target="n7" tween="true" startValue="-,-" endValue="897,40" duration="12" ease="Quad.In"/>
+  </transition>
+</component>q5s1r.xml|526|<component size="595,790">
+  <displayList>
+    <image id="n0" name="n0" src="q5s1s" xy="0,0" size="596,790"/>
+    <component id="n1" name="frame" src="pdjc32" pkg="lt21tmve" xy="9,8"/>
+    <list id="n2" name="list" xy="17,70" size="568,697" overflow="scroll" scrollBarFlags="4" scrollBar="auto" margin="0,0,0,0" lineGap="20" defaultItem="ui://xnjumn4aq5s1t">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n3" name="n3" src="q5s113" xy="235,13"/>
+  </displayList>
+</component>q5s13.fnt|543|info creator=UIBuilder
+char id=57 img=q5s1d xoffset=0 yoffset=0 xadvance=0
+char id=56 img=q5s1c xoffset=0 yoffset=0 xadvance=0
+char id=55 img=q5s1b xoffset=0 yoffset=0 xadvance=0
+char id=54 img=q5s1a xoffset=0 yoffset=0 xadvance=0
+char id=53 img=q5s19 xoffset=0 yoffset=0 xadvance=0
+char id=52 img=q5s18 xoffset=0 yoffset=0 xadvance=0
+char id=51 img=q5s17 xoffset=0 yoffset=0 xadvance=0
+char id=50 img=q5s16 xoffset=0 yoffset=0 xadvance=0
+char id=49 img=q5s15 xoffset=0 yoffset=0 xadvance=0
+char id=48 img=q5s14 xoffset=0 yoffset=0 xadvance=0
+nfgl4d.xml|949|<component size="135,135" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="q5s1n" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="q5s1n" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="q5s1n" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="q5s1n" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>q5s11w.fnt|553|info creator=UIBuilder
+char id=57 img=q5s125 xoffset=0 yoffset=0 xadvance=0
+char id=56 img=q5s124 xoffset=0 yoffset=0 xadvance=0
+char id=55 img=q5s123 xoffset=0 yoffset=0 xadvance=0
+char id=54 img=q5s122 xoffset=0 yoffset=0 xadvance=0
+char id=53 img=q5s121 xoffset=0 yoffset=0 xadvance=0
+char id=52 img=q5s120 xoffset=0 yoffset=0 xadvance=0
+char id=51 img=q5s11z xoffset=0 yoffset=0 xadvance=0
+char id=50 img=q5s11y xoffset=0 yoffset=0 xadvance=0
+char id=49 img=q5s11x xoffset=0 yoffset=0 xadvance=0
+char id=48 img=q5s12f xoffset=0 yoffset=0 xadvance=0
+wxi331.xml|299|<component size="169,151">
+  <controller name="c1" pages="0,0,1,1" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="wxi32y" xy="0,0">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <loader id="n1" name="icon2" xy="12,9" size="147,136"/>
+  </displayList>
+</component>evd847.fnt|607|info creator=UIBuilder
+char id=103 img=evd844 xoffset=0 yoffset=0 xadvance=0
+char id=57 img=evd843 xoffset=0 yoffset=0 xadvance=0
+char id=56 img=evd842 xoffset=0 yoffset=0 xadvance=0
+char id=55 img=evd841 xoffset=0 yoffset=0 xadvance=0
+char id=54 img=evd840 xoffset=0 yoffset=0 xadvance=0
+char id=53 img=evd83z xoffset=0 yoffset=0 xadvance=0
+char id=52 img=evd83y xoffset=0 yoffset=0 xadvance=0
+char id=51 img=evd83x xoffset=0 yoffset=0 xadvance=0
+char id=50 img=evd83w xoffset=0 yoffset=0 xadvance=0
+char id=49 img=evd83v xoffset=0 yoffset=0 xadvance=0
+char id=48 img=evd845 xoffset=0 yoffset=0 xadvance=0
+q5s11e.xml|1060|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="q5s11a" xy="0,0" size="750,1334"/>
+    <image id="n2" name="n2" src="q5s11g" xy="65,291" size="628,171"/>
+    <image id="n1" name="n1" src="q5s11f" xy="65,663" size="628,171"/>
+    <image id="n3" name="n3" src="q5s11h" xy="304,460"/>
+    <image id="n4" name="n4" src="q5s11i" xy="252,105"/>
+    <text id="n6" name="n6" xy="71,1067" size="607,72" font="微软雅黑" fontSize="24" color="#ffffff" autoSize="none" text="超过时间不确定准备，将遭受小黑屋惩罚，3场比赛内收益为1/4"/>
+    <component id="n7" name="readyBtn" src="f5nr2o" pkg="lt21tmve" xy="282,952"/>
+    <image id="n9" name="n9" src="q5s11j" xy="339,968"/>
+    <component id="n17" name="d1" src="wxi331" xy="92,304"/>
+    <component id="n18" name="d2" src="wxi331" xy="293,304"/>
+    <component id="n19" name="d3" src="wxi331" xy="494,304"/>
+    <component id="n20" name="s1" src="wxi331" xy="92,676"/>
+    <component id="n21" name="s2" src="wxi331" xy="293,676"/>
+    <component id="n22" name="s3" src="wxi331" xy="494,676"/>
+  </displayList>
+</component>q5s12m.xml|291|<component size="431,48">
+  <controller name="c1" pages="0,0,1,1" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="q5s12n" xy="0,0">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n2" name="n2" src="q5s11s" xy="0,0"/>
+  </displayList>
+</component>evd83u.xml|1144|<component size="374,283">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n20" name="n20" src="evd839" xy="0,0" size="374,283">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n0" name="n0" xy="48,0" size="128,37" font="微软雅黑" fontSize="28" color="#ffffff" autoSize="none" text="总渔获："/>
+    <text id="n13" name="weightTf" xy="179,0" size="183,37" font="ui://xnjumn4aevd847" fontSize="28" color="#ffffff" letterSpacing="-10" autoSize="none" text="1234g"/>
+    <image id="n14" name="winFlag" src="evd83c" xy="17,49" visible="false"/>
+    <text id="n15" name="nameTf" xy="83,50" size="208,36" font="微软雅黑" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="height" text=""/>
+    <text id="n16" name="point" xy="33,242" size="308,36" font="微软雅黑" fontSize="28" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="height" text=""/>
+    <loader id="n17" name="image" xy="113,93" size="147,136"/>
+    <image id="n19" name="n19" src="evd83a" xy="0,0" size="374,283">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+  </displayList>
+</component>q5s119.xml|1637|<component size="750,1334">
+  <controller name="c1" pages="0,0,1,1" selected="0"/>
+  <displayList>
+    <image id="n2" name="n2" src="q5s11a" xy="0,0" size="750,1334" group="n14"/>
+    <image id="n3" name="n3" src="q5s11c" xy="0,421" group="n14"/>
+    <group id="n14" name="n14" xy="0,0" size="750,1334" advanced="true">
+      <relation target="" sidePair="width-width"/>
+    </group>
+    <text id="n4" name="n4" xy="205,725" size="294,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" ubb="true" autoSize="none" text="预计匹配时间："/>
+    <text id="n6" name="n88" xy="231,804" size="266,31" font="微软雅黑" fontSize="24" color="#ffffff" align="center" autoSize="none" text="已匹配时间："/>
+    <text id="n7" name="n7" xy="202,1075" size="346,28" visible="false" fontSize="24" color="#ffffff" ubb="true" autoSize="none" text="比赛最后3分钟，双尾概率剧增~"/>
+    <component id="n9" name="cancelBtn" src="f5nr2o" pkg="lt21tmve" xy="282,970"/>
+    <image id="n11" name="cancelBtn" src="q5s11d" xy="338,984">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n12" name="n12" xy="202,470" size="346,38" font="微软雅黑" fontSize="30" color="#ffffff" align="center" ubb="true" autoSize="none" text="正在为您匹配中......"/>
+    <image id="n13" name="n13" src="piwo4b" xy="310,984">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <text id="n15" name="n15" xy="432,726" size="114,31" font="微软雅黑" fontSize="24" color="#ffff00" ubb="true" autoSize="none" text="30S"/>
+    <text id="n17" name="timeTf" xy="432,804" size="114,31" font="微软雅黑" fontSize="24" color="#00ff00" ubb="true" autoSize="none" text="0S"/>
+  </displayList>
+</component>package.xml|8192|<packageDescription id="xnjumn4a" name="RankMatch">
+  <resources>
+    <component id="q5s11e" name="FitSuccessPage" exported="true" size="750,1334"/>
+    <image id="q5s11a" name="_0001_jiugongge" size="750,1334"/>
+    <image id="q5s126" name="r_2" size="123,35" exported="true"/>
+    <component id="wxi32x" name="playerHeadIcon" exported="true" size="203,250"/>
+    <component id="evd83u" name="resultHead" exported="true" size="374,283"/>
+    <component id="wxi332" name="type2" exported="true" size="151,78"/>
+    <image id="evd836" name="排位赛10_0018_矩形-18-副本-2" size="750,232"/>
+    <component id="q5s12p" name="beginMatch" exported="true" size="750,124"/>
+    <image id="evd83y" name="_0007_4" size="28,33"/>
+    <image id="evd846" name="jixuyouxi" size="135,34"/>
+    <image id="q5s16" name="_0007_2" size="52,57"/>
+    <image id="q5s18" name="_0005_4" size="50,58"/>
+    <image id="evd83k" name="排位赛10_0003_6" size="47,52"/>
+    <image id="q5s1x" name="_0008_lose-tiao" size="543,31"/>
+    <component id="q5s12l" name="type" exported="true" size="151,78"/>
+    <component id="q5s12m" name="tishiFont" exported="true" size="431,48"/>
+    <image id="q5s121" name="_0005_5" size="27,38"/>
+    <component id="evd835" name="RankResult" exported="true" size="750,1334"/>
+    <image id="q5s12f" name="_0026_0" size="31,39"/>
+    <image id="evd83d" name="排位赛10_0010_+" size="44,44"/>
+    <image id="q5s124" name="_0002_8" size="30,39"/>
+    <image id="q5s1w" name="_0009_wintiao" size="543,31"/>
+    <image id="q5s122" name="_0004_6" size="30,39"/>
+    <image id="q5s1d" name="_0000_9" size="51,58"/>
+    <component id="evd848" name="isWin" exported="true" size="309,176"/>
+    <image id="q5s1i" name="1" size="440,387" exported="true"/>
+    <image id="q5s1g" name="_0017_jiugongge" size="87,87" scale="9grid" scale9grid="22,22,44,44"/>
+    <image id="q5s1y" name="_0007_fenge" size="498,2"/>
+    <image id="evd83o" name="排位赛10_0016_lose" size="261,111"/>
+    <component id="q5s1t" name="rankItem" exported="true" size="543,159"/>
+    <image id="q5s12s" name="_0003_bisai" size="97,47"/>
+    <image id="evd841" name="_0004_7" size="27,33"/>
+    <component id="wxi331" name="simPlayerHead" exported="true" size="169,151"/>
+    <component id="q5s1o" name="RankMatch" exported="true" size="750,1334"/>
+    <image id="q5s127" name="r_1" size="150,35" exported="true"/>
+    <image id="q5s116" name="_0003_lose" size="56,24"/>
+    <image id="q5s12v" name="_0000_kaishi" size="99,48"/>
+    <image id="q5s1j" name="_0014_dashisaijie" size="216,33"/>
+    <image id="q5s11m" name="_0010_yu" size="279,66"/>
+    <font id="q5s13" name="RankFont" exported="true"/>
+    <image id="evd83c" name="排位赛10_0011_shegn" size="80,72"/>
+    <image id="evd83x" name="_0008_3" size="25,33"/>
+    <image id="piwo4b" name="_0000_chongxin" size="135,34"/>
+    <image id="q5s11j" name="_0000_zhunb-" size="72,35"/>
+    <image id="q5s1f" name="_0020_bisaijilu" size="83,83"/>
+    <image id="evd83v" name="_0010_1" size="25,33"/>
+    <image id="q5s11s" name="_0000_xuanze" size="431,48"/>
+    <image id="q5s12r" name="_0001_zuo" size="419,124"/>
+    <image id="evd839" name="排位赛10_0014_red" size="173,173" scale="9grid" scale9grid="44,44,88,88"/>
+    <image id="q5s11o" name="_0024_landi" size="197,198"/>
+    <image id="q5s128" name="b_3" size="151,35" exported="true"/>
+    <image id="q5s19" name="_0004_5" size="50,58"/>
+    <image id="evd83g" name="排位赛10_0007_2" size="48,53"/>
+    <component id="q5s119" name="FitPage" exported="true" size="750,1334"/>
+    <component id="evd84a" name="detBtn" exported="true" size="83,83"/>
+    <image id="q5s123" name="_0003_7" size="30,38"/>
+    <image id="evd83a" name="排位赛10_0013_blue" size="173,173" scale="9grid" scale9grid="44,44,88,88"/>
+    <image id="q5s11n" name="_0020_fendi" size="197,198"/>
+    <image id="9ocd2w" name="_0013_shegnjiyuan" size="183,183"/>
+    <image id="wxi32y" name="_0028_renwuxuan" size="169,151"/>
+    <image id="evd83f" name="排位赛10_0008_1" size="43,53"/>
+    <image id="q5s12q" name="_0002_you" size="444,124"/>
+    <image id="q5s1z" name="_0002_win" size="55,24"/>
+    <image id="evd83l" name="排位赛10_0002_7" size="46,52"/>
+    <image id="q5s11r" name="topImg" size="203,61" exported="true"/>
+    <image id="evd843" name="_0002_9" size="27,33"/>
+    <image id="q5s1k" name="_0012_shengji" size="57,64"/>
+    <image id="q5s1v" name="_0010_jiugongge" size="112,112" scale="9grid" scale9grid="28,28,56,56"/>
+    <image id="q5s17" name="_0006_3" size="51,58"/>
+    <image id="q5s15" name="_0008_1" size="41,57"/>
+    <image id="q5s1h" name="_0016_changijngdi" size="444,391"/>
+    <image id="evd83m" name="排位赛10_0001_8" size="47,52"/>
+    <image id="q5s12n" name="_0006_dengdai" size="427,47"/>
+    <image id="q5s12b" name="r_3" size="151,35" exported="true"/>
+    <image id="q5s129" name="b_2" size="123,35" exported="true"/>
+    <image id="q5s11c" name="_0018_ercidi" size="750,124"/>
+    <font id="evd847" name="weightFont" exported="true"/>
+    <image id="q5s11q" name="_0019_fen_" size="45,78"/>
+    <image id="evd845" name="_0011_0" size="27,33"/>
+    <image id="evd838" name="排位赛10_0015_win" size="309,176"/>
+    <font id="q5s11w" name="TimeFont" exported="true"/>
+    <image id="q5s1e" name="_0021_zhegnbasai" size="750,1334"/>
+    <component id="q5s1r" name="RankBoard" exported="true" size="595,790"/>
+    <atlas id="atlas_q5s1i" size="512,512" file="atlas_q5s1i.png"/>
+    <image id="evd840" name="_0005_6" size="27,33"/>
+    <image id="q5s11i" name="_0002_pipeichegngong" size="245,57"/>
+    <component id="nfgl4d" name="upStageBtn" exported="true" size="135,135"/>
+    <image id="evd83j" name="排位赛10_0004_5" size="46,52"/>
+    <component id="q5s11l" name="RankSelect" exported="true" size="750,1334"/>
+    <image id="wxi334" name="_0025_hongxuan" size="245,246"/>
+    <image id="q5s12c" name="d_2" size="124,32" exported="true"/>
+    <image id="q5s11d" name="_0000_no" size="71,35"/>
+    <image id="q5s125" name="_0001_9" size="30,39"/>
+    <image id="q5s113" name="_0012_title" size="125,34"/>
+    <image id="evd844" name="_0001_g" size="27,34"/>
+    <image id="q5s1c" name="_0001_8" size="52,58"/>
+    <image id="q5s11h" name="_0001_vs" size="142,191"/>
+    <image id="q5s1l" name="_0011_liansheng" size="100,48"/>
+    <image id="q5s11z" name="_0007_3" size="28,39"/>
+    <image id="evd83w" name="_0009_2" size="26,33"/>
+    <font id="evd849" name="numFont" exported="true"/>
+    <image id="q5s11f" name="_0005_hong" size="119,119" scale="9grid" scale9grid="30,30,60,60"/>
+    <image id="q5s12a" name="b_1" size="150,35" exported="true"/>
+    <image id="q5s12d" name="d_1" size="153,32" exported="true"/>
+    <image id="evd83e" name="排位赛10_0009_0" size="47,52"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="evd83i" name="排位赛10_0005_4" size="47,52"/>
+    <image id="q5s1m" name="_0010_lianshengdi" size="215,55"/>
+    <image id="q5s11p" name="_0018__" size="45,78"/>
+    <image id="q5s11y" name="_0008_2" size="29,39"/>
+    <image id="q5s1a" name="_0003_6" size="50,58"/>
+    <image id="q5s120" name="_0006_4" size="32,38"/>
+    <image id="evd842" name="_0003_8" size="27,33"/>
+    <component id="q5s115" name="winFlag" exported="true" size="55,24"/>
+    <image id="q5s11g" name="_0004_lan" size="119,119" scale="9grid" scale9grid="30,30,60,60"/>
+    <image id="q5s14" name="_0009_0" size="51,58"/>
+    <image id="evd83b" name="排位赛10_0012_tuanduishouyi" size="168,58"/>
+    <image id="q5s12e" name="d_3" size="154,32" exported="true"/>
+    <image id="evd83n" name="排位赛10_0000_9" size="47,52"/>
+    <image id="evd83z" name="_0006_5" size="25,33"/>
+    <image id="q5s11x" name="_0009_1" size="27,39"/>
+    <image id="q5s1b" name="_0002_7" size="47,57"/>
+    <image id="evd83h" name="排位赛10_0006_3" size="47,52"/>
+    <image id="q5s1n" name="yuanzhezhap" size="135,135"/>
+    <image id="evd837" name="排位赛10_0017_dikuang-" size="750,283"/>
+    <image id="q5s12k" name="_0004_yizhunbei" size="106,35"/>
+    <image id="q5s1s" name="_0013_jjiugongge" size="596,151" scale="9grid" scale9grid="149,60,298,54"/>
+    <component id="wxi333" name="redBtn" exported="true" size="197,198"/>
+  </resources>
+</packageDescription>q5s11l.xml|1761|<component size="750,1334">
+  <controller name="btnC1" pages="0,0,1,1" selected="0"/>
+  <controller name="pageC1" pages="0,0,1,1" selected="1"/>
+  <displayList>
+    <image id="n0" name="n0" src="q5s11a" xy="0,0" size="750,1334"/>
+    <image id="n1" name="n1" src="q5s11m" xy="235,128"/>
+    <text id="n31" name="timeTf" xy="307,137" size="136,42" font="ui://xnjumn4aq5s11w" fontSize="12" align="center" vAlign="middle" autoSize="none" text="20"/>
+    <component id="n52" name="tishiFont" src="q5s12m" xy="159,555">
+      <gearDisplay controller="pageC1" pages="0"/>
+    </component>
+    <component id="n53" name="beginBar" src="q5s12p" xy="0,516">
+      <gearDisplay controller="pageC1" pages="1"/>
+    </component>
+    <component id="n59" name="d1" src="wxi32x" xy="41,222"/>
+    <component id="n60" name="d2" src="wxi32x" xy="274,222"/>
+    <component id="n61" name="d3" src="wxi32x" xy="507,222"/>
+    <component id="n62" name="s1" src="wxi32x" xy="41,687"/>
+    <component id="n63" name="s2" src="wxi32x" xy="274,687"/>
+    <component id="n64" name="s3" src="wxi32x" xy="507,687"/>
+    <component id="n65" name="b1" src="wxi32x" xy="41,1061"/>
+    <component id="n66" name="b2" src="wxi32x" xy="274,1061"/>
+    <component id="n67" name="b3" src="wxi32x" xy="507,1061"/>
+    <component id="n47" name="readyBtn" src="f5nr2o" pkg="lt21tmve" xy="282,963" group="n68"/>
+    <image id="n48" name="n48" src="q5s12k" xy="321,978" group="n68">
+      <gearDisplay controller="btnC1" pages="1"/>
+    </image>
+    <image id="n69" name="n69" src="q5s11j" xy="338,978" group="n68">
+      <gearDisplay controller="btnC1" pages="0"/>
+    </image>
+    <group id="n68" name="btnGroup" xy="282,963" size="185,67" visible="false" advanced="true"/>
+  </displayList>
+</component>q5s1o.xml|1693|<component size="750,1334">
+  <displayList>
+    <image id="n0" name="n0" src="q5s1e" xy="0,0"/>
+    <image id="n3" name="n3" src="q5s1h" xy="153,425"/>
+    <image id="n26" name="n26" src="q5s1i" xy="155,426"/>
+    <image id="n21" name="n21" src="9ocd2w" xy="56,385"/>
+    <image id="n5" name="n5" src="q5s1g" xy="93,298" size="563,60"/>
+    <image id="n6" name="n6" src="q5s1m" xy="267,813"/>
+    <image id="n7" name="n7" src="q5s1l" xy="359,817"/>
+    <text id="n10" name="winTf" xy="271,810" size="94,59" font="ui://xnjumn4aq5s13" fontSize="12" align="right" letterSpacing="-15" autoSize="none" text=""/>
+    <image id="n11" name="n11" src="q5s1j" xy="267,313"/>
+    <component id="n18" name="readyBtn" src="f5nr2o" pkg="lt21tmve" xy="286,1042"/>
+    <text id="n19" name="priceTf" xy="288,1061" size="139,32" font="微软雅黑" fontSize="24" color="#ffffff" align="center" ubb="true" autoSize="height" bold="true" strokeColor="#000000" text="匹配[color=#f9d45e](2000)[/color]"/>
+    <image id="n20" name="n20" src="krsy2w" pkg="lt21tmve" xy="421,1050"/>
+    <text id="n22" name="n22" xy="93,255" size="204,32" font="微软雅黑" fontSize="24" color="#fadea8" text=" 本赛季最高积分："/>
+    <text id="n23" name="score" xy="305,254" size="136,31" font="微软雅黑" fontSize="24" color="#f9d45e" autoSize="height" text=""/>
+    <component id="n28" name="upStageBtn" src="nfgl4d" xy="80,408"/>
+    <image id="n8" name="n8" src="q5s1k" xy="119,430"/>
+    <component id="n25" name="detBtn" src="evd84a" xy="654,20"/>
+    <text id="n17" name="perTf" xy="105,500" size="86,31" font="微软雅黑" fontSize="24" color="#78fffb" align="center" autoSize="none" bold="true" text="0%"/>
+  </displayList>
+  <transition name="t0"/>
+</component>evd849.fnt|606|info creator=UIBuilder
+char id=57 img=evd83n xoffset=0 yoffset=0 xadvance=0
+char id=56 img=evd83m xoffset=0 yoffset=0 xadvance=0
+char id=55 img=evd83l xoffset=0 yoffset=0 xadvance=0
+char id=54 img=evd83k xoffset=0 yoffset=0 xadvance=0
+char id=53 img=evd83j xoffset=0 yoffset=0 xadvance=0
+char id=52 img=evd83i xoffset=0 yoffset=0 xadvance=0
+char id=51 img=evd83h xoffset=0 yoffset=0 xadvance=0
+char id=50 img=evd83g xoffset=0 yoffset=0 xadvance=0
+char id=49 img=evd83f xoffset=0 yoffset=0 xadvance=0
+char id=48 img=evd83e xoffset=0 yoffset=0 xadvance=0
+char id=43 img=evd83d xoffset=0 yoffset=5 xadvance=0
+wxi32x.xml|1414|<component size="203,250">
+  <controller name="c1" pages="0,0,1,1,2,2" selected="1"/>
+  <displayList>
+    <image id="n5" name="selfFlag" src="wxi32y" xy="17,75" group="n7"/>
+    <loader id="n0" name="image" xy="28,85" size="147,136" group="n7"/>
+    <image id="n1" name="n1" src="q5s11r" xy="0,31" group="n7"/>
+    <loader id="n2" name="top" xy="28,38" size="147,46" group="n7" align="center" vAlign="middle"/>
+    <text id="n3" name="nameTf" xy="0,2" size="203,31" group="n7" font="微软雅黑" fontSize="24" color="#ffffff" align="center" autoSize="none" text="名字应有六字"/>
+    <component id="n18" name="redBtn" src="wxi333" xy="3,25">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <text id="n6" name="pointTf" xy="-1,221" size="203,31" group="n7" font="微软雅黑" fontSize="24" color="#ffffff" align="center" autoSize="none" text="积分：1000"/>
+    <group id="n7" name="n7" xy="-1,2" size="204,250" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <image id="n12" name="n12" src="q5s11o" xy="3,26">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <component id="n14" name="icon" src="q5s12l" xy="26,86" touchable="false">
+      <gearDisplay controller="c1" pages="0"/>
+    </component>
+    <component id="n16" name="icon1" src="wxi332" xy="26,86" touchable="false">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+  </displayList>
+</component>evd84a.xml|947|<component size="83,83" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="q5s1f" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="q5s1f" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="q5s1f" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="q5s1f" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.80"/>
+</component>

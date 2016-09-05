@@ -1,0 +1,477 @@
+hc0g1b.xml|1015|<component size="198,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="hc0g13" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="hc0g13" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|-" default="#ffffff"/>
+    </image>
+    <image id="n3" name="n3" src="hc0g13" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="hc0g13" xy="0,0" color="#a0a0a0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>package.xml|4776|<packageDescription id="7k42vzdk" name="SelectMatchUI2">
+  <resources>
+    <image id="oll91p" name="匹配底板" size="79,79" scale="9grid" scale9grid="20,20,40,40"/>
+    <image id="i7kop" name="公告底板" size="44,41" scale="9grid" scale9grid="11,11,22,22"/>
+    <component id="o0eia" name="SelectMatch2" exported="true" size="750,1334"/>
+    <component id="oll91i" name="cancelBtn" size="100,100"/>
+    <image id="qc5n2g" name="系统设置" size="166,38"/>
+    <component id="qc5n2o" name="gouBtn" size="57,55"/>
+    <image id="o0ei3" name="com_fight_item3" size="182,33"/>
+    <image id="i7kow" name="训练场01" size="531,269"/>
+    <image id="oll91q" name="放大镜" size="256,256"/>
+    <component id="ifgo23" name="rankBtn" size="185,67"/>
+    <component id="hc0g1a" name="TrainAwardUI" exported="true" size="750,1334"/>
+    <image id="oll91j" name="信息框" size="72,74" scale="9grid" scale9grid="18,19,36,38"/>
+    <component id="oll91d" name="yuezhanBtn" size="130,145"/>
+    <image id="w0ds29" name="再次挑战" size="198,69"/>
+    <image id="ifgo24" name="_0005_anniu" size="185,67"/>
+    <image id="qc5n2d" name="系统设置面板" size="603,404"/>
+    <image id="oll91n" name="开始按钮" size="145,67"/>
+    <image id="dhm12d" name="大星" size="78,75"/>
+    <component id="o0eii" name="PVPFightBtn" size="526,270"/>
+    <image id="mmen1y" name="match_bg" size="79,79" scale="9grid" scale9grid="20,20,40,40"/>
+    <image id="dhm12b" name="结算星星底板" size="416,89" scale="9grid" scale9grid="121,0,171,89"/>
+    <component id="o0eih" name="TrainBtn" size="531,269"/>
+    <component id="qc5n2c" name="setBtn" size="95,94"/>
+    <component id="mmen1r" name="OneVOneMatchUI" exported="true" size="750,1334"/>
+    <image id="ifgo25" name="_0005_anniu1" size="185,67"/>
+    <image id="oll91l" name="确定按钮" size="145,67"/>
+    <image id="qc5n2k" name="音效" size="75,38"/>
+    <image id="qc5n2s" name="经验条" size="28,25" scale="9grid" scale9grid="7,7,14,14"/>
+    <component id="qc5n2x" name="滑动条1" size="50,37"/>
+    <image id="hc0g15" name="award_bg" size="194,345"/>
+    <image id="o0ei8" name="com_bg" size="750,1334"/>
+    <image id="mmen21" name="award_lose" size="379,45"/>
+    <component id="mmen1s" name="OneVOneAwardUI" exported="true" size="750,1334"/>
+    <image id="o0ei7" name="com_btn_arean" size="128,138"/>
+    <image id="mmen1w" name="match_magnify" size="256,256"/>
+    <image id="hc0g19" name="info_bg" size="178,154" scale="9grid" scale9grid="45,38,90,36" exported="true"/>
+    <component id="i7koo" name="announce" size="700,41"/>
+    <image id="dhm12c" name="大星底板" size="78,75"/>
+    <component id="mmen22" name="RankBtn" size="198,67"/>
+    <component id="qc5n2w" name="滑动条1_grip" size="44,44"/>
+    <component id="hc0g1c" name="AwardInfo" size="400,49"/>
+    <component id="hc0g1b" name="ConfirmBtn" size="198,67"/>
+    <component id="w0ds2a" name="reChange" size="198,69"/>
+    <atlas id="atlas0" size="2048,2048" file="atlas0.png"/>
+    <image id="qc5n2p" name="切换账号" size="200,69"/>
+    <component id="oll91k" name="sureBtn" size="145,67"/>
+    <component id="o0eig" name="AreanBtn" size="128,138"/>
+    <component id="oll91m" name="startBtn" exported="true" size="145,67"/>
+    <image id="mmen20" name="award_rank" size="198,67"/>
+    <image id="qc5n2b" name="设置图标" size="95,94"/>
+    <image id="qc5n2m" name="打钩底板" size="40,37" scale="9grid" scale9grid="10,10,20,20"/>
+    <image id="o0ei9" name="com_arean_bg" size="174,102"/>
+    <component id="oll91f" name="yuezhanWindow" exported="true" size="500,240"/>
+    <image id="qc5n2i" name="音乐" size="75,38"/>
+    <component id="qc5n2r" name="changeCount" size="200,69"/>
+    <image id="qc5n2l" name="打钩" size="57,55"/>
+    <image id="mmen1z" name="award_win" size="379,45"/>
+    <image id="hc0g17" name="info_line2" size="243,15"/>
+    <image id="o0eic" name="com_cion" size="45,45"/>
+    <image id="o0ei4" name="com_fight_item2" size="182,33"/>
+    <image id="qc5n2h" name="音量" size="75,38"/>
+    <image id="oll91h" name="取消按钮" size="65,65"/>
+    <image id="oll91g" name="底框" size="500,250" scale9grid="61,62,122,124"/>
+    <image id="qc5n2t" name="音乐按钮" size="44,44"/>
+    <image id="w0ds28" name="经验图标" size="58,44"/>
+    <component id="oll91o" name="startLiveGame" exported="true" size="750,1334"/>
+    <image id="qc5n2j" name="震动" size="74,38"/>
+    <image id="oll91e" name="现场约战" size="130,145"/>
+    <image id="hc0g13" name="confirm_btn" size="198,67"/>
+    <image id="o0ei5" name="com_fight_item1" size="234,39"/>
+    <image id="hc0g14" name="award_title" size="535,315"/>
+    <component id="qc5n2e" name="setWindow" exported="true" size="606,404"/>
+    <image id="i7koy" name="对战01" size="526,270"/>
+    <image id="ifgo26" name="rankWord" size="104,31"/>
+    <image id="hc0g18" name="info_line1" size="224,16"/>
+  </resources>
+</packageDescription>qc5n2e.xml|1184|<component size="606,404">
+  <displayList>
+    <image id="n0" name="n0" src="qc5n2d" xy="0,0"/>
+    <image id="n1" name="n1" src="qc5n2g" xy="220,12"/>
+    <image id="n2" name="n2" src="qc5n2h" xy="60,200"/>
+    <image id="n3" name="n3" src="qc5n2i" xy="60,102"/>
+    <image id="n4" name="n4" src="qc5n2j" xy="434,102"/>
+    <image id="n5" name="n5" src="qc5n2k" xy="247,102"/>
+    <image id="n7" name="n7" src="qc5n2m" xy="154,99"/>
+    <component id="n10" name="music" src="qc5n2o" xy="147,78">
+      <Button checked="true"/>
+    </component>
+    <image id="n11" name="n11" src="qc5n2m" xy="341,99"/>
+    <image id="n12" name="n12" src="qc5n2m" xy="518,99"/>
+    <component id="n13" name="sound" src="qc5n2o" xy="340,78">
+      <Button checked="true"/>
+    </component>
+    <component id="n14" name="shake" src="qc5n2o" xy="512,78">
+      <Button checked="true"/>
+    </component>
+    <image id="n15" name="n15" src="qc5n2m" xy="159,197" size="398,37"/>
+    <component id="n19" name="setBtn" src="qc5n2r" xy="203,306"/>
+    <component id="n21" name="voice" src="qc5n2x" xy="149,200" size="407,37">
+      <Slider value="100" max="100"/>
+    </component>
+  </displayList>
+</component>oll91m.xml|370|<component size="145,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="oll91n" xy="0,0" color="#a0a0a0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>oll91f.xml|550|<component size="500,240">
+  <displayList>
+    <image id="n0" name="n0" src="oll91g" xy="0,0"/>
+    <component id="n2" name="closeBtn" src="oll91i" xy="447,-48"/>
+    <image id="n3" name="n3" src="oll91j" xy="17,52" size="465,75"/>
+    <text id="n4" name="pwdTF" xy="50,67" size="399,45" input="true" prompt="请输入6位自定义约战码" font="微软雅黑" fontSize="36" color="#e0b519" align="center" vAlign="middle" autoSize="none" password="true" singleLine="true" text=""/>
+    <component id="n7" name="sureBtn" src="oll91k" xy="186,155"/>
+  </displayList>
+</component>qc5n2x.xml|297|<component size="50,37" extention="Slider">
+  <displayList>
+    <image id="n2" name="bar" src="qc5n2s" xy="22,6" size="6,25"/>
+    <component id="n3" name="grip" src="qc5n2w" xy="6,-3">
+      <relation target="n2" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>hc0g1c.xml|362|<component size="400,49">
+  <displayList>
+    <text id="n0" name="tfName" xy="14,3" size="179,40" font="微软雅黑" fontSize="30" color="#9df2eb" vAlign="middle" autoSize="height" text="鲤鱼"/>
+    <text id="n1" name="tfWeight" xy="261,3" size="105,40" font="微软雅黑" fontSize="30" color="#ffffff" align="right" vAlign="middle" text="1000 g"/>
+  </displayList>
+</component>qc5n2c.xml|416|<component size="95,94" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n1" name="n1" src="qc5n2b" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1" values="#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>o0eih.xml|873|<component size="531,269" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="i7kow" xy="0,0">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+    <text id="n2" name="n2" xy="313,210" size="89,28" font="微软雅黑" fontSize="20" color="#ffffff" autoSize="none" text="高额奖励"/>
+    <text id="n3" name="tfTrainTimes" xy="404,210" size="81,28" font="微软雅黑" fontSize="20" color="#00ff00" autoSize="none" text="(10/20)"/>
+    <text id="n4" name="n4" xy="337,124" size="174,28" font="微软雅黑" fontSize="20" color="#e0b519" autoSize="none" text="每晚12点刷新次数"/>
+  </displayList>
+  <Button/>
+</component>oll91i.xml|373|<component size="100,100" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="oll91h" xy="17,17" color="#a0a0a0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>o0eig.xml|940|<component size="128,138" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="o0ei7" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="o0ei7" xy="0,0" color="#a0a0a0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="o0ei7" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="o0ei7" xy="0,0" color="#a0a0a0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>mmen1s.xml|2223|<component size="750,1334">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="hc0g15" xy="0,0" size="750,1334" color="#fefefe">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="hc0g14" xy="107,87"/>
+    <image id="n3" name="n3" src="hc0g19" xy="110,378" size="269,192"/>
+    <image id="n6" name="n6" src="hc0g19" xy="378,378" size="269,192" flip="hz"/>
+    <image id="n7" name="n7" src="hc0g19" xy="110,579" size="269,528"/>
+    <image id="n8" name="n8" src="hc0g19" xy="378,579" size="269,528" flip="hz"/>
+    <image id="n17" name="n17" src="hc0g18" xy="382,630"/>
+    <image id="n18" name="n18" src="hc0g17" xy="149,1030"/>
+    <image id="n19" name="n19" src="hc0g17" xy="391,1030" flip="hz"/>
+    <image id="n20" name="n20" src="hc0g18" xy="159,630" flip="hz"/>
+    <text id="n21" name="n21" xy="348,588" size="77,47" font="微软雅黑" fontSize="36" color="#f5db5f" text="渔获"/>
+    <text id="n22" name="tfTotalWeight" xy="448,1053" size="123,47" font="微软雅黑" fontSize="36" color="#f5db5f" text="9600 g"/>
+    <text id="n23" name="tfReward" xy="449,1134" size="68,47" font="微软雅黑" fontSize="36" color="#f5db5f" align="right" text="200"/>
+    <text id="n24" name="n24" xy="191,1052" size="113,47" font="微软雅黑" fontSize="36" color="#9df2eb" text="总渔获"/>
+    <text id="n25" name="n25" xy="102,1140" size="185,40" font="微软雅黑" fontSize="30" color="#ffffff" text="获得金币奖励"/>
+    <image id="n26" name="n26" src="o0eic" xy="530,1131"/>
+    <list id="n27" name="list" xy="190,672" size="403,334" overflow="scroll" margin="0,0,0,0" defaultItem="ui://7k42vzdkhc0g1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5" name="btnConfirm" src="hc0g1b" xy="409,1211"/>
+    <image id="n29" name="n29" src="mmen1z" xy="181,462">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <image id="n30" name="n30" src="mmen21" xy="181,462">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n31" name="n31" src="o0eic" xy="531,1130"/>
+    <component id="n32" name="btnRank" src="mmen22" xy="135,1211"/>
+  </displayList>
+</component>oll91d.xml|371|<component size="130,145" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="oll91e" xy="0,0" color="#a0a0a0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>qc5n2w.xml|226|<component size="44,44" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="qc5n2t" name="n1" xy="0,0"/>
+  </displayList>
+</component>oll91k.xml|370|<component size="145,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="oll91l" xy="0,0" color="#a0a0a0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>o0eia.xml|1099|<component size="750,1334" overflow="hidden">
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="o0ei8" xy="0,0"/>
+    <component id="n18" name="btnTrain" src="o0eih" xy="102,219"/>
+    <component id="n19" name="btnFight" src="o0eii" xy="116,505"/>
+    <image id="n6" name="n6" src="o0ei3" xy="387,700">
+      <gearDisplay controller="c1" pages="2"/>
+    </image>
+    <image id="n5" name="n5" src="o0ei4" xy="387,700">
+      <gearDisplay controller="c1" pages="1"/>
+    </image>
+    <image id="n16" name="n16" src="o0ei9" xy="583,1041"/>
+    <component id="n17" name="btnArean" src="o0eig" xy="618,979"/>
+    <component id="n20" name="n20" src="i7koo" xy="25,153"/>
+    <image id="n21" name="n21" src="o0ei9" xy="-8,1041" flip="hz"/>
+    <component id="n23" name="yuezhanBtn" src="oll91d" xy="10,970"/>
+    <component id="n25" name="rankBtn" src="ifgo23" xy="282,1056"/>
+    <component id="n25" name="headMc" src="qh45hdj" pkg="lt21tmve" xy="0,0"/>
+    <component id="n27" name="setBtn" src="qc5n2c" xy="652,197"/>
+  </displayList>
+</component>hc0g1a.xml|3779|<component size="750,1334">
+  <controller name="stars" pages="0,0星,1,1星,2,2星,3,3星" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="hc0g15" xy="0,0" size="750,1334" color="#fefefe">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="hc0g14" xy="107,87"/>
+    <image id="n3" name="n3" src="hc0g19" xy="110,378" size="269,192"/>
+    <image id="n6" name="n6" src="hc0g19" xy="378,378" size="269,192" flip="hz"/>
+    <image id="n7" name="n7" src="hc0g19" xy="110,579" size="269,528"/>
+    <image id="n8" name="n8" src="hc0g19" xy="378,579" size="269,528" flip="hz"/>
+    <text id="n9" name="n9" xy="198,402" size="185,40" font="微软雅黑" fontSize="30" color="#9df2eb" text="看漂成功次数"/>
+    <text id="n10" name="n10" xy="198,452" size="125,40" font="微软雅黑" fontSize="30" color="#9df2eb" text="抛竿次数"/>
+    <text id="n13" name="n13" xy="196,499" size="95,40" font="微软雅黑" fontSize="30" color="#9df2eb" text="中鱼率"/>
+    <text id="n14" name="tfSuc" xy="448,402" size="100,40" font="微软雅黑" fontSize="30" color="#ffffff" align="right" autoSize="none" text="8"/>
+    <text id="n15" name="tfTotal" xy="448,452" size="100,39" font="微软雅黑" fontSize="30" color="#ffffff" align="right" autoSize="height" text="10"/>
+    <text id="n16" name="tfPercent" xy="448,499" size="100,39" font="微软雅黑" fontSize="30" color="#ffffff" align="right" autoSize="height" text="80%"/>
+    <image id="n17" name="n17" src="hc0g18" xy="383,630"/>
+    <image id="n18" name="n18" src="hc0g17" xy="150,1030"/>
+    <image id="n19" name="n19" src="hc0g17" xy="392,1030" flip="hz"/>
+    <image id="n20" name="n20" src="hc0g18" xy="160,630" flip="hz"/>
+    <text id="n21" name="n21" xy="348,588" size="77,47" font="微软雅黑" fontSize="36" color="#f5db5f" text="渔获"/>
+    <text id="n22" name="tfTotalWeight" xy="448,1053" size="123,47" font="微软雅黑" fontSize="36" color="#f5db5f" text="9600 g"/>
+    <text id="n23" name="tfReward" xy="509,1134" size="68,47" font="微软雅黑" fontSize="36" color="#f5db5f" align="right" text="200"/>
+    <text id="n24" name="n24" xy="191,1052" size="113,47" font="微软雅黑" fontSize="36" color="#9df2eb" text="总重量"/>
+    <text id="n25" name="n25" xy="112,1140" size="125,40" font="微软雅黑" fontSize="30" color="#ffffff" text="获得奖励"/>
+    <image id="n26" name="n26" src="o0eic" xy="590,1131"/>
+    <list id="n27" name="list" xy="190,672" size="403,334" overflow="scroll" margin="0,0,0,0" defaultItem="ui://7k42vzdkhc0g1c">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n5" name="btnConfirm" src="hc0g1b" xy="430,1211"/>
+    <image id="n28" name="n28" src="w0ds28" xy="337,1131"/>
+    <component id="n30" name="reChangeBtn" src="w0ds2a" xy="124,1207"/>
+    <text id="n31" name="expTf" xy="259,1134" size="68,47" font="微软雅黑" fontSize="36" color="#f5db5f" align="right" text="200"/>
+    <image id="n33" name="n33" src="dhm12b" xy="75,324" size="609,89"/>
+    <image id="n34" name="n34" src="dhm12d" xy="224,308" rotation="-15">
+      <gearDisplay controller="stars" pages="1,2,3"/>
+    </image>
+    <image id="n37" name="n37" src="dhm12d" xy="336,288">
+      <gearDisplay controller="stars" pages="2,3"/>
+    </image>
+    <image id="n38" name="n38" src="dhm12d" xy="449,286" rotation="15">
+      <gearDisplay controller="stars" pages="3"/>
+    </image>
+    <image id="n35" name="n35" src="dhm12c" xy="224,308" rotation="-15">
+      <gearDisplay controller="stars" pages="0"/>
+    </image>
+    <image id="n39" name="n39" src="dhm12c" xy="336,288">
+      <gearDisplay controller="stars" pages="0,1"/>
+    </image>
+    <image id="n40" name="n40" src="dhm12c" xy="449,286" rotation="15">
+      <gearDisplay controller="stars" pages="0,1,2"/>
+    </image>
+  </displayList>
+</component>qc5n2r.xml|401|<component size="200,69" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="qc5n2p" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1" values="#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>o0eii.xml|1106|<component size="526,270" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="i7koy" xy="0,0">
+      <gearDisplay controller="button" pages="0,1,2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+    <image id="n2" name="n2" src="krsy2w" pkg="lt21tmve" xy="364,151" scale="0.65,0.65"/>
+    <text id="n3" name="n3" xy="265,156" size="105,28" font="微软雅黑" fontSize="20" color="#fff800" text="胜利奖励："/>
+    <text id="n4" name="tfWin" xy="402,156" size="95,28" font="微软雅黑" fontSize="20" color="#fff800" autoSize="none" text="195"/>
+    <image id="n5" name="n5" src="o0ei5" xy="270,205">
+      <gearDisplay controller="c1" pages="0"/>
+    </image>
+    <text id="n6" name="tfCost" xy="362,215" size="72,27" font="微软雅黑" fontSize="20" color="#fff800" autoSize="none" text="100"/>
+  </displayList>
+  <Button/>
+</component>oll91o.xml|1699|<component size="750,1334">
+  <controller name="c1" pages="0,wait,1,start,2,waitForStart,3,cancel" selected="3"/>
+  <displayList>
+    <image id="n0" name="n0" src="oll91p" xy="-25,571" size="800,192"/>
+    <image id="n1" name="n1" src="oll91q" xy="20,539" scale="0.5,0.5"/>
+    <text id="n2" name="waitInfo" xy="161,604" size="427,47" font="微软雅黑" fontSize="28" color="#f2db79" align="center" vAlign="middle" autoSize="none" text="等待渔友应战中···">
+      <gearDisplay controller="c1" pages="0"/>
+    </text>
+    <component id="n3" name="startBtn" src="oll91m" xy="302,682">
+      <gearDisplay controller="c1" pages="0,1"/>
+    </component>
+    <component id="n4" name="closeBtn" src="oll91i" xy="650,472">
+      <gearDisplay controller="c1" pages="0,1,3"/>
+    </component>
+    <text id="n6" name="name" xy="185,604" size="233,47" font="微软雅黑" fontSize="28" color="#f2db79" align="center" vAlign="middle" autoSize="none" text="狂拽炫酷吊炸天">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <text id="n7" name="tagInfo" xy="416,604" size="155,47" font="微软雅黑" fontSize="28" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="已应战">
+      <gearDisplay controller="c1" pages="1,2"/>
+    </text>
+    <text id="n9" name="waitStartInfo" xy="161,683" size="427,47" font="微软雅黑" fontSize="28" color="#9df2de" align="center" vAlign="middle" autoSize="none" text="等待确认开战">
+      <gearDisplay controller="c1" pages="2"/>
+    </text>
+    <text id="n10" name="cancelInfo" xy="161,643" size="427,47" font="微软雅黑" fontSize="28" color="#f93b44" align="center" vAlign="middle" autoSize="none" text="对方已取消约战">
+      <gearDisplay controller="c1" pages="3"/>
+    </text>
+  </displayList>
+</component>mmen22.xml|846|<component size="198,67" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <image id="n1" src="mmen20" name="n1" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n2" src="mmen20" name="n2" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n3" src="mmen20" name="n3" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <image id="n4" src="mmen20" name="n4" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+  </displayList>
+</component>qc5n2o.xml|382|<component size="57,55" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="qc5n2l" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button mode="Check"/>
+</component>ifgo23.xml|966|<component size="185,67" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="ifgo24" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="ifgo25" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="ifgo25" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="ifgo25" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n7" name="n7" src="ifgo26" xy="40,16"/>
+  </displayList>
+  <Button/>
+</component>mmen1r.xml|641|<component size="750,1334">
+  <displayList>
+    <image id="n1" name="n1" src="mmen1y" xy="-25,439" size="800,185"/>
+    <component id="n2" name="btnClose" src="oll91i" xy="641,342"/>
+    <image id="n5" name="n5" src="mmen1w" xy="24,383" size="167,167"/>
+    <text id="n6" name="n6" xy="91,788" size="605,32" font="微软雅黑" fontSize="24" color="#d3d1d1" text="提示：入场费越高，对应的胜利奖励也越高，土豪走起。"/>
+    <text id="n7" name="tfTime" xy="422,518" size="84,40" font="微软雅黑" fontSize="30" color="#d3d1d1" text="00:00"/>
+    <text id="n8" name="n8" xy="238,517" size="155,40" font="微软雅黑" fontSize="30" color="#f5db5f" text="匹配时间："/>
+  </displayList>
+</component>i7koo.xml|302|<component size="700,41">
+  <displayList>
+    <image id="n0" name="n0" src="i7kop" xy="0,0" size="700,41"/>
+    <text id="n1" name="tfNotice" xy="50,7" size="600,27" font="微软雅黑" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="欢迎来到狂野钓鱼"/>
+  </displayList>
+</component>w0ds2a.xml|427|<component size="198,69" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n1" name="n1" src="w0ds29" xy="0,0" color="#a0a0a0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

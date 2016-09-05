@@ -1,0 +1,199 @@
+wa5ey.xml|270|<component size="750,1334" opaque="false">
+  <displayList>
+    <graph id="n0" name="n0" xy="0,0" size="100,1334" type="rect" fillColor="#ff000000"/>
+    <graph id="n1" name="n1" xy="650,0" size="100,1334" type="rect" fillColor="#ff000000"/>
+  </displayList>
+</component>n57tx.xml|252|<component size="500,75">
+  <displayList>
+    <text id="n0" name="title" xy="0,0" size="500,75" font="微软雅黑" fontSize="60" color="#ffff00" align="center" autoSize="none" bold="true" strokeColor="#000000" text="第8次断线重连···"/>
+  </displayList>
+</component>package.xml|2107|<packageDescription id="ax8kzax5" name="LoginUI">
+  <resources>
+    <movieclip id="iy6qm" name="动画1" size="400,20"/>
+    <component id="tj44c" name="mc" exported="true" size="750,1334"/>
+    <image id="r3xj14" name="未标题-2" size="611,350"/>
+    <component id="iy6qq" name="bar" size="400,20"/>
+    <image id="j98r1h" name="k24" size="102,40" scale="9grid" scale9grid="26,10,52,20"/>
+    <image id="eidy1o" name="QQ" size="321,90"/>
+    <atlas id="atlas0" size="1024,2048" file="atlas0.png"/>
+    <component id="dnh210" name="btn" size="219,86"/>
+    <component id="wa5ey" name="Mask" exported="true" size="750,1334"/>
+    <image id="ltgy12" name="登陆图(2)" size="750,1334"/>
+    <image id="j98r1g" name="k21" size="102,40" scale="9grid" scale9grid="11,7,82,26"/>
+    <component id="j98r1c" name="Dropdown2" size="100,100"/>
+    <component id="n57tx" name="ReConnect" exported="true" size="500,75"/>
+    <image id="j98r1a" name="k31" size="132,40" scale="9grid" scale9grid="33,10,55,20"/>
+    <component id="j98r17" name="Button15" size="132,40"/>
+    <image id="eidy1n" name="wechat" size="321,90"/>
+    <component id="eidy1p" name="按钮1" size="321,90"/>
+    <component id="eidy1q" name="按钮2" size="321,90"/>
+    <image id="j98r1d" name="k32" size="104,42" scale="9grid" scale9grid="26,11,52,22"/>
+    <image id="iy6qd" name="3" size="404,24"/>
+    <component id="iy6qp" name="进度条1" size="404,24"/>
+    <component id="kcyhu" name="LoginPanel" size="750,1334"/>
+    <image id="j98r1i" name="k22" size="102,40" scale="9grid" scale9grid="26,10,52,20"/>
+    <component id="j98r1e" name="Button14" size="102,40"/>
+    <image id="dnh211" name="登录按钮" size="219,86"/>
+    <image id="j98r1b" name="k29" size="132,40" scale="9grid" scale9grid="33,10,53,20"/>
+    <image id="j98r1f" name="k23" size="102,40" scale="9grid" scale9grid="26,10,52,20"/>
+    <image id="j98r19" name="k28" size="132,40" scale="9grid" scale9grid="33,10,55,20"/>
+    <image id="j98r18" name="k30" size="132,40" scale="9grid" scale9grid="33,10,57,20"/>
+    <component id="j98r16" name="Dropdown" size="132,40"/>
+  </resources>
+</packageDescription>eidy1p.xml|411|<component size="321,90" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="eidy1o" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>tj44c.xml|2407|<component size="750,1334">
+  <controller name="login" pages="0,before,1,end" selected="0"/>
+  <displayList>
+    <image id="n0" name="n0" src="ltgy12" xy="0,0" size="750,1334">
+      <gearDisplay controller="login" pages="0,1"/>
+    </image>
+    <component id="n12" name="n12" src="kcyhu" xy="0,0">
+      <gearDisplay controller="login" pages="0"/>
+    </component>
+    <component id="n8" name="scroll" src="iy6qp" xy="174,1078">
+      <gearDisplay controller="login" pages="1"/>
+      <relation target="n0" sidePair="center-center"/>
+      <ProgressBar max="100"/>
+    </component>
+    <text id="n9" name="txt" xy="189,1051" size="373,28" fontSize="24" color="#ffffff" align="center" vAlign="middle" autoSize="height" strokeColor="#000000" text="正在加载">
+      <gearDisplay controller="login" pages="1"/>
+      <relation target="n0" sidePair="center-center"/>
+    </text>
+    <component id="n10" name="btn" src="dnh210" xy="265,886">
+      <gearDisplay controller="login" pages="0"/>
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <text id="n15" name="nameTf" xy="175,685" size="400,56" input="true" prompt="[i][color=#CCCCCC]请输入手机号[/color][/i]" font="微软雅黑" fontSize="40" color="#c2e9f4" align="center" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <gearDisplay controller="login" pages="0"/>
+    </text>
+    <text id="n16" name="pwdTf" xy="175,776" size="400,56" input="true" prompt="[i][color=#CCCCCC]请输入密码[/color][/i]" font="微软雅黑" fontSize="40" color="#c2e9f4" align="center" vAlign="middle" autoSize="none" password="true" singleLine="true" text="">
+      <gearDisplay controller="login" pages="0"/>
+    </text>
+    <text id="n17" name="n17" xy="200,849" size="350,32" font="微软雅黑" fontSize="24" color="#ff0000" align="center" autoSize="height" text="密码为空默认与账号名相同">
+      <gearDisplay controller="login" pages="0"/>
+    </text>
+    <component id="n18" name="serverList" src="j98r16" xy="275,574" size="200,40">
+      <gearDisplay controller="login" pages="0"/>
+      <ComboBox visibleItemCount="5">
+        <item title="狂野1服"/>
+      </ComboBox>
+    </component>
+    <component id="n23" name="qqbtn" src="eidy1p" xy="42,1068">
+      <gearDisplay controller="login" pages="0"/>
+    </component>
+    <component id="n24" name="weixinBtn" src="eidy1q" xy="382,1067">
+      <gearDisplay controller="login" pages="0"/>
+    </component>
+  </displayList>
+</component>iy6qp.xml|495|<component size="404,24" extention="ProgressBar">
+  <displayList>
+    <image id="n1" name="n1" src="iy6qd" xy="0,0" size="404,24">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n3" name="bar" src="iy6qq" xy="2,2"/>
+    <text id="n4" name="title" xy="2,0" size="396,24" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="height" strokeColor="#000000" singleLine="true" text=""/>
+  </displayList>
+  <ProgressBar/>
+</component>j98r16.xml|487|<component size="132,40" extention="ComboBox">
+  <displayList>
+    <component id="n0" name="button" src="j98r17" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n1" name="title" xy="5,4" size="87,34" fontSize="30" color="#ffcc00" align="center" autoSize="none" strokeColor="#000000" text="">
+      <relation target="" sidePair="width-width"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://ax8kzax5j98r1c"/>
+</component>j98r1c.xml|422|<component size="100,100">
+  <displayList>
+    <image id="n0" name="n0" src="j98r1d" xy="0,0" size="100,100">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1" name="list" xy="3,3" size="94,94" overflow="scroll" scrollBarFlags="4" margin="0,0,0,0" defaultItem="ui://ax8kzax5j98r1e"/>
+  </displayList>
+  <relation target="n1" sidePair="width-width,height-height"/>
+</component>dnh210.xml|370|<component size="219,86" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n0" name="n0" src="dnh211" xy="0,0" color="#a0a0a0">
+      <gearColor controller="button" pages="0,1,2,3" values="-|#a0a0a0|-|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>iy6qq.xml|145|<component size="400,20" overflow="hidden">
+  <displayList>
+    <movieclip id="n0" name="n0" src="iy6qm" xy="0,0"/>
+  </displayList>
+</component>j98r1e.xml|1132|<component size="102,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="j98r1f" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="j98r1g" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="j98r1h" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="j98r1i" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n5" name="title" xy="0,0" size="102,40" fontSize="15" color="#ffff00" align="center" vAlign="middle" autoSize="none" demoText="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>j98r17.xml|911|<component size="132,40" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="j98r18" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2" name="n2" src="j98r19" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3" name="n3" src="j98r1a" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4" name="n4" src="j98r1b" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>iy6qm.xml|184|<movieclip pivot="200,10" interval="83" frameCount="3">
+  <frames>
+    <frame rect="0,0,400,20"/>
+    <frame rect="0,0,400,20"/>
+    <frame rect="0,0,400,20"/>
+  </frames>
+</movieclip>eidy1q.xml|411|<component size="321,90" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="n1" src="eidy1n" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <gearColor controller="button" pages="1,3" values="#a0a0a0|#a0a0a0" default="#ffffff"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>kcyhu.xml|144|<component size="750,1334" opaque="false">
+  <displayList>
+    <image id="n0" name="n0" src="r3xj14" xy="69,639"/>
+  </displayList>
+</component>
