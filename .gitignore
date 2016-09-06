@@ -1,0 +1,12 @@
+/Demo/Library
+/Demo/*.csproj
+/Demo/*.sln
+/Test/Library
+/Test/Test-csharp.sln
+/Test/Assembly-CSharp.csproj
+/Test/Assembly-CSharp-vs.csproj
+/Test/Assembly-UnityScript.unityproj
+/Test/Assembly-UnityScript-Editor.unityproj
+/Test/Assembly-UnityScript-Editor-vs.unityproj
+/Test/Assembly-UnityScript-vs.unityproj
+/Test/Test.sln
